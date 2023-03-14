@@ -222,6 +222,96 @@
 		0327A15529C0D0DD0027871E /* PreferenceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0327A14F29C0D0DD0027871E /* PreferenceKey.swift */; };
 		0327A15629C0D0DD0027871E /* PreferencesTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0327A15029C0D0DD0027871E /* PreferencesTabViewController.swift */; };
 		0327A15729C0D0DD0027871E /* util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0327A15129C0D0DD0027871E /* util.swift */; };
+		0327A16429C0D15F0027871E /* ListTransactionsController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0327A15A29C0D15F0027871E /* ListTransactionsController.storyboard */; };
+		0327A16529C0D15F0027871E /* ListTransactionsMenuDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0327A15B29C0D15F0027871E /* ListTransactionsMenuDelegate.swift */; };
+		0327A16629C0D15F0027871E /* ListTransactionsPasteboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0327A15C29C0D15F0027871E /* ListTransactionsPasteboard.swift */; };
+		0327A16729C0D15F0027871E /* ListTransactionsTextColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0327A15D29C0D15F0027871E /* ListTransactionsTextColor.swift */; };
+		0327A16829C0D15F0027871E /* ListTransactionsDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0327A15E29C0D15F0027871E /* ListTransactionsDelegate.swift */; };
+		0327A16929C0D15F0027871E /* ListTransactionsController1.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0327A15F29C0D15F0027871E /* ListTransactionsController1.storyboard */; };
+		0327A16A29C0D15F0027871E /* ListTransactionsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0327A16029C0D15F0027871E /* ListTransactionsController.swift */; };
+		0327A16B29C0D15F0027871E /* ListTransactionsController+Expansion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0327A16129C0D15F0027871E /* ListTransactionsController+Expansion.swift */; };
+		0327A16C29C0D15F0027871E /* ListTransactionsSchedulers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0327A16229C0D15F0027871E /* ListTransactionsSchedulers.swift */; };
+		0327A16D29C0D15F0027871E /* ListTransactionsDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0327A16329C0D15F0027871E /* ListTransactionsDataSource.swift */; };
+		0327A17029C0D16D0027871E /* ListTransactionsDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0327A16E29C0D16C0027871E /* ListTransactionsDetailView.swift */; };
+		0327A17129C0D16D0027871E /* ListTransactionsDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0327A16F29C0D16D0027871E /* ListTransactionsDetailView.xib */; };
+		0327A17729C0D1F20027871E /* AdvancedFilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0327A17329C0D1F20027871E /* AdvancedFilterViewController.swift */; };
+		0327A17829C0D1F20027871E /* AdvancedFilterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0327A17429C0D1F20027871E /* AdvancedFilterViewController.xib */; };
+		0327A17929C0D1F20027871E /* NSPredicateEditorRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0327A17529C0D1F20027871E /* NSPredicateEditorRow.swift */; };
+		0327A17A29C0D1F20027871E /* NSPredicateEditorRowTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0327A17629C0D1F20027871E /* NSPredicateEditorRowTemplate.swift */; };
+		0327A18529C0D2360027871E /* AccountGroupTableCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0327A17C29C0D2360027871E /* AccountGroupTableCellView.swift */; };
+		0327A18629C0D2360027871E /* CurtainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0327A17D29C0D2360027871E /* CurtainViewController.swift */; };
+		0327A18729C0D2360027871E /* AccountGroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0327A17E29C0D2360027871E /* AccountGroupViewController.swift */; };
+		0327A18829C0D2360027871E /* AccountGroupViewDragDrop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0327A17F29C0D2360027871E /* AccountGroupViewDragDrop.swift */; };
+		0327A18929C0D2360027871E /* AccountGroupViewControllerAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0327A18029C0D2360027871E /* AccountGroupViewControllerAction.swift */; };
+		0327A18A29C0D2360027871E /* AccountGroupViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0327A18129C0D2360027871E /* AccountGroupViewController.xib */; };
+		0327A18B29C0D2360027871E /* AccountGroupViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0327A18229C0D2360027871E /* AccountGroupViewDataSource.swift */; };
+		0327A18C29C0D2360027871E /* CurtainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0327A18329C0D2360027871E /* CurtainViewController.xib */; };
+		0327A18D29C0D2360027871E /* AccountGroupViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0327A18429C0D2360027871E /* AccountGroupViewDelegate.swift */; };
+		0327A19429C0D2640027871E /* PopOverModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0327A18F29C0D2640027871E /* PopOverModalViewController.swift */; };
+		0327A19529C0D2640027871E /* KSRetailCollectionViewItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0327A19029C0D2640027871E /* KSRetailCollectionViewItem.swift */; };
+		0327A19629C0D2640027871E /* KSRetailCollectionViewItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0327A19129C0D2640027871E /* KSRetailCollectionViewItem.xib */; };
+		0327A19729C0D2640027871E /* PopOverModalViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0327A19229C0D2640027871E /* PopOverModalViewController.xib */; };
+		0327A19829C0D2640027871E /* KSBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0327A19329C0D2640027871E /* KSBackgroundView.swift */; };
+		0327A19E29C0D28D0027871E /* GroupModalWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0327A19A29C0D28D0027871E /* GroupModalWindowController.xib */; };
+		0327A19F29C0D28D0027871E /* AccountModalWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0327A19B29C0D28D0027871E /* AccountModalWindowController.swift */; };
+		0327A1A029C0D28D0027871E /* AccountModalWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0327A19C29C0D28D0027871E /* AccountModalWindowController.xib */; };
+		0327A1A129C0D28D0027871E /* GroupModalWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0327A19D29C0D28D0027871E /* GroupModalWindowController.swift */; };
+		0327A1A829C0D3010027871E /* ListBankStatementDetailview.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0327A1A629C0D3010027871E /* ListBankStatementDetailview.xib */; };
+		0327A1A929C0D3010027871E /* ListBankStatementDetailview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0327A1A729C0D3010027871E /* ListBankStatementDetailview.swift */; };
+		0327A1AD29C0D3150027871E /* BankStatementModalWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0327A1AA29C0D3150027871E /* BankStatementModalWindowController.xib */; };
+		0327A1AE29C0D3150027871E /* BankStatementModalWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0327A1AB29C0D3150027871E /* BankStatementModalWindowController.swift */; };
+		0327A1AF29C0D3150027871E /* DragView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0327A1AC29C0D3150027871E /* DragView.swift */; };
+		0327A1B329C0D3360027871E /* ListBankStatementController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0327A1B029C0D3360027871E /* ListBankStatementController.swift */; };
+		0327A1B429C0D3360027871E /* ListBankStatementController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0327A1B129C0D3360027871E /* ListBankStatementController.xib */; };
+		0327A1B529C0D3360027871E /* ListBankStatementControllerAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0327A1B229C0D3360027871E /* ListBankStatementControllerAction.swift */; };
+		0327A1BB29C0D3560027871E /* TresorerieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0327A1B729C0D3560027871E /* TresorerieViewController.swift */; };
+		0327A1BC29C0D3560027871E /* TresorerieViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0327A1B829C0D3560027871E /* TresorerieViewController.xib */; };
+		0327A1BD29C0D3560027871E /* DateValueFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0327A1B929C0D3560027871E /* DateValueFormatter.swift */; };
+		0327A1BE29C0D3560027871E /* RectMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0327A1BA29C0D3560027871E /* RectMarker.swift */; };
+		0327A1C229C0D3830027871E /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0327A1C029C0D3830027871E /* WebViewController.swift */; };
+		0327A1C329C0D3830027871E /* WebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0327A1C129C0D3830027871E /* WebViewController.xib */; };
+		0327A1C929C0D3D10027871E /* AcknowledgementsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0327A1C729C0D3D10027871E /* AcknowledgementsModel.swift */; };
+		0327A1CA29C0D3D10027871E /* ParsePackagesResolved.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0327A1C829C0D3D10027871E /* ParsePackagesResolved.swift */; };
+		0327A1CC29C0D3D90027871E /* AcknowledgementsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0327A1CB29C0D3D90027871E /* AcknowledgementsView.swift */; };
+		0327A1E829C0D4290027871E /* LoadableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0327A1CE29C0D4280027871E /* LoadableView.swift */; };
+		0327A1E929C0D4290027871E /* DSFFloatLabelledTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0327A1CF29C0D4280027871E /* DSFFloatLabelledTextField.swift */; };
+		0327A1EA29C0D4290027871E /* Debug.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0327A1D029C0D4280027871E /* Debug.swift */; };
+		0327A1EB29C0D4290027871E /* NSPasteboard+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0327A1D129C0D4280027871E /* NSPasteboard+Additions.swift */; };
+		0327A1EC29C0D4290027871E /* HeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0327A1D229C0D4280027871E /* HeaderCell.swift */; };
+		0327A1ED29C0D4290027871E /* Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0327A1D329C0D4280027871E /* Notification.swift */; };
+		0327A1EE29C0D4290027871E /* MLTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0327A1D429C0D4280027871E /* MLTextField.swift */; };
+		0327A1EF29C0D4290027871E /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0327A1D529C0D4280027871E /* ViewModel.swift */; };
+		0327A1F029C0D4290027871E /* NSTableCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0327A1D629C0D4280027871E /* NSTableCellView.swift */; };
+		0327A1F129C0D4290027871E /* NSUserInterfaceItemIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0327A1D729C0D4280027871E /* NSUserInterfaceItemIdentifier.swift */; };
+		0327A1F229C0D4290027871E /* Calendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0327A1D829C0D4280027871E /* Calendar.swift */; };
+		0327A1F329C0D4290027871E /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0327A1D929C0D4290027871E /* ChartView.swift */; };
+		0327A1F429C0D4290027871E /* UNNotificationAction+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0327A1DA29C0D4290027871E /* UNNotificationAction+Extension.swift */; };
+		0327A1F529C0D4290027871E /* Transformable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0327A1DB29C0D4290027871E /* Transformable.swift */; };
+		0327A1F629C0D4290027871E /* ManagedObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0327A1DC29C0D4290027871E /* ManagedObject.swift */; };
+		0327A1F729C0D4290027871E /* NSWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0327A1DD29C0D4290027871E /* NSWindow.swift */; };
+		0327A1F829C0D4290027871E /* NSTableRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0327A1DE29C0D4290027871E /* NSTableRowView.swift */; };
+		0327A1F929C0D4290027871E /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0327A1DF29C0D4290027871E /* Error.swift */; };
+		0327A1FA29C0D4290027871E /* NotificationCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0327A1E029C0D4290027871E /* NotificationCenter.swift */; };
+		0327A1FB29C0D4290027871E /* Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0327A1E129C0D4290027871E /* Bundle.swift */; };
+		0327A1FC29C0D4290027871E /* NVDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0327A1E229C0D4290027871E /* NVDate.swift */; };
+		0327A1FD29C0D4290027871E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0327A1E329C0D4290027871E /* Constants.swift */; };
+		0327A1FE29C0D4290027871E /* UNNotificationCategory+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0327A1E429C0D4290027871E /* UNNotificationCategory+Extension.swift */; };
+		0327A1FF29C0D4290027871E /* NSOpenPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0327A1E529C0D4290027871E /* NSOpenPanel.swift */; };
+		0327A20029C0D4290027871E /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0327A1E629C0D4290027871E /* String.swift */; };
+		0327A20129C0D4290027871E /* NSImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0327A1E729C0D4290027871E /* NSImage.swift */; };
+		0327A20829C0D4440027871E /* UNCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0327A20329C0D4440027871E /* UNCenter.swift */; };
+		0327A20929C0D4440027871E /* notification.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0327A20429C0D4440027871E /* notification.strings */; };
+		0327A20A29C0D4440027871E /* NotificationsHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0327A20529C0D4440027871E /* NotificationsHelper.swift */; };
+		0327A20B29C0D4440027871E /* NotificationActionsEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0327A20629C0D4440027871E /* NotificationActionsEnum.swift */; };
+		0327A20C29C0D4440027871E /* NotificationHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0327A20729C0D4440027871E /* NotificationHandler.swift */; };
+		0327A21129C0D6600027871E /* SchedulerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0327A20F29C0D6600027871E /* SchedulerViewController.swift */; };
+		0327A21229C0D6610027871E /* SchedulerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0327A21029C0D6600027871E /* SchedulerViewController.xib */; };
+		0327A21729C0D67A0027871E /* SchedulersSaisieController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0327A21329C0D67A0027871E /* SchedulersSaisieController.swift */; };
+		0327A21829C0D67A0027871E /* SchedulersSaisieControllerPopUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0327A21429C0D67A0027871E /* SchedulersSaisieControllerPopUp.swift */; };
+		0327A21929C0D67A0027871E /* SchedulersSaisieController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0327A21529C0D67A0027871E /* SchedulersSaisieController.xib */; };
+		0327A21A29C0D67A0027871E /* SchedulersSaisieControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0327A21629C0D67A0027871E /* SchedulersSaisieControllerDelegate.swift */; };
+		0327A21D29C0D68F0027871E /* SchedulersDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0327A21B29C0D68F0027871E /* SchedulersDetailView.swift */; };
+		0327A21E29C0D68F0027871E /* SchedulersDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0327A21C29C0D68F0027871E /* SchedulersDetailView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -457,6 +547,96 @@
 		0327A14F29C0D0DD0027871E /* PreferenceKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreferenceKey.swift; sourceTree = "<group>"; };
 		0327A15029C0D0DD0027871E /* PreferencesTabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreferencesTabViewController.swift; sourceTree = "<group>"; };
 		0327A15129C0D0DD0027871E /* util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = util.swift; sourceTree = "<group>"; };
+		0327A15A29C0D15F0027871E /* ListTransactionsController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ListTransactionsController.storyboard; sourceTree = "<group>"; };
+		0327A15B29C0D15F0027871E /* ListTransactionsMenuDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListTransactionsMenuDelegate.swift; sourceTree = "<group>"; };
+		0327A15C29C0D15F0027871E /* ListTransactionsPasteboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListTransactionsPasteboard.swift; sourceTree = "<group>"; };
+		0327A15D29C0D15F0027871E /* ListTransactionsTextColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListTransactionsTextColor.swift; sourceTree = "<group>"; };
+		0327A15E29C0D15F0027871E /* ListTransactionsDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListTransactionsDelegate.swift; sourceTree = "<group>"; };
+		0327A15F29C0D15F0027871E /* ListTransactionsController1.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ListTransactionsController1.storyboard; sourceTree = "<group>"; };
+		0327A16029C0D15F0027871E /* ListTransactionsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListTransactionsController.swift; sourceTree = "<group>"; };
+		0327A16129C0D15F0027871E /* ListTransactionsController+Expansion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ListTransactionsController+Expansion.swift"; sourceTree = "<group>"; };
+		0327A16229C0D15F0027871E /* ListTransactionsSchedulers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListTransactionsSchedulers.swift; sourceTree = "<group>"; };
+		0327A16329C0D15F0027871E /* ListTransactionsDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListTransactionsDataSource.swift; sourceTree = "<group>"; };
+		0327A16E29C0D16C0027871E /* ListTransactionsDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListTransactionsDetailView.swift; sourceTree = "<group>"; };
+		0327A16F29C0D16D0027871E /* ListTransactionsDetailView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListTransactionsDetailView.xib; sourceTree = "<group>"; };
+		0327A17329C0D1F20027871E /* AdvancedFilterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdvancedFilterViewController.swift; sourceTree = "<group>"; };
+		0327A17429C0D1F20027871E /* AdvancedFilterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AdvancedFilterViewController.xib; sourceTree = "<group>"; };
+		0327A17529C0D1F20027871E /* NSPredicateEditorRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSPredicateEditorRow.swift; sourceTree = "<group>"; };
+		0327A17629C0D1F20027871E /* NSPredicateEditorRowTemplate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSPredicateEditorRowTemplate.swift; sourceTree = "<group>"; };
+		0327A17C29C0D2360027871E /* AccountGroupTableCellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountGroupTableCellView.swift; sourceTree = "<group>"; };
+		0327A17D29C0D2360027871E /* CurtainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurtainViewController.swift; sourceTree = "<group>"; };
+		0327A17E29C0D2360027871E /* AccountGroupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountGroupViewController.swift; sourceTree = "<group>"; };
+		0327A17F29C0D2360027871E /* AccountGroupViewDragDrop.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountGroupViewDragDrop.swift; sourceTree = "<group>"; };
+		0327A18029C0D2360027871E /* AccountGroupViewControllerAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountGroupViewControllerAction.swift; sourceTree = "<group>"; };
+		0327A18129C0D2360027871E /* AccountGroupViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AccountGroupViewController.xib; sourceTree = "<group>"; };
+		0327A18229C0D2360027871E /* AccountGroupViewDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountGroupViewDataSource.swift; sourceTree = "<group>"; };
+		0327A18329C0D2360027871E /* CurtainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CurtainViewController.xib; sourceTree = "<group>"; };
+		0327A18429C0D2360027871E /* AccountGroupViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountGroupViewDelegate.swift; sourceTree = "<group>"; };
+		0327A18F29C0D2640027871E /* PopOverModalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopOverModalViewController.swift; sourceTree = "<group>"; };
+		0327A19029C0D2640027871E /* KSRetailCollectionViewItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KSRetailCollectionViewItem.swift; sourceTree = "<group>"; };
+		0327A19129C0D2640027871E /* KSRetailCollectionViewItem.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KSRetailCollectionViewItem.xib; sourceTree = "<group>"; };
+		0327A19229C0D2640027871E /* PopOverModalViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PopOverModalViewController.xib; sourceTree = "<group>"; };
+		0327A19329C0D2640027871E /* KSBackgroundView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KSBackgroundView.swift; sourceTree = "<group>"; };
+		0327A19A29C0D28D0027871E /* GroupModalWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GroupModalWindowController.xib; sourceTree = "<group>"; };
+		0327A19B29C0D28D0027871E /* AccountModalWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountModalWindowController.swift; sourceTree = "<group>"; };
+		0327A19C29C0D28D0027871E /* AccountModalWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AccountModalWindowController.xib; sourceTree = "<group>"; };
+		0327A19D29C0D28D0027871E /* GroupModalWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupModalWindowController.swift; sourceTree = "<group>"; };
+		0327A1A629C0D3010027871E /* ListBankStatementDetailview.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListBankStatementDetailview.xib; sourceTree = "<group>"; };
+		0327A1A729C0D3010027871E /* ListBankStatementDetailview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListBankStatementDetailview.swift; sourceTree = "<group>"; };
+		0327A1AA29C0D3150027871E /* BankStatementModalWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BankStatementModalWindowController.xib; sourceTree = "<group>"; };
+		0327A1AB29C0D3150027871E /* BankStatementModalWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BankStatementModalWindowController.swift; sourceTree = "<group>"; };
+		0327A1AC29C0D3150027871E /* DragView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DragView.swift; sourceTree = "<group>"; };
+		0327A1B029C0D3360027871E /* ListBankStatementController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListBankStatementController.swift; sourceTree = "<group>"; };
+		0327A1B129C0D3360027871E /* ListBankStatementController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListBankStatementController.xib; sourceTree = "<group>"; };
+		0327A1B229C0D3360027871E /* ListBankStatementControllerAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListBankStatementControllerAction.swift; sourceTree = "<group>"; };
+		0327A1B729C0D3560027871E /* TresorerieViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TresorerieViewController.swift; sourceTree = "<group>"; };
+		0327A1B829C0D3560027871E /* TresorerieViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TresorerieViewController.xib; sourceTree = "<group>"; };
+		0327A1B929C0D3560027871E /* DateValueFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateValueFormatter.swift; sourceTree = "<group>"; };
+		0327A1BA29C0D3560027871E /* RectMarker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RectMarker.swift; sourceTree = "<group>"; };
+		0327A1C029C0D3830027871E /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		0327A1C129C0D3830027871E /* WebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WebViewController.xib; sourceTree = "<group>"; };
+		0327A1C729C0D3D10027871E /* AcknowledgementsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AcknowledgementsModel.swift; sourceTree = "<group>"; };
+		0327A1C829C0D3D10027871E /* ParsePackagesResolved.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParsePackagesResolved.swift; sourceTree = "<group>"; };
+		0327A1CB29C0D3D90027871E /* AcknowledgementsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AcknowledgementsView.swift; sourceTree = "<group>"; };
+		0327A1CE29C0D4280027871E /* LoadableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadableView.swift; sourceTree = "<group>"; };
+		0327A1CF29C0D4280027871E /* DSFFloatLabelledTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DSFFloatLabelledTextField.swift; sourceTree = "<group>"; };
+		0327A1D029C0D4280027871E /* Debug.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Debug.swift; sourceTree = "<group>"; };
+		0327A1D129C0D4280027871E /* NSPasteboard+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSPasteboard+Additions.swift"; sourceTree = "<group>"; };
+		0327A1D229C0D4280027871E /* HeaderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderCell.swift; sourceTree = "<group>"; };
+		0327A1D329C0D4280027871E /* Notification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Notification.swift; sourceTree = "<group>"; };
+		0327A1D429C0D4280027871E /* MLTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MLTextField.swift; sourceTree = "<group>"; };
+		0327A1D529C0D4280027871E /* ViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		0327A1D629C0D4280027871E /* NSTableCellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSTableCellView.swift; sourceTree = "<group>"; };
+		0327A1D729C0D4280027871E /* NSUserInterfaceItemIdentifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSUserInterfaceItemIdentifier.swift; sourceTree = "<group>"; };
+		0327A1D829C0D4280027871E /* Calendar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Calendar.swift; sourceTree = "<group>"; };
+		0327A1D929C0D4290027871E /* ChartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
+		0327A1DA29C0D4290027871E /* UNNotificationAction+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UNNotificationAction+Extension.swift"; sourceTree = "<group>"; };
+		0327A1DB29C0D4290027871E /* Transformable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Transformable.swift; sourceTree = "<group>"; };
+		0327A1DC29C0D4290027871E /* ManagedObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManagedObject.swift; sourceTree = "<group>"; };
+		0327A1DD29C0D4290027871E /* NSWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSWindow.swift; sourceTree = "<group>"; };
+		0327A1DE29C0D4290027871E /* NSTableRowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSTableRowView.swift; sourceTree = "<group>"; };
+		0327A1DF29C0D4290027871E /* Error.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
+		0327A1E029C0D4290027871E /* NotificationCenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationCenter.swift; sourceTree = "<group>"; };
+		0327A1E129C0D4290027871E /* Bundle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bundle.swift; sourceTree = "<group>"; };
+		0327A1E229C0D4290027871E /* NVDate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NVDate.swift; sourceTree = "<group>"; };
+		0327A1E329C0D4290027871E /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		0327A1E429C0D4290027871E /* UNNotificationCategory+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UNNotificationCategory+Extension.swift"; sourceTree = "<group>"; };
+		0327A1E529C0D4290027871E /* NSOpenPanel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSOpenPanel.swift; sourceTree = "<group>"; };
+		0327A1E629C0D4290027871E /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		0327A1E729C0D4290027871E /* NSImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSImage.swift; sourceTree = "<group>"; };
+		0327A20329C0D4440027871E /* UNCenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UNCenter.swift; sourceTree = "<group>"; };
+		0327A20429C0D4440027871E /* notification.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = notification.strings; sourceTree = "<group>"; };
+		0327A20529C0D4440027871E /* NotificationsHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationsHelper.swift; sourceTree = "<group>"; };
+		0327A20629C0D4440027871E /* NotificationActionsEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationActionsEnum.swift; sourceTree = "<group>"; };
+		0327A20729C0D4440027871E /* NotificationHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationHandler.swift; sourceTree = "<group>"; };
+		0327A20F29C0D6600027871E /* SchedulerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchedulerViewController.swift; sourceTree = "<group>"; };
+		0327A21029C0D6600027871E /* SchedulerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SchedulerViewController.xib; sourceTree = "<group>"; };
+		0327A21329C0D67A0027871E /* SchedulersSaisieController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchedulersSaisieController.swift; sourceTree = "<group>"; };
+		0327A21429C0D67A0027871E /* SchedulersSaisieControllerPopUp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchedulersSaisieControllerPopUp.swift; sourceTree = "<group>"; };
+		0327A21529C0D67A0027871E /* SchedulersSaisieController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SchedulersSaisieController.xib; sourceTree = "<group>"; };
+		0327A21629C0D67A0027871E /* SchedulersSaisieControllerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchedulersSaisieControllerDelegate.swift; sourceTree = "<group>"; };
+		0327A21B29C0D68F0027871E /* SchedulersDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchedulersDetailView.swift; sourceTree = "<group>"; };
+		0327A21C29C0D68F0027871E /* SchedulersDetailView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SchedulersDetailView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -479,14 +659,20 @@
 		0307158C29C0A53D0028240B /* Group */ = {
 			isa = PBXGroup;
 			children = (
-				0327A13E29C0D0AD0027871E /* Preferences */,
-				0327A11B29C0CFD10027871E /* Rapports */,
+				0327A1CD29C0D4010027871E /* Extension */,
+				0327A1C429C0D3AA0027871E /* Acknowledgements */,
 				0327A01029C0BC080027871E /* About */,
+				0327A17B29C0D21C0027871E /* AccountGroup */,
+				0327A1A229C0D2B10027871E /* AccountTracking */,
 				0327A01229C0BC110027871E /* Config */,
 				0327A01329C0BC650027871E /* CoreData */,
+				0327A17229C0D1BB0027871E /* Filter */,
 				0327A08129C0C6F00027871E /* Generated */,
 				0327A08229C0C7F40027871E /* Import */,
+				0327A15829C0D1390027871E /* ListTransactions */,
 				0327A01129C0BC0C0027871E /* Only */,
+				0327A13E29C0D0AD0027871E /* Preferences */,
+				0327A11B29C0CFD10027871E /* Rapports */,
 				0327A0C929C0CC1C0027871E /* ReferenceAccount */,
 				0327A0BC29C0CBDA0027871E /* Resource */,
 				0327A0A429C0C9F70027871E /* Sounds */,
@@ -943,6 +1129,10 @@
 		0327A0CC29C0CC920027871E /* Schedulers */ = {
 			isa = PBXGroup;
 			children = (
+				0327A20F29C0D6600027871E /* SchedulerViewController.swift */,
+				0327A21029C0D6600027871E /* SchedulerViewController.xib */,
+				0327A20E29C0D64E0027871E /* Custom Views */,
+				0327A20D29C0D63C0027871E /* SchedulersModal */,
 			);
 			path = Schedulers;
 			sourceTree = "<group>";
@@ -1119,6 +1309,238 @@
 			path = Preferences;
 			sourceTree = "<group>";
 		};
+		0327A15829C0D1390027871E /* ListTransactions */ = {
+			isa = PBXGroup;
+			children = (
+				0327A15A29C0D15F0027871E /* ListTransactionsController.storyboard */,
+				0327A16029C0D15F0027871E /* ListTransactionsController.swift */,
+				0327A16129C0D15F0027871E /* ListTransactionsController+Expansion.swift */,
+				0327A15F29C0D15F0027871E /* ListTransactionsController1.storyboard */,
+				0327A16329C0D15F0027871E /* ListTransactionsDataSource.swift */,
+				0327A15E29C0D15F0027871E /* ListTransactionsDelegate.swift */,
+				0327A15B29C0D15F0027871E /* ListTransactionsMenuDelegate.swift */,
+				0327A15C29C0D15F0027871E /* ListTransactionsPasteboard.swift */,
+				0327A16229C0D15F0027871E /* ListTransactionsSchedulers.swift */,
+				0327A15D29C0D15F0027871E /* ListTransactionsTextColor.swift */,
+				0327A15929C0D1400027871E /* Custom Views */,
+			);
+			path = ListTransactions;
+			sourceTree = "<group>";
+		};
+		0327A15929C0D1400027871E /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				0327A16E29C0D16C0027871E /* ListTransactionsDetailView.swift */,
+				0327A16F29C0D16D0027871E /* ListTransactionsDetailView.xib */,
+			);
+			path = "Custom Views";
+			sourceTree = "<group>";
+		};
+		0327A17229C0D1BB0027871E /* Filter */ = {
+			isa = PBXGroup;
+			children = (
+				0327A17329C0D1F20027871E /* AdvancedFilterViewController.swift */,
+				0327A17429C0D1F20027871E /* AdvancedFilterViewController.xib */,
+				0327A17529C0D1F20027871E /* NSPredicateEditorRow.swift */,
+				0327A17629C0D1F20027871E /* NSPredicateEditorRowTemplate.swift */,
+			);
+			path = Filter;
+			sourceTree = "<group>";
+		};
+		0327A17B29C0D21C0027871E /* AccountGroup */ = {
+			isa = PBXGroup;
+			children = (
+				0327A19929C0D2800027871E /* ModalAccountGroup */,
+				0327A18E29C0D2490027871E /* PopUp */,
+				0327A17C29C0D2360027871E /* AccountGroupTableCellView.swift */,
+				0327A17E29C0D2360027871E /* AccountGroupViewController.swift */,
+				0327A18129C0D2360027871E /* AccountGroupViewController.xib */,
+				0327A18029C0D2360027871E /* AccountGroupViewControllerAction.swift */,
+				0327A18229C0D2360027871E /* AccountGroupViewDataSource.swift */,
+				0327A18429C0D2360027871E /* AccountGroupViewDelegate.swift */,
+				0327A17F29C0D2360027871E /* AccountGroupViewDragDrop.swift */,
+				0327A17D29C0D2360027871E /* CurtainViewController.swift */,
+				0327A18329C0D2360027871E /* CurtainViewController.xib */,
+			);
+			path = AccountGroup;
+			sourceTree = "<group>";
+		};
+		0327A18E29C0D2490027871E /* PopUp */ = {
+			isa = PBXGroup;
+			children = (
+				0327A19329C0D2640027871E /* KSBackgroundView.swift */,
+				0327A19029C0D2640027871E /* KSRetailCollectionViewItem.swift */,
+				0327A19129C0D2640027871E /* KSRetailCollectionViewItem.xib */,
+				0327A18F29C0D2640027871E /* PopOverModalViewController.swift */,
+				0327A19229C0D2640027871E /* PopOverModalViewController.xib */,
+			);
+			path = PopUp;
+			sourceTree = "<group>";
+		};
+		0327A19929C0D2800027871E /* ModalAccountGroup */ = {
+			isa = PBXGroup;
+			children = (
+				0327A19B29C0D28D0027871E /* AccountModalWindowController.swift */,
+				0327A19C29C0D28D0027871E /* AccountModalWindowController.xib */,
+				0327A19D29C0D28D0027871E /* GroupModalWindowController.swift */,
+				0327A19A29C0D28D0027871E /* GroupModalWindowController.xib */,
+			);
+			path = ModalAccountGroup;
+			sourceTree = "<group>";
+		};
+		0327A1A229C0D2B10027871E /* AccountTracking */ = {
+			isa = PBXGroup;
+			children = (
+				0327A1A329C0D2C70027871E /* BankStatement */,
+				0327A1B629C0D3460027871E /* Tresorerie */,
+				0327A1BF29C0D3690027871E /* Web */,
+			);
+			path = AccountTracking;
+			sourceTree = "<group>";
+		};
+		0327A1A329C0D2C70027871E /* BankStatement */ = {
+			isa = PBXGroup;
+			children = (
+				0327A1B029C0D3360027871E /* ListBankStatementController.swift */,
+				0327A1B129C0D3360027871E /* ListBankStatementController.xib */,
+				0327A1B229C0D3360027871E /* ListBankStatementControllerAction.swift */,
+				0327A1A529C0D2F00027871E /* Custom Views */,
+				0327A1A429C0D2D80027871E /* Modal */,
+			);
+			path = BankStatement;
+			sourceTree = "<group>";
+		};
+		0327A1A429C0D2D80027871E /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				0327A1AB29C0D3150027871E /* BankStatementModalWindowController.swift */,
+				0327A1AA29C0D3150027871E /* BankStatementModalWindowController.xib */,
+				0327A1AC29C0D3150027871E /* DragView.swift */,
+			);
+			path = Modal;
+			sourceTree = "<group>";
+		};
+		0327A1A529C0D2F00027871E /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				0327A1A729C0D3010027871E /* ListBankStatementDetailview.swift */,
+				0327A1A629C0D3010027871E /* ListBankStatementDetailview.xib */,
+			);
+			path = "Custom Views";
+			sourceTree = "<group>";
+		};
+		0327A1B629C0D3460027871E /* Tresorerie */ = {
+			isa = PBXGroup;
+			children = (
+				0327A1B929C0D3560027871E /* DateValueFormatter.swift */,
+				0327A1BA29C0D3560027871E /* RectMarker.swift */,
+				0327A1B729C0D3560027871E /* TresorerieViewController.swift */,
+				0327A1B829C0D3560027871E /* TresorerieViewController.xib */,
+			);
+			path = Tresorerie;
+			sourceTree = "<group>";
+		};
+		0327A1BF29C0D3690027871E /* Web */ = {
+			isa = PBXGroup;
+			children = (
+				0327A1C029C0D3830027871E /* WebViewController.swift */,
+				0327A1C129C0D3830027871E /* WebViewController.xib */,
+			);
+			path = Web;
+			sourceTree = "<group>";
+		};
+		0327A1C429C0D3AA0027871E /* Acknowledgements */ = {
+			isa = PBXGroup;
+			children = (
+				0327A1C629C0D3BE0027871E /* UI */,
+				0327A1C529C0D3B40027871E /* Modal */,
+			);
+			path = Acknowledgements;
+			sourceTree = "<group>";
+		};
+		0327A1C529C0D3B40027871E /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				0327A1C729C0D3D10027871E /* AcknowledgementsModel.swift */,
+				0327A1C829C0D3D10027871E /* ParsePackagesResolved.swift */,
+			);
+			path = Modal;
+			sourceTree = "<group>";
+		};
+		0327A1C629C0D3BE0027871E /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				0327A1CB29C0D3D90027871E /* AcknowledgementsView.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		0327A1CD29C0D4010027871E /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				0327A20229C0D42E0027871E /* Notification */,
+				0327A1E129C0D4290027871E /* Bundle.swift */,
+				0327A1D829C0D4280027871E /* Calendar.swift */,
+				0327A1D929C0D4290027871E /* ChartView.swift */,
+				0327A1E329C0D4290027871E /* Constants.swift */,
+				0327A1D029C0D4280027871E /* Debug.swift */,
+				0327A1CF29C0D4280027871E /* DSFFloatLabelledTextField.swift */,
+				0327A1DF29C0D4290027871E /* Error.swift */,
+				0327A1D229C0D4280027871E /* HeaderCell.swift */,
+				0327A1CE29C0D4280027871E /* LoadableView.swift */,
+				0327A1DC29C0D4290027871E /* ManagedObject.swift */,
+				0327A1D429C0D4280027871E /* MLTextField.swift */,
+				0327A1D329C0D4280027871E /* Notification.swift */,
+				0327A1E029C0D4290027871E /* NotificationCenter.swift */,
+				0327A1E729C0D4290027871E /* NSImage.swift */,
+				0327A1E529C0D4290027871E /* NSOpenPanel.swift */,
+				0327A1D129C0D4280027871E /* NSPasteboard+Additions.swift */,
+				0327A1D629C0D4280027871E /* NSTableCellView.swift */,
+				0327A1DE29C0D4290027871E /* NSTableRowView.swift */,
+				0327A1D729C0D4280027871E /* NSUserInterfaceItemIdentifier.swift */,
+				0327A1DD29C0D4290027871E /* NSWindow.swift */,
+				0327A1E229C0D4290027871E /* NVDate.swift */,
+				0327A1E629C0D4290027871E /* String.swift */,
+				0327A1DB29C0D4290027871E /* Transformable.swift */,
+				0327A1DA29C0D4290027871E /* UNNotificationAction+Extension.swift */,
+				0327A1E429C0D4290027871E /* UNNotificationCategory+Extension.swift */,
+				0327A1D529C0D4280027871E /* ViewModel.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		0327A20229C0D42E0027871E /* Notification */ = {
+			isa = PBXGroup;
+			children = (
+				0327A20429C0D4440027871E /* notification.strings */,
+				0327A20629C0D4440027871E /* NotificationActionsEnum.swift */,
+				0327A20729C0D4440027871E /* NotificationHandler.swift */,
+				0327A20529C0D4440027871E /* NotificationsHelper.swift */,
+				0327A20329C0D4440027871E /* UNCenter.swift */,
+			);
+			path = Notification;
+			sourceTree = "<group>";
+		};
+		0327A20D29C0D63C0027871E /* SchedulersModal */ = {
+			isa = PBXGroup;
+			children = (
+				0327A21329C0D67A0027871E /* SchedulersSaisieController.swift */,
+				0327A21529C0D67A0027871E /* SchedulersSaisieController.xib */,
+				0327A21629C0D67A0027871E /* SchedulersSaisieControllerDelegate.swift */,
+				0327A21429C0D67A0027871E /* SchedulersSaisieControllerPopUp.swift */,
+			);
+			path = SchedulersModal;
+			sourceTree = "<group>";
+		};
+		0327A20E29C0D64E0027871E /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				0327A21B29C0D68F0027871E /* SchedulersDetailView.swift */,
+				0327A21C29C0D68F0027871E /* SchedulersDetailView.xib */,
+			);
+			path = "Custom Views";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1203,7 +1625,10 @@
 				0307159429C0A57A0028240B /* README.md in Resources */,
 				0327A09129C0C8030027871E /* ImportWindowController.xib in Resources */,
 				0327A08F29C0C8030027871E /* TTFormatViewControllerAccessory.xib in Resources */,
+				0327A16429C0D15F0027871E /* ListTransactionsController.storyboard in Resources */,
 				0327A0FF29C0CF4B0027871E /* RubriqueViewController.xib in Resources */,
+				0327A19E29C0D28D0027871E /* GroupModalWindowController.xib in Resources */,
+				0327A16929C0D15F0027871E /* ListTransactionsController1.storyboard in Resources */,
 				0327A12D29C0D0630027871E /* PaymentModePieController.xib in Resources */,
 				0307159229C0A57A0028240B /* README_fr.md in Resources */,
 				0327A0D729C0CDB00027871E /* ModeModalWindowController.xib in Resources */,
@@ -1214,14 +1639,21 @@
 				0327A0C329C0CBFE0027871E /* CurtainClose640.gif in Resources */,
 				0327A0C429C0CBFE0027871E /* curtain.jpg in Resources */,
 				03279FE329C0B6CB0027871E /* TransactionViewController.xib in Resources */,
+				0327A21929C0D67A0027871E /* SchedulersSaisieController.xib in Resources */,
 				030715AB29C0A5B30028240B /* Capture2.png in Resources */,
 				0327A0C829C0CBFE0027871E /* CURTAINS CLOSE_OPEN.wav in Resources */,
+				0327A20929C0D4440027871E /* notification.strings in Resources */,
 				03279FFA29C0B7540027871E /* SousOperationModalWindowController.xib in Resources */,
+				0327A21229C0D6610027871E /* SchedulerViewController.xib in Resources */,
 				0307159329C0A57A0028240B /* version StoryBoard.md in Resources */,
 				030715A129C0A5B30028240B /* Capture6.png in Resources */,
+				0327A18C29C0D2360027871E /* CurtainViewController.xib in Resources */,
 				03279FAD29C0B45E0027871E /* Main.storyboard in Resources */,
+				0327A1B429C0D3360027871E /* ListBankStatementController.xib in Resources */,
 				030715A229C0A5B30028240B /* Capture3.png in Resources */,
+				0327A18A29C0D2360027871E /* AccountGroupViewController.xib in Resources */,
 				0327A0F129C0CF110027871E /* ChequiersDetailView.xib in Resources */,
+				0327A17829C0D1F20027871E /* AdvancedFilterViewController.xib in Resources */,
 				030715AA29C0A5B30028240B /* Capture5.png in Resources */,
 				0327A0C729C0CBFE0027871E /* MyDB.sqlite in Resources */,
 				0327A11729C0CF800027871E /* CategorieModalWindowController.xib in Resources */,
@@ -1239,7 +1671,11 @@
 				0327A11A29C0CF800027871E /* RubriqueModalWindowController.xib in Resources */,
 				0327A0B329C0CAA70027871E /* Feeds.plist in Resources */,
 				0327A0C629C0CBFE0027871E /* CURTAINS OPEN.wav in Resources */,
+				0327A1BC29C0D3560027871E /* TresorerieViewController.xib in Resources */,
+				0327A1A829C0D3010027871E /* ListBankStatementDetailview.xib in Resources */,
+				0327A19629C0D2640027871E /* KSRetailCollectionViewItem.xib in Resources */,
 				0327A14729C0D0CE0027871E /* AccountViewController.xib in Resources */,
+				0327A1C329C0D3830027871E /* WebViewController.xib in Resources */,
 				030715A329C0A5B30028240B /* Capture4.png in Resources */,
 				0327A14929C0D0CE0027871E /* PersonViewController.xib in Resources */,
 				0327A13D29C0D0890027871E /* IncomeExpensePieController.xib in Resources */,
@@ -1249,13 +1685,18 @@
 				0327A0E429C0CDDE0027871E /* ParameterController.xib in Resources */,
 				03279FB029C0B4B90027871E /* Localizable.strings in Resources */,
 				0327A13529C0D0730027871E /* CategoryBarController1.xib in Resources */,
+				0327A1AD29C0D3150027871E /* BankStatementModalWindowController.xib in Resources */,
 				030715A629C0A5B30028240B /* Capture10.png in Resources */,
 				0327A0DA29C0CDB00027871E /* ModeOfPaymentViewController.xib in Resources */,
 				0327A12929C0D0560027871E /* RubricPieController.xib in Resources */,
 				0327A04629C0C2960027871E /* DeveloperID.xcconfig in Resources */,
+				0327A1A029C0D28D0027871E /* AccountModalWindowController.xib in Resources */,
 				030715A529C0A5B30028240B /* Capture9.png in Resources */,
+				0327A21E29C0D68F0027871E /* SchedulersDetailView.xib in Resources */,
+				0327A19729C0D2640027871E /* PopOverModalViewController.xib in Resources */,
 				0327A11029C0CF5E0027871E /* ComboColorWellImages.xcassets in Resources */,
 				030715AD29C0A5E60028240B /* Package.resolved in Resources */,
+				0327A17129C0D16D0027871E /* ListTransactionsDetailView.xib in Resources */,
 				03279FCC29C0B60E0027871E /* SliderViewHorizontalController.xib in Resources */,
 				0327A0E029C0CDC40027871E /* PreferenceOperationViewController.xib in Resources */,
 				0327A00D29C0B7DA0027871E /* SplashScreenRecentDocumentView.xib in Resources */,
@@ -1275,6 +1716,7 @@
 				03279FC729C0B60E0027871E /* RangeSlider.swift in Sources */,
 				03279FE229C0B6BB0027871E /* TransactionViewControllerOutlineDelegate.swift in Sources */,
 				0327A06729C0C4D80027871E /* GitHubInteractor.swift in Sources */,
+				0327A1EB29C0D4290027871E /* NSPasteboard+Additions.swift in Sources */,
 				0327A0AC29C0CA300027871E /* SourceListViewDataSource.swift in Sources */,
 				0327A14B29C0D0CE0027871E /* GeneralViewController.swift in Sources */,
 				0327A0E729C0CDF40027871E /* IdentiteViewController.swift in Sources */,
@@ -1282,22 +1724,36 @@
 				0327A05829C0C46B0027871E /* OpenWindow.swift in Sources */,
 				03279FBC29C0B5F10027871E /* CSwiftV.swift in Sources */,
 				0327A0FD29C0CF4B0027871E /* RubriqueViewDataSource.swift in Sources */,
+				0327A18729C0D2360027871E /* AccountGroupViewController.swift in Sources */,
+				0327A20029C0D4290027871E /* String.swift in Sources */,
 				03279F9E29C0B40E0027871E /* MyPrintViewTableViewOld.swift in Sources */,
 				0327A06D29C0C51B0027871E /* UpdateView.swift in Sources */,
 				0327A03729C0BCA30027871E /* Scheduler.swift in Sources */,
 				0327A13229C0D0730027871E /* CategoryBarController1.swift in Sources */,
+				0327A1A929C0D3010027871E /* ListBankStatementDetailview.swift in Sources */,
 				03279FF129C0B7380027871E /* AutoCompleteTextField.swift in Sources */,
 				0327A09329C0C8030027871E /* ImportWindowControllerParserDelegate.swift in Sources */,
+				0327A1E929C0D4290027871E /* DSFFloatLabelledTextField.swift in Sources */,
+				0327A1CC29C0D3D90027871E /* AcknowledgementsView.swift in Sources */,
 				03279FCB29C0B60E0027871E /* SliderViewVerticalController.swift in Sources */,
 				0327A05929C0C46B0027871E /* SwitchError.swift in Sources */,
 				03279FDB29C0B6BB0027871E /* TransactionViewControllerPopUp.swift in Sources */,
+				0327A1A129C0D28D0027871E /* GroupModalWindowController.swift in Sources */,
+				0327A1F829C0D4290027871E /* NSTableRowView.swift in Sources */,
 				0327A03529C0BCA30027871E /* Preference.swift in Sources */,
 				0327A02329C0BC850027871E /* EntityTransactions+CoreDataProperties.swift in Sources */,
+				0327A18529C0D2360027871E /* AccountGroupTableCellView.swift in Sources */,
+				0327A16D29C0D15F0027871E /* ListTransactionsDataSource.swift in Sources */,
+				0327A1F429C0D4290027871E /* UNNotificationAction+Extension.swift in Sources */,
 				03279FDF29C0B6BB0027871E /* TransactionViewController.swift in Sources */,
+				0327A1EA29C0D4290027871E /* Debug.swift in Sources */,
+				0327A20A29C0D4440027871E /* NotificationsHelper.swift in Sources */,
 				03279FA329C0B40E0027871E /* UpdateController.swift in Sources */,
+				0327A1FB29C0D4290027871E /* Bundle.swift in Sources */,
 				0327A06929C0C4D80027871E /* RequestError.swift in Sources */,
 				0327A07829C0C5900027871E /* SettingsView.swift in Sources */,
 				0327A0F229C0CF110027871E /* ChequiersDetailView.swift in Sources */,
+				0327A1B529C0D3360027871E /* ListBankStatementControllerAction.swift in Sources */,
 				0327A03629C0BCA30027871E /* Categories.swift in Sources */,
 				0327A10129C0CF4B0027871E /* RubriqueViewDragDrop.swift in Sources */,
 				0327A13329C0D0730027871E /* CategoryBarController.swift in Sources */,
@@ -1307,36 +1763,56 @@
 				0327A01F29C0BC850027871E /* EntityRubric+CoreDataProperties.swift in Sources */,
 				0327A0D929C0CDB00027871E /* ModeOfPaymentViewController.swift in Sources */,
 				03279F9829C0B40E0027871E /* MainWindowControllerToolBar.swift in Sources */,
+				0327A19529C0D2640027871E /* KSRetailCollectionViewItem.swift in Sources */,
 				0327A07C29C0C5C90027871E /* ShortcutOnMarket.swift in Sources */,
 				0327A03229C0BCA30027871E /* Identite.swift in Sources */,
 				0327A13B29C0D0890027871E /* IncomeExpenseBarController.swift in Sources */,
 				0327A12C29C0D0630027871E /* PaymentModePieController.swift in Sources */,
 				0327A03329C0BCA30027871E /* Account.swift in Sources */,
+				0327A1F329C0D4290027871E /* ChartView.swift in Sources */,
 				0327A00F29C0B7DA0027871E /* TulsiDocumentController.swift in Sources */,
+				0327A1EE29C0D4290027871E /* MLTextField.swift in Sources */,
+				0327A1EF29C0D4290027871E /* ViewModel.swift in Sources */,
+				0327A17929C0D1F20027871E /* NSPredicateEditorRow.swift in Sources */,
 				0327A0A329C0C82E0027871E /* CSVConfig.swift in Sources */,
 				03279F9529C0B40E0027871E /* Persistence.swift in Sources */,
 				03279F9729C0B40E0027871E /* MyPrintViewOutlineOld1.swift in Sources */,
+				0327A16C29C0D15F0027871E /* ListTransactionsSchedulers.swift in Sources */,
+				0327A1FD29C0D4290027871E /* Constants.swift in Sources */,
 				0327A02129C0BC850027871E /* EntityAccount+CoreDataClass.swift in Sources */,
 				0327A04429C0BD220027871E /* AboutView.swift in Sources */,
+				0327A16629C0D15F0027871E /* ListTransactionsPasteboard.swift in Sources */,
+				0327A1C929C0D3D10027871E /* AcknowledgementsModel.swift in Sources */,
 				03279FA029C0B40E0027871E /* AppDelegate.swift in Sources */,
+				0327A16829C0D15F0027871E /* ListTransactionsDelegate.swift in Sources */,
 				0327A11229C0CF5E0027871E /* ColorUtilities.swift in Sources */,
+				0327A20129C0D4290027871E /* NSImage.swift in Sources */,
 				0327A09429C0C8030027871E /* ImportSchedulersWindowController.swift in Sources */,
 				0327A0ED29C0CEF80027871E /* ChequiersViewController.swift in Sources */,
 				03279FAA29C0B40E0027871E /* ViewController.swift in Sources */,
+				0327A1F129C0D4290027871E /* NSUserInterfaceItemIdentifier.swift in Sources */,
 				0327A09229C0C8030027871E /* ImportBankStatementWindowController.swift in Sources */,
+				0327A16A29C0D15F0027871E /* ListTransactionsController.swift in Sources */,
+				0327A19429C0D2640027871E /* PopOverModalViewController.swift in Sources */,
 				0327A15529C0D0DD0027871E /* PreferenceKey.swift in Sources */,
+				0327A17029C0D16D0027871E /* ListTransactionsDetailView.swift in Sources */,
+				0327A20B29C0D4440027871E /* NotificationActionsEnum.swift in Sources */,
 				0327A06A29C0C4D80027871E /* GitHubPresenter.swift in Sources */,
 				03279FCA29C0B60E0027871E /* SliderViewHorizontalController.swift in Sources */,
 				0327A10C29C0CF5E0027871E /* ComboColorWell.swift in Sources */,
 				03279FF729C0B74C0027871E /* SousOperationModalWindowController.swift in Sources */,
 				0327A05E29C0C4900027871E /* LocalizedString++.swift in Sources */,
+				0327A1BD29C0D3560027871E /* DateValueFormatter.swift in Sources */,
 				0327A11929C0CF800027871E /* RubriqueModalWindowController.swift in Sources */,
 				0327A05529C0C46B0027871E /* LayoutDefine.swift in Sources */,
+				0327A1F029C0D4290027871E /* NSTableCellView.swift in Sources */,
 				0327A08E29C0C8030027871E /* TTFormatViewController.swift in Sources */,
 				0327A15429C0D0DD0027871E /* Preferences.swift in Sources */,
 				0327A07429C0C5520027871E /* LanguageManager.swift in Sources */,
 				0327A10D29C0CF5E0027871E /* ColorGridController.swift in Sources */,
 				03279F9C29C0B40E0027871E /* MainWindowTransactions.swift in Sources */,
+				0327A17729C0D1F20027871E /* AdvancedFilterViewController.swift in Sources */,
+				0327A1FA29C0D4290027871E /* NotificationCenter.swift in Sources */,
 				03279F9429C0B40E0027871E /* DefinitionsToolBar.swift in Sources */,
 				0327A07929C0C5900027871E /* SettingsVM.swift in Sources */,
 				0327A07229C0C5440027871E /* HostWindowFinder.swift in Sources */,
@@ -1347,8 +1823,10 @@
 				03279FA729C0B40E0027871E /* MainWindowController.swift in Sources */,
 				0327A15629C0D0DD0027871E /* PreferencesTabViewController.swift in Sources */,
 				0327A05D29C0C4900027871E /* String++.swift in Sources */,
+				0327A1AE29C0D3150027871E /* BankStatementModalWindowController.swift in Sources */,
 				0327A0F629C0CF1E0027871E /* ChequierModalWindowController.swift in Sources */,
 				03279FBD29C0B5F10027871E /* CurrentScreen.swift in Sources */,
+				0327A1ED29C0D4290027871E /* Notification.swift in Sources */,
 				0327A03B29C0BCA30027871E /* BanqueStatement.swift in Sources */,
 				0327A0DF29C0CDC40027871E /* PreferenceOperationViewControllerPopUp.swift in Sources */,
 				0327A03A29C0BCA30027871E /* PaymentMode.swift in Sources */,
@@ -1356,10 +1834,17 @@
 				03279FA429C0B40E0027871E /* VersionChecker.swift in Sources */,
 				0327A15729C0D0DD0027871E /* util.swift in Sources */,
 				0327A06529C0C4D80027871E /* GitHubEndpoint.swift in Sources */,
+				0327A1FE29C0D4290027871E /* UNNotificationCategory+Extension.swift in Sources */,
+				0327A21A29C0D67A0027871E /* SchedulersSaisieControllerDelegate.swift in Sources */,
+				0327A21D29C0D68F0027871E /* SchedulersDetailView.swift in Sources */,
 				0327A01D29C0BC850027871E /* EntityAccount+CoreDataProperties.swift in Sources */,
 				03279FCD29C0B60E0027871E /* RangeSliderHorizontal.swift in Sources */,
 				0327A05629C0C46B0027871E /* UserDefaultsKeys.swift in Sources */,
+				0327A19F29C0D28D0027871E /* AccountModalWindowController.swift in Sources */,
+				0327A18829C0D2360027871E /* AccountGroupViewDragDrop.swift in Sources */,
+				0327A18929C0D2360027871E /* AccountGroupViewControllerAction.swift in Sources */,
 				03279FA929C0B40E0027871E /* MainWindowSchedulers.swift in Sources */,
+				0327A19829C0D2640027871E /* KSBackgroundView.swift in Sources */,
 				0310777C29BF403C002B7F0C /* Document.xcdatamodeld in Sources */,
 				0327A01E29C0BC850027871E /* EntityCategory+CoreDataClass.swift in Sources */,
 				0327A14A29C0D0CE0027871E /* AccountViewController.swift in Sources */,
@@ -1369,52 +1854,79 @@
 				0327A0B229C0CA9C0027871E /* Feed.swift in Sources */,
 				0327A01C29C0BC850027871E /* EntityCategory+CoreDataProperties.swift in Sources */,
 				03279FF929C0B74C0027871E /* SousOperationComboBoxDelegate.swift in Sources */,
+				0327A1F929C0D4290027871E /* Error.swift in Sources */,
 				0327A09F29C0C82E0027871E /* CSVParser.swift in Sources */,
+				0327A18629C0D2360027871E /* CurtainViewController.swift in Sources */,
+				0327A21129C0D6600027871E /* SchedulerViewController.swift in Sources */,
+				0327A1F629C0D4290027871E /* ManagedObject.swift in Sources */,
 				0327A0E329C0CDDE0027871E /* ParameterController.swift in Sources */,
 				0327A00E29C0B7DA0027871E /* SplashScreenWindowController.swift in Sources */,
+				0327A1AF29C0D3150027871E /* DragView.swift in Sources */,
 				0327A12129C0D0470027871E /* CommonGraph.swift in Sources */,
+				0327A1B329C0D3360027871E /* ListBankStatementController.swift in Sources */,
 				0327A06E29C0C51B0027871E /* UpdateVM.swift in Sources */,
+				0327A20C29C0D4440027871E /* NotificationHandler.swift in Sources */,
 				0327A15329C0D0DD0027871E /* PreferencesWindowController.swift in Sources */,
 				0327A09529C0C8030027871E /* ImportWindowController.swift in Sources */,
 				0327A06829C0C4D80027871E /* GitHubRepositoryProtocol.swift in Sources */,
 				0327A10E29C0CF5E0027871E /* ColorView.swift in Sources */,
 				03279FE129C0B6BB0027871E /* TransactionViewControllerDelegate.swift in Sources */,
 				0327A12829C0D0560027871E /* RubricBarController.swift in Sources */,
+				0327A18B29C0D2360027871E /* AccountGroupViewDataSource.swift in Sources */,
+				0327A1FF29C0D4290027871E /* NSOpenPanel.swift in Sources */,
+				0327A1F529C0D4290027871E /* Transformable.swift in Sources */,
 				0327A02229C0BC850027871E /* EntityTransactions+CoreDataClass.swift in Sources */,
 				03279FA129C0B40E0027871E /* DocumentController.swift in Sources */,
 				0327A05A29C0C46B0027871E /* ColorDefine.swift in Sources */,
+				0327A1E829C0D4290027871E /* LoadableView.swift in Sources */,
+				0327A1EC29C0D4290027871E /* HeaderCell.swift in Sources */,
 				03279FAB29C0B40E0027871E /* ViewControllerSplitView.swift in Sources */,
+				0327A21829C0D67A0027871E /* SchedulersSaisieControllerPopUp.swift in Sources */,
 				0327A10B29C0CF5E0027871E /* ComboColorWellCell.swift in Sources */,
+				0327A21729C0D67A0027871E /* SchedulersSaisieController.swift in Sources */,
 				03279FC629C0B60E0027871E /* RangeSliderVertical.swift in Sources */,
 				0327A09729C0C8030027871E /* ImportTransactionsWindowController.swift in Sources */,
 				0327A02029C0BC850027871E /* EntityRubric+CoreDataClass.swift in Sources */,
 				03279F9D29C0B40E0027871E /* MyPrintViewTableView.swift in Sources */,
 				0327A03929C0BCA30027871E /* ChequeBook.swift in Sources */,
 				0327A03829C0BCA30027871E /* ListTransactions.swift in Sources */,
+				0327A18D29C0D2360027871E /* AccountGroupViewDelegate.swift in Sources */,
 				03279FA629C0B40E0027871E /* UserNotificationCenterDelegate.swift in Sources */,
 				03279FE029C0B6BB0027871E /* AvatarView.swift in Sources */,
 				03279F9F29C0B40E0027871E /* MainWindowBankStatement.swift in Sources */,
 				0327A0D829C0CDB00027871E /* ModeModalWindowController.swift in Sources */,
 				0327A13A29C0D0890027871E /* IncomeExpensePieController.swift in Sources */,
 				03279FF829C0B74C0027871E /* SousOperationAction.swift in Sources */,
+				0327A1CA29C0D3D10027871E /* ParsePackagesResolved.swift in Sources */,
 				03279F9A29C0B40E0027871E /* MainWindowToolBarDelegate.swift in Sources */,
 				03279FA529C0B40E0027871E /* MyPrintViewOutlineOld.swift in Sources */,
 				0327A0AB29C0CA300027871E /* SourceListViewController.swift in Sources */,
+				0327A1F229C0D4290027871E /* Calendar.swift in Sources */,
 				0327A09629C0C8030027871E /* ImportWindowControllerExtension.swift in Sources */,
 				0327A0AA29C0CA300027871E /* SourceListViewDelegate.swift in Sources */,
 				0327A03D29C0BCA30027871E /* Rubrique.swift in Sources */,
 				0327A08029C0C6DD0027871E /* Localizations.swift in Sources */,
+				0327A1BE29C0D3560027871E /* RectMarker.swift in Sources */,
+				0327A16529C0D15F0027871E /* ListTransactionsMenuDelegate.swift in Sources */,
 				03279F9629C0B40E0027871E /* Controller.swift in Sources */,
+				0327A1FC29C0D4290027871E /* NVDate.swift in Sources */,
+				0327A1C229C0D3830027871E /* WebViewController.swift in Sources */,
 				03279FDE29C0B6BB0027871E /* AvatarInfo.swift in Sources */,
 				0327A0A029C0C82E0027871E /* CSV.swift in Sources */,
 				03279F9B29C0B40E0027871E /* MyPrintViewOutline.swift in Sources */,
 				03279F9929C0B40E0027871E /* MainWindowToolBar.swift in Sources */,
+				0327A17A29C0D1F20027871E /* NSPredicateEditorRowTemplate.swift in Sources */,
 				0327A11829C0CF800027871E /* CategorieModalWindowController.swift in Sources */,
 				0327A04229C0BD120027871E /* AboutWindowHostingController.swift in Sources */,
+				0327A1F729C0D4290027871E /* NSWindow.swift in Sources */,
 				03279FCF29C0B61F0027871E /* CommunShared.swift in Sources */,
 				0327A0A229C0C82E0027871E /* CSVParserDelegate.swift in Sources */,
+				0327A16729C0D15F0027871E /* ListTransactionsTextColor.swift in Sources */,
 				0327A05729C0C46B0027871E /* NotificationNames.swift in Sources */,
+				0327A1BB29C0D3560027871E /* TresorerieViewController.swift in Sources */,
 				0327A12629C0D0560027871E /* RubricPieController.swift in Sources */,
+				0327A16B29C0D15F0027871E /* ListTransactionsController+Expansion.swift in Sources */,
+				0327A20829C0D4440027871E /* UNCenter.swift in Sources */,
 				03279FA829C0B40E0027871E /* ViewControllerDelegate.swift in Sources */,
 				03279FDC29C0B6BB0027871E /* TransactionViewControllerAction.swift in Sources */,
 			);

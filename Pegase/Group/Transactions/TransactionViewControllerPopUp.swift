@@ -64,7 +64,7 @@ extension TransactionViewController {
     // MARK: - PopUp ModePaiement
     func loadModePaiement () {
         let  modePaiementMenu = NSMenu()
-        let selector = #selector(optionModePaiement(menuItem:))
+//        let selector = #selector(optionModePaiement(menuItem:))
         
         let modesPaiement = PaymentMode.shared.getAllDatas()
         for modePaiement in modesPaiement
