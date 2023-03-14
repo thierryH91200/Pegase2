@@ -1,0 +1,45 @@
+
+/* Class = "NSWindow"; title = "Window"; ObjectID = "F0z-JX-Cv5"; */
+"F0z-JX-Cv5.title" = "Window";
+
+/* Class = "NSButtonCell"; title = "OK"; ObjectID = "FLd-hy-PNF"; */
+"FLd-hy-PNF.title" = "OK";
+
+/* Class = "NSTextFieldCell"; title = "Amount"; ObjectID = "JWX-5K-EZ7"; */
+"JWX-5K-EZ7.title" = "Montant";
+
+/* Class = "NSButtonCell"; title = "Cancel"; ObjectID = "N8T-Fr-BqF"; */
+"N8T-Fr-BqF.title" = "Annuler";
+
+/* Class = "NSTextFieldCell"; placeholderString = "Montant"; ObjectID = "OU6-0h-CWa"; */
+"OU6-0h-CWa.placeholderString" = "Montant";
+
+/* Class = "NSTextFieldCell"; title = "Comment"; ObjectID = "R3b-J5-65s"; */
+"R3b-J5-65s.title" = "Libellé";
+
+/* Class = "NSButtonCell"; title = "Sous Opération"; ObjectID = "SPw-Dy-5GA"; */
+"SPw-Dy-5GA.title" = "Sous Opération";
+
+/* Class = "NSTextFieldCell"; title = "Rubrique"; ObjectID = "dzE-1q-cpi"; */
+"dzE-1q-cpi.title" = "Rubrique";
+
+/* Class = "NSComboBoxCell"; hjA-hf-URy.ibShadowedObjectValues[0] = "Item 1"; ObjectID = "hjA-hf-URy"; */
+"hjA-hf-URy.ibShadowedObjectValues[0]" = "Item 1";
+
+/* Class = "NSComboBoxCell"; hjA-hf-URy.ibShadowedObjectValues[1] = "Item 2"; ObjectID = "hjA-hf-URy"; */
+"hjA-hf-URy.ibShadowedObjectValues[1]" = "Item 2";
+
+/* Class = "NSComboBoxCell"; hjA-hf-URy.ibShadowedObjectValues[2] = "Item 3"; ObjectID = "hjA-hf-URy"; */
+"hjA-hf-URy.ibShadowedObjectValues[2]" = "Item 3";
+
+/* Class = "NSTextFieldCell"; title = "Category"; ObjectID = "jgD-cM-AY6"; */
+"jgD-cM-AY6.title" = "Catégorie";
+
+/* Class = "NSComboBoxCell"; wTo-yl-9Nk.ibShadowedObjectValues[0] = "Item 1"; ObjectID = "wTo-yl-9Nk"; */
+"wTo-yl-9Nk.ibShadowedObjectValues[0]" = "Item 1";
+
+/* Class = "NSComboBoxCell"; wTo-yl-9Nk.ibShadowedObjectValues[1] = "Item 2"; ObjectID = "wTo-yl-9Nk"; */
+"wTo-yl-9Nk.ibShadowedObjectValues[1]" = "Item 2";
+
+/* Class = "NSComboBoxCell"; wTo-yl-9Nk.ibShadowedObjectValues[2] = "Item 3"; ObjectID = "wTo-yl-9Nk"; */
+"wTo-yl-9Nk.ibShadowedObjectValues[2]" = "Item 3";
