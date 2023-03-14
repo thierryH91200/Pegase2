@@ -12,12 +12,11 @@ import Cocoa
 
 import SwiftUI
 
-
 import NotificationCenter
 import UserNotifications
 import SwiftyTranslate
 
-import Sparkle
+//import Sparkle
 
 typealias TFDatePicker = NSDatePicker
 
@@ -33,7 +32,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     @IBOutlet var checkForUpdatesMenuItem: NSMenuItem!
     
     // Update controller
-    var updateController: UpdateController!
+//    var updateController: UpdateController!
 
 
     let defaults = UserDefaults.standard

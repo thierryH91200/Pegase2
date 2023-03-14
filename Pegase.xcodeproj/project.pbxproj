@@ -312,6 +312,7 @@
 		0327A21A29C0D67A0027871E /* SchedulersSaisieControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0327A21629C0D67A0027871E /* SchedulersSaisieControllerDelegate.swift */; };
 		0327A21D29C0D68F0027871E /* SchedulersDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0327A21B29C0D68F0027871E /* SchedulersDetailView.swift */; };
 		0327A21E29C0D68F0027871E /* SchedulersDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0327A21C29C0D68F0027871E /* SchedulersDetailView.xib */; };
+		0327A22029C0D8EF0027871E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0327A21F29C0D8EF0027871E /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -637,6 +638,7 @@
 		0327A21629C0D67A0027871E /* SchedulersSaisieControllerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchedulersSaisieControllerDelegate.swift; sourceTree = "<group>"; };
 		0327A21B29C0D68F0027871E /* SchedulersDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchedulersDetailView.swift; sourceTree = "<group>"; };
 		0327A21C29C0D68F0027871E /* SchedulersDetailView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SchedulersDetailView.xib; sourceTree = "<group>"; };
+		0327A21F29C0D8EF0027871E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -755,6 +757,7 @@
 				03279FB229C0B4B90027871E /* Localizable.strings */,
 				0310778229BF403D002B7F0C /* Info.plist */,
 				03279FAC29C0B45E0027871E /* Main.storyboard */,
+				0327A21F29C0D8EF0027871E /* Assets.xcassets */,
 				0310778329BF403D002B7F0C /* Pegase.entitlements */,
 				0310777A29BF403C002B7F0C /* Document.xcdatamodeld */,
 			);
@@ -1686,6 +1689,7 @@
 				03279FB029C0B4B90027871E /* Localizable.strings in Resources */,
 				0327A13529C0D0730027871E /* CategoryBarController1.xib in Resources */,
 				0327A1AD29C0D3150027871E /* BankStatementModalWindowController.xib in Resources */,
+				0327A22029C0D8EF0027871E /* Assets.xcassets in Resources */,
 				030715A629C0A5B30028240B /* Capture10.png in Resources */,
 				0327A0DA29C0CDB00027871E /* ModeOfPaymentViewController.xib in Resources */,
 				0327A12929C0D0560027871E /* RubricPieController.xib in Resources */,
@@ -2116,6 +2120,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Pegase/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
@@ -2123,7 +2128,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.14;
 				PRODUCT_BUNDLE_IDENTIFIER = th.Pegase;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -2146,6 +2151,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Pegase/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
@@ -2153,7 +2159,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.14;
 				PRODUCT_BUNDLE_IDENTIFIER = th.Pegase;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
