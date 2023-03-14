@@ -7,6 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0307159129C0A57A0028240B /* appcast.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0307158D29C0A57A0028240B /* appcast.xml */; };
+		0307159229C0A57A0028240B /* README_fr.md in Resources */ = {isa = PBXBuildFile; fileRef = 0307158E29C0A57A0028240B /* README_fr.md */; };
+		0307159329C0A57A0028240B /* version StoryBoard.md in Resources */ = {isa = PBXBuildFile; fileRef = 0307158F29C0A57A0028240B /* version StoryBoard.md */; };
+		0307159429C0A57A0028240B /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 0307159029C0A57A0028240B /* README.md */; };
+		030715A129C0A5B30028240B /* Capture6.png in Resources */ = {isa = PBXBuildFile; fileRef = 0307159629C0A5B20028240B /* Capture6.png */; };
+		030715A229C0A5B30028240B /* Capture3.png in Resources */ = {isa = PBXBuildFile; fileRef = 0307159729C0A5B20028240B /* Capture3.png */; };
+		030715A329C0A5B30028240B /* Capture4.png in Resources */ = {isa = PBXBuildFile; fileRef = 0307159829C0A5B20028240B /* Capture4.png */; };
+		030715A429C0A5B30028240B /* Capture8.png in Resources */ = {isa = PBXBuildFile; fileRef = 0307159929C0A5B20028240B /* Capture8.png */; };
+		030715A529C0A5B30028240B /* Capture9.png in Resources */ = {isa = PBXBuildFile; fileRef = 0307159A29C0A5B30028240B /* Capture9.png */; };
+		030715A629C0A5B30028240B /* Capture10.png in Resources */ = {isa = PBXBuildFile; fileRef = 0307159B29C0A5B30028240B /* Capture10.png */; };
+		030715A729C0A5B30028240B /* Capture1.png in Resources */ = {isa = PBXBuildFile; fileRef = 0307159C29C0A5B30028240B /* Capture1.png */; };
+		030715A829C0A5B30028240B /* Capture7.png in Resources */ = {isa = PBXBuildFile; fileRef = 0307159D29C0A5B30028240B /* Capture7.png */; };
+		030715A929C0A5B30028240B /* Pegase.png in Resources */ = {isa = PBXBuildFile; fileRef = 0307159E29C0A5B30028240B /* Pegase.png */; };
+		030715AA29C0A5B30028240B /* Capture5.png in Resources */ = {isa = PBXBuildFile; fileRef = 0307159F29C0A5B30028240B /* Capture5.png */; };
+		030715AB29C0A5B30028240B /* Capture2.png in Resources */ = {isa = PBXBuildFile; fileRef = 030715A029C0A5B30028240B /* Capture2.png */; };
 		0310777529BF403C002B7F0C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0310777429BF403C002B7F0C /* AppDelegate.swift */; };
 		0310777729BF403C002B7F0C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0310777629BF403C002B7F0C /* ViewController.swift */; };
 		0310777929BF403C002B7F0C /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0310777829BF403C002B7F0C /* Document.swift */; };
@@ -16,6 +31,21 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0307158D29C0A57A0028240B /* appcast.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = appcast.xml; sourceTree = "<group>"; };
+		0307158E29C0A57A0028240B /* README_fr.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README_fr.md; sourceTree = "<group>"; };
+		0307158F29C0A57A0028240B /* version StoryBoard.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "version StoryBoard.md"; sourceTree = "<group>"; };
+		0307159029C0A57A0028240B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		0307159629C0A5B20028240B /* Capture6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Capture6.png; sourceTree = "<group>"; };
+		0307159729C0A5B20028240B /* Capture3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Capture3.png; sourceTree = "<group>"; };
+		0307159829C0A5B20028240B /* Capture4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Capture4.png; sourceTree = "<group>"; };
+		0307159929C0A5B20028240B /* Capture8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Capture8.png; sourceTree = "<group>"; };
+		0307159A29C0A5B30028240B /* Capture9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Capture9.png; sourceTree = "<group>"; };
+		0307159B29C0A5B30028240B /* Capture10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Capture10.png; sourceTree = "<group>"; };
+		0307159C29C0A5B30028240B /* Capture1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Capture1.png; sourceTree = "<group>"; };
+		0307159D29C0A5B30028240B /* Capture7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Capture7.png; sourceTree = "<group>"; };
+		0307159E29C0A5B30028240B /* Pegase.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Pegase.png; sourceTree = "<group>"; };
+		0307159F29C0A5B30028240B /* Capture5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Capture5.png; sourceTree = "<group>"; };
+		030715A029C0A5B30028240B /* Capture2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Capture2.png; sourceTree = "<group>"; };
 		0310777129BF403C002B7F0C /* Pegase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pegase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0310777429BF403C002B7F0C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0310777629BF403C002B7F0C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -38,9 +68,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0307158C29C0A53D0028240B /* Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Group;
+			sourceTree = "<group>";
+		};
+		0307159529C0A58B0028240B /* Doc */ = {
+			isa = PBXGroup;
+			children = (
+				0307159C29C0A5B30028240B /* Capture1.png */,
+				030715A029C0A5B30028240B /* Capture2.png */,
+				0307159729C0A5B20028240B /* Capture3.png */,
+				0307159829C0A5B20028240B /* Capture4.png */,
+				0307159F29C0A5B30028240B /* Capture5.png */,
+				0307159629C0A5B20028240B /* Capture6.png */,
+				0307159D29C0A5B30028240B /* Capture7.png */,
+				0307159929C0A5B20028240B /* Capture8.png */,
+				0307159A29C0A5B30028240B /* Capture9.png */,
+				0307159B29C0A5B30028240B /* Capture10.png */,
+				0307159E29C0A5B30028240B /* Pegase.png */,
+			);
+			path = Doc;
+			sourceTree = "<group>";
+		};
 		0310776829BF403C002B7F0C = {
 			isa = PBXGroup;
 			children = (
+				0307159529C0A58B0028240B /* Doc */,
+				0307158D29C0A57A0028240B /* appcast.xml */,
+				0307158E29C0A57A0028240B /* README_fr.md */,
+				0307159029C0A57A0028240B /* README.md */,
+				0307158F29C0A57A0028240B /* version StoryBoard.md */,
 				0310777329BF403C002B7F0C /* Pegase */,
 				0310777229BF403C002B7F0C /* Products */,
 			);
@@ -57,6 +117,7 @@
 		0310777329BF403C002B7F0C /* Pegase */ = {
 			isa = PBXGroup;
 			children = (
+				0307158C29C0A53D0028240B /* Group */,
 				0310777429BF403C002B7F0C /* AppDelegate.swift */,
 				0310777629BF403C002B7F0C /* ViewController.swift */,
 				0310777829BF403C002B7F0C /* Document.swift */,
@@ -127,8 +188,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0307159429C0A57A0028240B /* README.md in Resources */,
+				0307159229C0A57A0028240B /* README_fr.md in Resources */,
 				0310777E29BF403D002B7F0C /* Assets.xcassets in Resources */,
 				0310778129BF403D002B7F0C /* Main.storyboard in Resources */,
+				030715A729C0A5B30028240B /* Capture1.png in Resources */,
+				030715AB29C0A5B30028240B /* Capture2.png in Resources */,
+				0307159329C0A57A0028240B /* version StoryBoard.md in Resources */,
+				030715A129C0A5B30028240B /* Capture6.png in Resources */,
+				030715A229C0A5B30028240B /* Capture3.png in Resources */,
+				030715AA29C0A5B30028240B /* Capture5.png in Resources */,
+				030715A829C0A5B30028240B /* Capture7.png in Resources */,
+				030715A929C0A5B30028240B /* Pegase.png in Resources */,
+				0307159129C0A57A0028240B /* appcast.xml in Resources */,
+				030715A329C0A5B30028240B /* Capture4.png in Resources */,
+				030715A629C0A5B30028240B /* Capture10.png in Resources */,
+				030715A529C0A5B30028240B /* Capture9.png in Resources */,
+				030715A429C0A5B30028240B /* Capture8.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
