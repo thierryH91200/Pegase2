@@ -22,6 +22,13 @@
 		030715A929C0A5B30028240B /* Pegase.png in Resources */ = {isa = PBXBuildFile; fileRef = 0307159E29C0A5B30028240B /* Pegase.png */; };
 		030715AA29C0A5B30028240B /* Capture5.png in Resources */ = {isa = PBXBuildFile; fileRef = 0307159F29C0A5B30028240B /* Capture5.png */; };
 		030715AB29C0A5B30028240B /* Capture2.png in Resources */ = {isa = PBXBuildFile; fileRef = 030715A029C0A5B30028240B /* Capture2.png */; };
+		030715AD29C0A5E60028240B /* Package.resolved in Resources */ = {isa = PBXBuildFile; fileRef = 030715AC29C0A5E60028240B /* Package.resolved */; };
+		030715B029C0A6610028240B /* LaunchAtLogin in Frameworks */ = {isa = PBXBuildFile; productRef = 030715AF29C0A6610028240B /* LaunchAtLogin */; };
+		030715B329C0A6A30028240B /* SwiftyTranslate in Frameworks */ = {isa = PBXBuildFile; productRef = 030715B229C0A6A30028240B /* SwiftyTranslate */; };
+		030715B629C0A6D10028240B /* SwiftDate in Frameworks */ = {isa = PBXBuildFile; productRef = 030715B529C0A6D10028240B /* SwiftDate */; };
+		030715B929C0A75C0028240B /* Charts in Frameworks */ = {isa = PBXBuildFile; productRef = 030715B829C0A75C0028240B /* Charts */; };
+		030715BC29C0A8810028240B /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 030715BB29C0A8810028240B /* Alamofire */; };
+		030715BF29C0A8D10028240B /* Defaults in Frameworks */ = {isa = PBXBuildFile; productRef = 030715BE29C0A8D10028240B /* Defaults */; };
 		0310777529BF403C002B7F0C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0310777429BF403C002B7F0C /* AppDelegate.swift */; };
 		0310777729BF403C002B7F0C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0310777629BF403C002B7F0C /* ViewController.swift */; };
 		0310777929BF403C002B7F0C /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0310777829BF403C002B7F0C /* Document.swift */; };
@@ -46,6 +53,7 @@
 		0307159E29C0A5B30028240B /* Pegase.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Pegase.png; sourceTree = "<group>"; };
 		0307159F29C0A5B30028240B /* Capture5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Capture5.png; sourceTree = "<group>"; };
 		030715A029C0A5B30028240B /* Capture2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Capture2.png; sourceTree = "<group>"; };
+		030715AC29C0A5E60028240B /* Package.resolved */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Package.resolved; sourceTree = "<group>"; };
 		0310777129BF403C002B7F0C /* Pegase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pegase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0310777429BF403C002B7F0C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0310777629BF403C002B7F0C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -62,6 +70,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				030715BF29C0A8D10028240B /* Defaults in Frameworks */,
+				030715BC29C0A8810028240B /* Alamofire in Frameworks */,
+				030715B029C0A6610028240B /* LaunchAtLogin in Frameworks */,
+				030715B329C0A6A30028240B /* SwiftyTranslate in Frameworks */,
+				030715B629C0A6D10028240B /* SwiftDate in Frameworks */,
+				030715B929C0A75C0028240B /* Charts in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -117,6 +131,7 @@
 		0310777329BF403C002B7F0C /* Pegase */ = {
 			isa = PBXGroup;
 			children = (
+				030715AC29C0A5E60028240B /* Package.resolved */,
 				0307158C29C0A53D0028240B /* Group */,
 				0310777429BF403C002B7F0C /* AppDelegate.swift */,
 				0310777629BF403C002B7F0C /* ViewController.swift */,
@@ -146,6 +161,14 @@
 			dependencies = (
 			);
 			name = Pegase;
+			packageProductDependencies = (
+				030715AF29C0A6610028240B /* LaunchAtLogin */,
+				030715B229C0A6A30028240B /* SwiftyTranslate */,
+				030715B529C0A6D10028240B /* SwiftDate */,
+				030715B829C0A75C0028240B /* Charts */,
+				030715BB29C0A8810028240B /* Alamofire */,
+				030715BE29C0A8D10028240B /* Defaults */,
+			);
 			productName = Pegase;
 			productReference = 0310777129BF403C002B7F0C /* Pegase.app */;
 			productType = "com.apple.product-type.application";
@@ -174,6 +197,14 @@
 				Base,
 			);
 			mainGroup = 0310776829BF403C002B7F0C;
+			packageReferences = (
+				030715AE29C0A6610028240B /* XCRemoteSwiftPackageReference "LaunchAtLogin" */,
+				030715B129C0A6A30028240B /* XCRemoteSwiftPackageReference "SwiftyTranslate" */,
+				030715B429C0A6D10028240B /* XCRemoteSwiftPackageReference "SwiftDate" */,
+				030715B729C0A75C0028240B /* XCRemoteSwiftPackageReference "Charts" */,
+				030715BA29C0A8810028240B /* XCRemoteSwiftPackageReference "Alamofire" */,
+				030715BD29C0A8D10028240B /* XCRemoteSwiftPackageReference "Defaults" */,
+			);
 			productRefGroup = 0310777229BF403C002B7F0C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -204,6 +235,7 @@
 				030715A329C0A5B30028240B /* Capture4.png in Resources */,
 				030715A629C0A5B30028240B /* Capture10.png in Resources */,
 				030715A529C0A5B30028240B /* Capture9.png in Resources */,
+				030715AD29C0A5E60028240B /* Package.resolved in Resources */,
 				030715A429C0A5B30028240B /* Capture8.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -427,6 +459,90 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		030715AE29C0A6610028240B /* XCRemoteSwiftPackageReference "LaunchAtLogin" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sindresorhus/LaunchAtLogin";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		030715B129C0A6A30028240B /* XCRemoteSwiftPackageReference "SwiftyTranslate" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/cpageler93/SwiftyTranslate";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		030715B429C0A6D10028240B /* XCRemoteSwiftPackageReference "SwiftDate" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/malcommac/SwiftDate";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+		030715B729C0A75C0028240B /* XCRemoteSwiftPackageReference "Charts" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/danielgindi/Charts";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.1.0;
+			};
+		};
+		030715BA29C0A8810028240B /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		030715BD29C0A8D10028240B /* XCRemoteSwiftPackageReference "Defaults" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sindresorhus/Defaults";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		030715AF29C0A6610028240B /* LaunchAtLogin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 030715AE29C0A6610028240B /* XCRemoteSwiftPackageReference "LaunchAtLogin" */;
+			productName = LaunchAtLogin;
+		};
+		030715B229C0A6A30028240B /* SwiftyTranslate */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 030715B129C0A6A30028240B /* XCRemoteSwiftPackageReference "SwiftyTranslate" */;
+			productName = SwiftyTranslate;
+		};
+		030715B529C0A6D10028240B /* SwiftDate */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 030715B429C0A6D10028240B /* XCRemoteSwiftPackageReference "SwiftDate" */;
+			productName = SwiftDate;
+		};
+		030715B829C0A75C0028240B /* Charts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 030715B729C0A75C0028240B /* XCRemoteSwiftPackageReference "Charts" */;
+			productName = Charts;
+		};
+		030715BB29C0A8810028240B /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 030715BA29C0A8810028240B /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		030715BE29C0A8D10028240B /* Defaults */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 030715BD29C0A8D10028240B /* XCRemoteSwiftPackageReference "Defaults" */;
+			productName = Defaults;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		0310777A29BF403C002B7F0C /* Document.xcdatamodeld */ = {

@@ -1,0 +1,70 @@
+{
+
+  "object": {
+  "pins" : [
+    {
+      "identity" : "charts",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/danielgindi/Charts",
+      "state" : {
+        "branch" : "master",
+        "version" : null,
+        "revision" : "203700608a6e956e591e7387d77423fa3fea6947"
+      }
+    },
+    {
+      "identity" : "launchatlogin",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/sindresorhus/LaunchAtLogin",
+      "state" : {
+        "branch" : "main",
+        "version": null,
+        "revision" : "05168c04c91fdf6c432852c2fe0737af6437195c"
+
+      }
+    },
+    {
+      "identity" : "swift-algorithms",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apple/swift-algorithms",
+      "state" : {
+        "branch": null,
+        "version" : "1.0.0",
+        "revision" : "b14b7f4c528c942f121c8b860b9410b2bf57825e"
+      }
+    },
+    {
+      "identity" : "swift-numerics",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apple/swift-numerics",
+      "state" : {
+        "branch": null,
+        "version" : "1.0.2",
+        "revision" : "0a5bc04095a675662cf24757cc0640aa2204253b"
+
+      }
+    },
+    {
+      "identity" : "swiftdate",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/malcommac/SwiftDate",
+      "state" : {
+        "branch" : null,
+        "version" : "7.0.0",
+        "revision" : "5d943224c3bb173e6ecf27295611615eba90c80e"
+      }
+    },
+    {
+      "identity" : "swiftytranslate",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/cpageler93/SwiftyTranslate",
+      "state" : {
+        "branch" : "master",
+        "version": null,
+        "revision" : "5a5d84d8d0cab536563a274c3b37a7099237777e"
+      }
+    }
+  ],
+  },
+  "version" : 2
+}
