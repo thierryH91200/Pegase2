@@ -130,6 +130,98 @@
 		0327A07829C0C5900027871E /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0327A07629C0C5900027871E /* SettingsView.swift */; };
 		0327A07929C0C5900027871E /* SettingsVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0327A07729C0C5900027871E /* SettingsVM.swift */; };
 		0327A07C29C0C5C90027871E /* ShortcutOnMarket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0327A07B29C0C5C90027871E /* ShortcutOnMarket.swift */; };
+		0327A07F29C0C6DD0027871E /* AccessibilityImageDescriptions.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0327A07D29C0C6DD0027871E /* AccessibilityImageDescriptions.strings */; };
+		0327A08029C0C6DD0027871E /* Localizations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0327A07E29C0C6DD0027871E /* Localizations.swift */; };
+		0327A08E29C0C8030027871E /* TTFormatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0327A08329C0C8030027871E /* TTFormatViewController.swift */; };
+		0327A08F29C0C8030027871E /* TTFormatViewControllerAccessory.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0327A08429C0C8030027871E /* TTFormatViewControllerAccessory.xib */; };
+		0327A09029C0C8030027871E /* TTFormatViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0327A08529C0C8030027871E /* TTFormatViewController.xib */; };
+		0327A09129C0C8030027871E /* ImportWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0327A08629C0C8030027871E /* ImportWindowController.xib */; };
+		0327A09229C0C8030027871E /* ImportBankStatementWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0327A08729C0C8030027871E /* ImportBankStatementWindowController.swift */; };
+		0327A09329C0C8030027871E /* ImportWindowControllerParserDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0327A08829C0C8030027871E /* ImportWindowControllerParserDelegate.swift */; };
+		0327A09429C0C8030027871E /* ImportSchedulersWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0327A08929C0C8030027871E /* ImportSchedulersWindowController.swift */; };
+		0327A09529C0C8030027871E /* ImportWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0327A08A29C0C8030027871E /* ImportWindowController.swift */; };
+		0327A09629C0C8030027871E /* ImportWindowControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0327A08B29C0C8030027871E /* ImportWindowControllerExtension.swift */; };
+		0327A09729C0C8030027871E /* ImportTransactionsWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0327A08C29C0C8030027871E /* ImportTransactionsWindowController.swift */; };
+		0327A09829C0C8030027871E /* ImportWindowControllerMenuDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0327A08D29C0C8030027871E /* ImportWindowControllerMenuDelegate.swift */; };
+		0327A09F29C0C82E0027871E /* CSVParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0327A09A29C0C82E0027871E /* CSVParser.swift */; };
+		0327A0A029C0C82E0027871E /* CSV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0327A09B29C0C82E0027871E /* CSV.swift */; };
+		0327A0A129C0C82E0027871E /* CSVWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0327A09C29C0C82E0027871E /* CSVWriter.swift */; };
+		0327A0A229C0C82E0027871E /* CSVParserDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0327A09D29C0C82E0027871E /* CSVParserDelegate.swift */; };
+		0327A0A329C0C82E0027871E /* CSVConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0327A09E29C0C82E0027871E /* CSVConfig.swift */; };
+		0327A0AA29C0CA300027871E /* SourceListViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0327A0A629C0CA300027871E /* SourceListViewDelegate.swift */; };
+		0327A0AB29C0CA300027871E /* SourceListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0327A0A729C0CA300027871E /* SourceListViewController.swift */; };
+		0327A0AC29C0CA300027871E /* SourceListViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0327A0A829C0CA300027871E /* SourceListViewDataSource.swift */; };
+		0327A0AD29C0CA300027871E /* SourceListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0327A0A929C0CA300027871E /* SourceListViewController.xib */; };
+		0327A0B229C0CA9C0027871E /* Feed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0327A0B129C0CA9C0027871E /* Feed.swift */; };
+		0327A0B329C0CAA70027871E /* Feeds.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0327A0B529C0CAA70027871E /* Feeds.plist */; };
+		0327A0C329C0CBFE0027871E /* CurtainClose640.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0327A0BD29C0CBFE0027871E /* CurtainClose640.gif */; };
+		0327A0C429C0CBFE0027871E /* curtain.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0327A0BE29C0CBFE0027871E /* curtain.jpg */; };
+		0327A0C529C0CBFE0027871E /* CurtainOpen640.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0327A0BF29C0CBFE0027871E /* CurtainOpen640.gif */; };
+		0327A0C629C0CBFE0027871E /* CURTAINS OPEN.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0327A0C029C0CBFE0027871E /* CURTAINS OPEN.wav */; };
+		0327A0C729C0CBFE0027871E /* MyDB.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 0327A0C129C0CBFE0027871E /* MyDB.sqlite */; };
+		0327A0C829C0CBFE0027871E /* CURTAINS CLOSE_OPEN.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0327A0C229C0CBFE0027871E /* CURTAINS CLOSE_OPEN.wav */; };
+		0327A0D729C0CDB00027871E /* ModeModalWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0327A0D329C0CDB00027871E /* ModeModalWindowController.xib */; };
+		0327A0D829C0CDB00027871E /* ModeModalWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0327A0D429C0CDB00027871E /* ModeModalWindowController.swift */; };
+		0327A0D929C0CDB00027871E /* ModeOfPaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0327A0D529C0CDB00027871E /* ModeOfPaymentViewController.swift */; };
+		0327A0DA29C0CDB00027871E /* ModeOfPaymentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0327A0D629C0CDB00027871E /* ModeOfPaymentViewController.xib */; };
+		0327A0DE29C0CDC40027871E /* PreferenceOperationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0327A0DB29C0CDC40027871E /* PreferenceOperationViewController.swift */; };
+		0327A0DF29C0CDC40027871E /* PreferenceOperationViewControllerPopUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0327A0DC29C0CDC40027871E /* PreferenceOperationViewControllerPopUp.swift */; };
+		0327A0E029C0CDC40027871E /* PreferenceOperationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0327A0DD29C0CDC40027871E /* PreferenceOperationViewController.xib */; };
+		0327A0E329C0CDDE0027871E /* ParameterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0327A0E129C0CDDE0027871E /* ParameterController.swift */; };
+		0327A0E429C0CDDE0027871E /* ParameterController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0327A0E229C0CDDE0027871E /* ParameterController.xib */; };
+		0327A0E729C0CDF40027871E /* IdentiteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0327A0E529C0CDF40027871E /* IdentiteViewController.swift */; };
+		0327A0E829C0CDF40027871E /* IdentiteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0327A0E629C0CDF40027871E /* IdentiteViewController.xib */; };
+		0327A0ED29C0CEF80027871E /* ChequiersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0327A0EB29C0CEF80027871E /* ChequiersViewController.swift */; };
+		0327A0EE29C0CEF80027871E /* ChequiersViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0327A0EC29C0CEF80027871E /* ChequiersViewController.xib */; };
+		0327A0F129C0CF110027871E /* ChequiersDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0327A0EF29C0CF110027871E /* ChequiersDetailView.xib */; };
+		0327A0F229C0CF110027871E /* ChequiersDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0327A0F029C0CF110027871E /* ChequiersDetailView.swift */; };
+		0327A0F529C0CF1E0027871E /* ChequierModalWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0327A0F329C0CF1E0027871E /* ChequierModalWindowController.xib */; };
+		0327A0F629C0CF1E0027871E /* ChequierModalWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0327A0F429C0CF1E0027871E /* ChequierModalWindowController.swift */; };
+		0327A0FD29C0CF4B0027871E /* RubriqueViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0327A0F729C0CF4A0027871E /* RubriqueViewDataSource.swift */; };
+		0327A0FE29C0CF4B0027871E /* RubriqueViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0327A0F829C0CF4A0027871E /* RubriqueViewDelegate.swift */; };
+		0327A0FF29C0CF4B0027871E /* RubriqueViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0327A0F929C0CF4A0027871E /* RubriqueViewController.xib */; };
+		0327A10029C0CF4B0027871E /* RubriqueViewAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0327A0FA29C0CF4A0027871E /* RubriqueViewAction.swift */; };
+		0327A10129C0CF4B0027871E /* RubriqueViewDragDrop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0327A0FB29C0CF4A0027871E /* RubriqueViewDragDrop.swift */; };
+		0327A10229C0CF4B0027871E /* RubriqueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0327A0FC29C0CF4A0027871E /* RubriqueViewController.swift */; };
+		0327A10B29C0CF5E0027871E /* ComboColorWellCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0327A10329C0CF5E0027871E /* ComboColorWellCell.swift */; };
+		0327A10C29C0CF5E0027871E /* ComboColorWell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0327A10429C0CF5E0027871E /* ComboColorWell.swift */; };
+		0327A10D29C0CF5E0027871E /* ColorGridController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0327A10529C0CF5E0027871E /* ColorGridController.swift */; };
+		0327A10E29C0CF5E0027871E /* ColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0327A10629C0CF5E0027871E /* ColorView.swift */; };
+		0327A10F29C0CF5E0027871E /* ColorGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0327A10729C0CF5E0027871E /* ColorGridView.swift */; };
+		0327A11029C0CF5E0027871E /* ComboColorWellImages.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0327A10829C0CF5E0027871E /* ComboColorWellImages.xcassets */; };
+		0327A11129C0CF5E0027871E /* MouseTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0327A10929C0CF5E0027871E /* MouseTracker.swift */; };
+		0327A11229C0CF5E0027871E /* ColorUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0327A10A29C0CF5E0027871E /* ColorUtilities.swift */; };
+		0327A11729C0CF800027871E /* CategorieModalWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0327A11329C0CF800027871E /* CategorieModalWindowController.xib */; };
+		0327A11829C0CF800027871E /* CategorieModalWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0327A11429C0CF800027871E /* CategorieModalWindowController.swift */; };
+		0327A11929C0CF800027871E /* RubriqueModalWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0327A11529C0CF800027871E /* RubriqueModalWindowController.swift */; };
+		0327A11A29C0CF800027871E /* RubriqueModalWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0327A11629C0CF800027871E /* RubriqueModalWindowController.xib */; };
+		0327A12129C0D0470027871E /* CommonGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0327A12029C0D0470027871E /* CommonGraph.swift */; };
+		0327A12629C0D0560027871E /* RubricPieController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0327A12229C0D0560027871E /* RubricPieController.swift */; };
+		0327A12729C0D0560027871E /* RubricBarController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0327A12329C0D0560027871E /* RubricBarController.xib */; };
+		0327A12829C0D0560027871E /* RubricBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0327A12429C0D0560027871E /* RubricBarController.swift */; };
+		0327A12929C0D0560027871E /* RubricPieController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0327A12529C0D0560027871E /* RubricPieController.xib */; };
+		0327A12C29C0D0630027871E /* PaymentModePieController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0327A12A29C0D0630027871E /* PaymentModePieController.swift */; };
+		0327A12D29C0D0630027871E /* PaymentModePieController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0327A12B29C0D0630027871E /* PaymentModePieController.xib */; };
+		0327A13229C0D0730027871E /* CategoryBarController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0327A12E29C0D0730027871E /* CategoryBarController1.swift */; };
+		0327A13329C0D0730027871E /* CategoryBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0327A12F29C0D0730027871E /* CategoryBarController.swift */; };
+		0327A13429C0D0730027871E /* CategoryBarController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0327A13029C0D0730027871E /* CategoryBarController.xib */; };
+		0327A13529C0D0730027871E /* CategoryBarController1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0327A13129C0D0730027871E /* CategoryBarController1.xib */; };
+		0327A13A29C0D0890027871E /* IncomeExpensePieController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0327A13629C0D0890027871E /* IncomeExpensePieController.swift */; };
+		0327A13B29C0D0890027871E /* IncomeExpenseBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0327A13729C0D0890027871E /* IncomeExpenseBarController.swift */; };
+		0327A13C29C0D0890027871E /* IncomeExpenseBarController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0327A13829C0D0890027871E /* IncomeExpenseBarController.xib */; };
+		0327A13D29C0D0890027871E /* IncomeExpensePieController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0327A13929C0D0890027871E /* IncomeExpensePieController.xib */; };
+		0327A14629C0D0CE0027871E /* GeneralViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0327A14029C0D0CE0027871E /* GeneralViewController.xib */; };
+		0327A14729C0D0CE0027871E /* AccountViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0327A14129C0D0CE0027871E /* AccountViewController.xib */; };
+		0327A14829C0D0CE0027871E /* PersonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0327A14229C0D0CE0027871E /* PersonViewController.swift */; };
+		0327A14929C0D0CE0027871E /* PersonViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0327A14329C0D0CE0027871E /* PersonViewController.xib */; };
+		0327A14A29C0D0CE0027871E /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0327A14429C0D0CE0027871E /* AccountViewController.swift */; };
+		0327A14B29C0D0CE0027871E /* GeneralViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0327A14529C0D0CE0027871E /* GeneralViewController.swift */; };
+		0327A15229C0D0DD0027871E /* Preferenceable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0327A14C29C0D0DD0027871E /* Preferenceable.swift */; };
+		0327A15329C0D0DD0027871E /* PreferencesWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0327A14D29C0D0DD0027871E /* PreferencesWindowController.swift */; };
+		0327A15429C0D0DD0027871E /* Preferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0327A14E29C0D0DD0027871E /* Preferences.swift */; };
+		0327A15529C0D0DD0027871E /* PreferenceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0327A14F29C0D0DD0027871E /* PreferenceKey.swift */; };
+		0327A15629C0D0DD0027871E /* PreferencesTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0327A15029C0D0DD0027871E /* PreferencesTabViewController.swift */; };
+		0327A15729C0D0DD0027871E /* util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0327A15129C0D0DD0027871E /* util.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -267,6 +359,104 @@
 		0327A07629C0C5900027871E /* SettingsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		0327A07729C0C5900027871E /* SettingsVM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsVM.swift; sourceTree = "<group>"; };
 		0327A07B29C0C5C90027871E /* ShortcutOnMarket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShortcutOnMarket.swift; sourceTree = "<group>"; };
+		0327A07D29C0C6DD0027871E /* AccessibilityImageDescriptions.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = AccessibilityImageDescriptions.strings; sourceTree = "<group>"; };
+		0327A07E29C0C6DD0027871E /* Localizations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Localizations.swift; sourceTree = "<group>"; };
+		0327A08329C0C8030027871E /* TTFormatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TTFormatViewController.swift; sourceTree = "<group>"; };
+		0327A08429C0C8030027871E /* TTFormatViewControllerAccessory.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TTFormatViewControllerAccessory.xib; sourceTree = "<group>"; };
+		0327A08529C0C8030027871E /* TTFormatViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TTFormatViewController.xib; sourceTree = "<group>"; };
+		0327A08629C0C8030027871E /* ImportWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImportWindowController.xib; sourceTree = "<group>"; };
+		0327A08729C0C8030027871E /* ImportBankStatementWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImportBankStatementWindowController.swift; sourceTree = "<group>"; };
+		0327A08829C0C8030027871E /* ImportWindowControllerParserDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImportWindowControllerParserDelegate.swift; sourceTree = "<group>"; };
+		0327A08929C0C8030027871E /* ImportSchedulersWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImportSchedulersWindowController.swift; sourceTree = "<group>"; };
+		0327A08A29C0C8030027871E /* ImportWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImportWindowController.swift; sourceTree = "<group>"; };
+		0327A08B29C0C8030027871E /* ImportWindowControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImportWindowControllerExtension.swift; sourceTree = "<group>"; };
+		0327A08C29C0C8030027871E /* ImportTransactionsWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImportTransactionsWindowController.swift; sourceTree = "<group>"; };
+		0327A08D29C0C8030027871E /* ImportWindowControllerMenuDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImportWindowControllerMenuDelegate.swift; sourceTree = "<group>"; };
+		0327A09A29C0C82E0027871E /* CSVParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSVParser.swift; sourceTree = "<group>"; };
+		0327A09B29C0C82E0027871E /* CSV.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSV.swift; sourceTree = "<group>"; };
+		0327A09C29C0C82E0027871E /* CSVWriter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSVWriter.swift; sourceTree = "<group>"; };
+		0327A09D29C0C82E0027871E /* CSVParserDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSVParserDelegate.swift; sourceTree = "<group>"; };
+		0327A09E29C0C82E0027871E /* CSVConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSVConfig.swift; sourceTree = "<group>"; };
+		0327A0A629C0CA300027871E /* SourceListViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SourceListViewDelegate.swift; sourceTree = "<group>"; };
+		0327A0A729C0CA300027871E /* SourceListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SourceListViewController.swift; sourceTree = "<group>"; };
+		0327A0A829C0CA300027871E /* SourceListViewDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SourceListViewDataSource.swift; sourceTree = "<group>"; };
+		0327A0A929C0CA300027871E /* SourceListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SourceListViewController.xib; sourceTree = "<group>"; };
+		0327A0AE29C0CA730027871E /* eventually.m4r */ = {isa = PBXFileReference; lastKnownFileType = file; path = eventually.m4r; sourceTree = "<group>"; };
+		0327A0B129C0CA9C0027871E /* Feed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Feed.swift; sourceTree = "<group>"; };
+		0327A0B429C0CAA70027871E /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Base; path = Base.lproj/Feeds.plist; sourceTree = "<group>"; };
+		0327A0B629C0CAAB0027871E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = en; path = en.lproj/Feeds.plist; sourceTree = "<group>"; };
+		0327A0B729C0CAAD0027871E /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = fr; path = fr.lproj/Feeds.plist; sourceTree = "<group>"; };
+		0327A0B829C0CAAD0027871E /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = de; path = de.lproj/Feeds.plist; sourceTree = "<group>"; };
+		0327A0B929C0CAAF0027871E /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = it; path = it.lproj/Feeds.plist; sourceTree = "<group>"; };
+		0327A0BA29C0CAAF0027871E /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = es; path = es.lproj/Feeds.plist; sourceTree = "<group>"; };
+		0327A0BD29C0CBFE0027871E /* CurtainClose640.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = CurtainClose640.gif; sourceTree = "<group>"; };
+		0327A0BE29C0CBFE0027871E /* curtain.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = curtain.jpg; sourceTree = "<group>"; };
+		0327A0BF29C0CBFE0027871E /* CurtainOpen640.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = CurtainOpen640.gif; sourceTree = "<group>"; };
+		0327A0C029C0CBFE0027871E /* CURTAINS OPEN.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "CURTAINS OPEN.wav"; sourceTree = "<group>"; };
+		0327A0C129C0CBFE0027871E /* MyDB.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = MyDB.sqlite; sourceTree = "<group>"; };
+		0327A0C229C0CBFE0027871E /* CURTAINS CLOSE_OPEN.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "CURTAINS CLOSE_OPEN.wav"; sourceTree = "<group>"; };
+		0327A0D329C0CDB00027871E /* ModeModalWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ModeModalWindowController.xib; sourceTree = "<group>"; };
+		0327A0D429C0CDB00027871E /* ModeModalWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModeModalWindowController.swift; sourceTree = "<group>"; };
+		0327A0D529C0CDB00027871E /* ModeOfPaymentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModeOfPaymentViewController.swift; sourceTree = "<group>"; };
+		0327A0D629C0CDB00027871E /* ModeOfPaymentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ModeOfPaymentViewController.xib; sourceTree = "<group>"; };
+		0327A0DB29C0CDC40027871E /* PreferenceOperationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreferenceOperationViewController.swift; sourceTree = "<group>"; };
+		0327A0DC29C0CDC40027871E /* PreferenceOperationViewControllerPopUp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreferenceOperationViewControllerPopUp.swift; sourceTree = "<group>"; };
+		0327A0DD29C0CDC40027871E /* PreferenceOperationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PreferenceOperationViewController.xib; sourceTree = "<group>"; };
+		0327A0E129C0CDDE0027871E /* ParameterController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParameterController.swift; sourceTree = "<group>"; };
+		0327A0E229C0CDDE0027871E /* ParameterController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ParameterController.xib; sourceTree = "<group>"; };
+		0327A0E529C0CDF40027871E /* IdentiteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IdentiteViewController.swift; sourceTree = "<group>"; };
+		0327A0E629C0CDF40027871E /* IdentiteViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IdentiteViewController.xib; sourceTree = "<group>"; };
+		0327A0EB29C0CEF80027871E /* ChequiersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChequiersViewController.swift; sourceTree = "<group>"; };
+		0327A0EC29C0CEF80027871E /* ChequiersViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChequiersViewController.xib; sourceTree = "<group>"; };
+		0327A0EF29C0CF110027871E /* ChequiersDetailView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChequiersDetailView.xib; sourceTree = "<group>"; };
+		0327A0F029C0CF110027871E /* ChequiersDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChequiersDetailView.swift; sourceTree = "<group>"; };
+		0327A0F329C0CF1E0027871E /* ChequierModalWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChequierModalWindowController.xib; sourceTree = "<group>"; };
+		0327A0F429C0CF1E0027871E /* ChequierModalWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChequierModalWindowController.swift; sourceTree = "<group>"; };
+		0327A0F729C0CF4A0027871E /* RubriqueViewDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RubriqueViewDataSource.swift; sourceTree = "<group>"; };
+		0327A0F829C0CF4A0027871E /* RubriqueViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RubriqueViewDelegate.swift; sourceTree = "<group>"; };
+		0327A0F929C0CF4A0027871E /* RubriqueViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RubriqueViewController.xib; sourceTree = "<group>"; };
+		0327A0FA29C0CF4A0027871E /* RubriqueViewAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RubriqueViewAction.swift; sourceTree = "<group>"; };
+		0327A0FB29C0CF4A0027871E /* RubriqueViewDragDrop.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RubriqueViewDragDrop.swift; sourceTree = "<group>"; };
+		0327A0FC29C0CF4A0027871E /* RubriqueViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RubriqueViewController.swift; sourceTree = "<group>"; };
+		0327A10329C0CF5E0027871E /* ComboColorWellCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComboColorWellCell.swift; sourceTree = "<group>"; };
+		0327A10429C0CF5E0027871E /* ComboColorWell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComboColorWell.swift; sourceTree = "<group>"; };
+		0327A10529C0CF5E0027871E /* ColorGridController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorGridController.swift; sourceTree = "<group>"; };
+		0327A10629C0CF5E0027871E /* ColorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorView.swift; sourceTree = "<group>"; };
+		0327A10729C0CF5E0027871E /* ColorGridView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorGridView.swift; sourceTree = "<group>"; };
+		0327A10829C0CF5E0027871E /* ComboColorWellImages.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = ComboColorWellImages.xcassets; sourceTree = "<group>"; };
+		0327A10929C0CF5E0027871E /* MouseTracker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MouseTracker.swift; sourceTree = "<group>"; };
+		0327A10A29C0CF5E0027871E /* ColorUtilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorUtilities.swift; sourceTree = "<group>"; };
+		0327A11329C0CF800027871E /* CategorieModalWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CategorieModalWindowController.xib; sourceTree = "<group>"; };
+		0327A11429C0CF800027871E /* CategorieModalWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategorieModalWindowController.swift; sourceTree = "<group>"; };
+		0327A11529C0CF800027871E /* RubriqueModalWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RubriqueModalWindowController.swift; sourceTree = "<group>"; };
+		0327A11629C0CF800027871E /* RubriqueModalWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RubriqueModalWindowController.xib; sourceTree = "<group>"; };
+		0327A12029C0D0470027871E /* CommonGraph.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonGraph.swift; sourceTree = "<group>"; };
+		0327A12229C0D0560027871E /* RubricPieController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RubricPieController.swift; sourceTree = "<group>"; };
+		0327A12329C0D0560027871E /* RubricBarController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RubricBarController.xib; sourceTree = "<group>"; };
+		0327A12429C0D0560027871E /* RubricBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RubricBarController.swift; sourceTree = "<group>"; };
+		0327A12529C0D0560027871E /* RubricPieController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RubricPieController.xib; sourceTree = "<group>"; };
+		0327A12A29C0D0630027871E /* PaymentModePieController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentModePieController.swift; sourceTree = "<group>"; };
+		0327A12B29C0D0630027871E /* PaymentModePieController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PaymentModePieController.xib; sourceTree = "<group>"; };
+		0327A12E29C0D0730027871E /* CategoryBarController1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryBarController1.swift; sourceTree = "<group>"; };
+		0327A12F29C0D0730027871E /* CategoryBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryBarController.swift; sourceTree = "<group>"; };
+		0327A13029C0D0730027871E /* CategoryBarController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CategoryBarController.xib; sourceTree = "<group>"; };
+		0327A13129C0D0730027871E /* CategoryBarController1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CategoryBarController1.xib; sourceTree = "<group>"; };
+		0327A13629C0D0890027871E /* IncomeExpensePieController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IncomeExpensePieController.swift; sourceTree = "<group>"; };
+		0327A13729C0D0890027871E /* IncomeExpenseBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IncomeExpenseBarController.swift; sourceTree = "<group>"; };
+		0327A13829C0D0890027871E /* IncomeExpenseBarController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IncomeExpenseBarController.xib; sourceTree = "<group>"; };
+		0327A13929C0D0890027871E /* IncomeExpensePieController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IncomeExpensePieController.xib; sourceTree = "<group>"; };
+		0327A14029C0D0CE0027871E /* GeneralViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GeneralViewController.xib; sourceTree = "<group>"; };
+		0327A14129C0D0CE0027871E /* AccountViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AccountViewController.xib; sourceTree = "<group>"; };
+		0327A14229C0D0CE0027871E /* PersonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonViewController.swift; sourceTree = "<group>"; };
+		0327A14329C0D0CE0027871E /* PersonViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PersonViewController.xib; sourceTree = "<group>"; };
+		0327A14429C0D0CE0027871E /* AccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		0327A14529C0D0CE0027871E /* GeneralViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneralViewController.swift; sourceTree = "<group>"; };
+		0327A14C29C0D0DD0027871E /* Preferenceable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Preferenceable.swift; sourceTree = "<group>"; };
+		0327A14D29C0D0DD0027871E /* PreferencesWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreferencesWindowController.swift; sourceTree = "<group>"; };
+		0327A14E29C0D0DD0027871E /* Preferences.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Preferences.swift; sourceTree = "<group>"; };
+		0327A14F29C0D0DD0027871E /* PreferenceKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreferenceKey.swift; sourceTree = "<group>"; };
+		0327A15029C0D0DD0027871E /* PreferencesTabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreferencesTabViewController.swift; sourceTree = "<group>"; };
+		0327A15129C0D0DD0027871E /* util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = util.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -289,10 +479,18 @@
 		0307158C29C0A53D0028240B /* Group */ = {
 			isa = PBXGroup;
 			children = (
-				0327A01329C0BC650027871E /* CoreData */,
-				0327A01229C0BC110027871E /* Config */,
-				0327A01129C0BC0C0027871E /* Only */,
+				0327A13E29C0D0AD0027871E /* Preferences */,
+				0327A11B29C0CFD10027871E /* Rapports */,
 				0327A01029C0BC080027871E /* About */,
+				0327A01229C0BC110027871E /* Config */,
+				0327A01329C0BC650027871E /* CoreData */,
+				0327A08129C0C6F00027871E /* Generated */,
+				0327A08229C0C7F40027871E /* Import */,
+				0327A01129C0BC0C0027871E /* Only */,
+				0327A0C929C0CC1C0027871E /* ReferenceAccount */,
+				0327A0BC29C0CBDA0027871E /* Resource */,
+				0327A0A429C0C9F70027871E /* Sounds */,
+				0327A0A529C0CA100027871E /* SourceList */,
 				0327A00729C0B7CA0027871E /* SplashScreen */,
 				03279FD029C0B6710027871E /* Transactions */,
 				03279FB729C0B5930027871E /* Util */,
@@ -636,6 +834,291 @@
 			path = Shortcuts;
 			sourceTree = "<group>";
 		};
+		0327A08129C0C6F00027871E /* Generated */ = {
+			isa = PBXGroup;
+			children = (
+				0327A07D29C0C6DD0027871E /* AccessibilityImageDescriptions.strings */,
+				0327A07E29C0C6DD0027871E /* Localizations.swift */,
+			);
+			path = Generated;
+			sourceTree = "<group>";
+		};
+		0327A08229C0C7F40027871E /* Import */ = {
+			isa = PBXGroup;
+			children = (
+				0327A09929C0C8110027871E /* CSV */,
+				0327A08729C0C8030027871E /* ImportBankStatementWindowController.swift */,
+				0327A08929C0C8030027871E /* ImportSchedulersWindowController.swift */,
+				0327A08C29C0C8030027871E /* ImportTransactionsWindowController.swift */,
+				0327A08A29C0C8030027871E /* ImportWindowController.swift */,
+				0327A08629C0C8030027871E /* ImportWindowController.xib */,
+				0327A08B29C0C8030027871E /* ImportWindowControllerExtension.swift */,
+				0327A08D29C0C8030027871E /* ImportWindowControllerMenuDelegate.swift */,
+				0327A08829C0C8030027871E /* ImportWindowControllerParserDelegate.swift */,
+				0327A08329C0C8030027871E /* TTFormatViewController.swift */,
+				0327A08529C0C8030027871E /* TTFormatViewController.xib */,
+				0327A08429C0C8030027871E /* TTFormatViewControllerAccessory.xib */,
+			);
+			path = Import;
+			sourceTree = "<group>";
+		};
+		0327A09929C0C8110027871E /* CSV */ = {
+			isa = PBXGroup;
+			children = (
+				0327A09B29C0C82E0027871E /* CSV.swift */,
+				0327A09E29C0C82E0027871E /* CSVConfig.swift */,
+				0327A09A29C0C82E0027871E /* CSVParser.swift */,
+				0327A09D29C0C82E0027871E /* CSVParserDelegate.swift */,
+				0327A09C29C0C82E0027871E /* CSVWriter.swift */,
+			);
+			path = CSV;
+			sourceTree = "<group>";
+		};
+		0327A0A429C0C9F70027871E /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				0327A0AE29C0CA730027871E /* eventually.m4r */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		0327A0A529C0CA100027871E /* SourceList */ = {
+			isa = PBXGroup;
+			children = (
+				0327A0B529C0CAA70027871E /* Feeds.plist */,
+				0327A0A729C0CA300027871E /* SourceListViewController.swift */,
+				0327A0A929C0CA300027871E /* SourceListViewController.xib */,
+				0327A0A829C0CA300027871E /* SourceListViewDataSource.swift */,
+				0327A0A629C0CA300027871E /* SourceListViewDelegate.swift */,
+				0327A0B129C0CA9C0027871E /* Feed.swift */,
+			);
+			path = SourceList;
+			sourceTree = "<group>";
+		};
+		0327A0BC29C0CBDA0027871E /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				0327A0BE29C0CBFE0027871E /* curtain.jpg */,
+				0327A0BD29C0CBFE0027871E /* CurtainClose640.gif */,
+				0327A0BF29C0CBFE0027871E /* CurtainOpen640.gif */,
+				0327A0C229C0CBFE0027871E /* CURTAINS CLOSE_OPEN.wav */,
+				0327A0C029C0CBFE0027871E /* CURTAINS OPEN.wav */,
+				0327A0C129C0CBFE0027871E /* MyDB.sqlite */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		0327A0C929C0CC1C0027871E /* ReferenceAccount */ = {
+			isa = PBXGroup;
+			children = (
+				0327A0E129C0CDDE0027871E /* ParameterController.swift */,
+				0327A0E229C0CDDE0027871E /* ParameterController.xib */,
+				0327A0CC29C0CC920027871E /* Schedulers */,
+				0327A0CB29C0CC710027871E /* Parameter */,
+				0327A0CA29C0CC380027871E /* Identity */,
+			);
+			path = ReferenceAccount;
+			sourceTree = "<group>";
+		};
+		0327A0CA29C0CC380027871E /* Identity */ = {
+			isa = PBXGroup;
+			children = (
+				0327A0E529C0CDF40027871E /* IdentiteViewController.swift */,
+				0327A0E629C0CDF40027871E /* IdentiteViewController.xib */,
+			);
+			path = Identity;
+			sourceTree = "<group>";
+		};
+		0327A0CB29C0CC710027871E /* Parameter */ = {
+			isa = PBXGroup;
+			children = (
+				0327A0D029C0CCD90027871E /* Rubric */,
+				0327A0CF29C0CCC80027871E /* PreferenceOperation */,
+				0327A0CE29C0CCB70027871E /* ModePaiement */,
+				0327A0CD29C0CCA30027871E /* Check */,
+			);
+			path = Parameter;
+			sourceTree = "<group>";
+		};
+		0327A0CC29C0CC920027871E /* Schedulers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Schedulers;
+			sourceTree = "<group>";
+		};
+		0327A0CD29C0CCA30027871E /* Check */ = {
+			isa = PBXGroup;
+			children = (
+				0327A0EB29C0CEF80027871E /* ChequiersViewController.swift */,
+				0327A0EC29C0CEF80027871E /* ChequiersViewController.xib */,
+				0327A0EA29C0CEE50027871E /* ChequierModal */,
+				0327A0E929C0CE0D0027871E /* Custom Views */,
+			);
+			path = Check;
+			sourceTree = "<group>";
+		};
+		0327A0CE29C0CCB70027871E /* ModePaiement */ = {
+			isa = PBXGroup;
+			children = (
+				0327A0D429C0CDB00027871E /* ModeModalWindowController.swift */,
+				0327A0D329C0CDB00027871E /* ModeModalWindowController.xib */,
+				0327A0D529C0CDB00027871E /* ModeOfPaymentViewController.swift */,
+				0327A0D629C0CDB00027871E /* ModeOfPaymentViewController.xib */,
+			);
+			path = ModePaiement;
+			sourceTree = "<group>";
+		};
+		0327A0CF29C0CCC80027871E /* PreferenceOperation */ = {
+			isa = PBXGroup;
+			children = (
+				0327A0DB29C0CDC40027871E /* PreferenceOperationViewController.swift */,
+				0327A0DD29C0CDC40027871E /* PreferenceOperationViewController.xib */,
+				0327A0DC29C0CDC40027871E /* PreferenceOperationViewControllerPopUp.swift */,
+			);
+			path = PreferenceOperation;
+			sourceTree = "<group>";
+		};
+		0327A0D029C0CCD90027871E /* Rubric */ = {
+			isa = PBXGroup;
+			children = (
+				0327A0FA29C0CF4A0027871E /* RubriqueViewAction.swift */,
+				0327A0FC29C0CF4A0027871E /* RubriqueViewController.swift */,
+				0327A0F929C0CF4A0027871E /* RubriqueViewController.xib */,
+				0327A0F729C0CF4A0027871E /* RubriqueViewDataSource.swift */,
+				0327A0F829C0CF4A0027871E /* RubriqueViewDelegate.swift */,
+				0327A0FB29C0CF4A0027871E /* RubriqueViewDragDrop.swift */,
+				0327A0D229C0CDA00027871E /* AddModal */,
+				0327A0D129C0CD920027871E /* Combo Color Well */,
+			);
+			path = Rubric;
+			sourceTree = "<group>";
+		};
+		0327A0D129C0CD920027871E /* Combo Color Well */ = {
+			isa = PBXGroup;
+			children = (
+				0327A10529C0CF5E0027871E /* ColorGridController.swift */,
+				0327A10729C0CF5E0027871E /* ColorGridView.swift */,
+				0327A10A29C0CF5E0027871E /* ColorUtilities.swift */,
+				0327A10629C0CF5E0027871E /* ColorView.swift */,
+				0327A10429C0CF5E0027871E /* ComboColorWell.swift */,
+				0327A10329C0CF5E0027871E /* ComboColorWellCell.swift */,
+				0327A10829C0CF5E0027871E /* ComboColorWellImages.xcassets */,
+				0327A10929C0CF5E0027871E /* MouseTracker.swift */,
+			);
+			path = "Combo Color Well";
+			sourceTree = "<group>";
+		};
+		0327A0D229C0CDA00027871E /* AddModal */ = {
+			isa = PBXGroup;
+			children = (
+				0327A11429C0CF800027871E /* CategorieModalWindowController.swift */,
+				0327A11329C0CF800027871E /* CategorieModalWindowController.xib */,
+				0327A11529C0CF800027871E /* RubriqueModalWindowController.swift */,
+				0327A11629C0CF800027871E /* RubriqueModalWindowController.xib */,
+			);
+			path = AddModal;
+			sourceTree = "<group>";
+		};
+		0327A0E929C0CE0D0027871E /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				0327A0F029C0CF110027871E /* ChequiersDetailView.swift */,
+				0327A0EF29C0CF110027871E /* ChequiersDetailView.xib */,
+			);
+			path = "Custom Views";
+			sourceTree = "<group>";
+		};
+		0327A0EA29C0CEE50027871E /* ChequierModal */ = {
+			isa = PBXGroup;
+			children = (
+				0327A0F429C0CF1E0027871E /* ChequierModalWindowController.swift */,
+				0327A0F329C0CF1E0027871E /* ChequierModalWindowController.xib */,
+			);
+			path = ChequierModal;
+			sourceTree = "<group>";
+		};
+		0327A11B29C0CFD10027871E /* Rapports */ = {
+			isa = PBXGroup;
+			children = (
+				0327A12029C0D0470027871E /* CommonGraph.swift */,
+				0327A11F29C0D0380027871E /* Rubric */,
+				0327A11E29C0D01F0027871E /* PaymentMode */,
+				0327A11C29C0CFED0027871E /* CategoryBarGraph */,
+				0327A11D29C0D0020027871E /* IncomeExpense */,
+			);
+			path = Rapports;
+			sourceTree = "<group>";
+		};
+		0327A11C29C0CFED0027871E /* CategoryBarGraph */ = {
+			isa = PBXGroup;
+			children = (
+				0327A12F29C0D0730027871E /* CategoryBarController.swift */,
+				0327A13029C0D0730027871E /* CategoryBarController.xib */,
+				0327A12E29C0D0730027871E /* CategoryBarController1.swift */,
+				0327A13129C0D0730027871E /* CategoryBarController1.xib */,
+			);
+			path = CategoryBarGraph;
+			sourceTree = "<group>";
+		};
+		0327A11D29C0D0020027871E /* IncomeExpense */ = {
+			isa = PBXGroup;
+			children = (
+				0327A13729C0D0890027871E /* IncomeExpenseBarController.swift */,
+				0327A13829C0D0890027871E /* IncomeExpenseBarController.xib */,
+				0327A13629C0D0890027871E /* IncomeExpensePieController.swift */,
+				0327A13929C0D0890027871E /* IncomeExpensePieController.xib */,
+			);
+			path = IncomeExpense;
+			sourceTree = "<group>";
+		};
+		0327A11E29C0D01F0027871E /* PaymentMode */ = {
+			isa = PBXGroup;
+			children = (
+				0327A12A29C0D0630027871E /* PaymentModePieController.swift */,
+				0327A12B29C0D0630027871E /* PaymentModePieController.xib */,
+			);
+			path = PaymentMode;
+			sourceTree = "<group>";
+		};
+		0327A11F29C0D0380027871E /* Rubric */ = {
+			isa = PBXGroup;
+			children = (
+				0327A12429C0D0560027871E /* RubricBarController.swift */,
+				0327A12329C0D0560027871E /* RubricBarController.xib */,
+				0327A12229C0D0560027871E /* RubricPieController.swift */,
+				0327A12529C0D0560027871E /* RubricPieController.xib */,
+			);
+			path = Rubric;
+			sourceTree = "<group>";
+		};
+		0327A13E29C0D0AD0027871E /* Preferences */ = {
+			isa = PBXGroup;
+			children = (
+				0327A14429C0D0CE0027871E /* AccountViewController.swift */,
+				0327A14129C0D0CE0027871E /* AccountViewController.xib */,
+				0327A14529C0D0CE0027871E /* GeneralViewController.swift */,
+				0327A14029C0D0CE0027871E /* GeneralViewController.xib */,
+				0327A14229C0D0CE0027871E /* PersonViewController.swift */,
+				0327A14329C0D0CE0027871E /* PersonViewController.xib */,
+				0327A13F29C0D0B70027871E /* Preferences */,
+			);
+			path = Preferences;
+			sourceTree = "<group>";
+		};
+		0327A13F29C0D0B70027871E /* Preferences */ = {
+			isa = PBXGroup;
+			children = (
+				0327A14C29C0D0DD0027871E /* Preferenceable.swift */,
+				0327A14F29C0D0DD0027871E /* PreferenceKey.swift */,
+				0327A14E29C0D0DD0027871E /* Preferences.swift */,
+				0327A15029C0D0DD0027871E /* PreferencesTabViewController.swift */,
+				0327A14D29C0D0DD0027871E /* PreferencesWindowController.swift */,
+				0327A15129C0D0DD0027871E /* util.swift */,
+			);
+			path = Preferences;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -716,31 +1199,65 @@
 			buildActionMask = 2147483647;
 			files = (
 				0327A03C29C0BCA30027871E /* rubrique.plist in Resources */,
+				0327A13429C0D0730027871E /* CategoryBarController.xib in Resources */,
 				0307159429C0A57A0028240B /* README.md in Resources */,
+				0327A09129C0C8030027871E /* ImportWindowController.xib in Resources */,
+				0327A08F29C0C8030027871E /* TTFormatViewControllerAccessory.xib in Resources */,
+				0327A0FF29C0CF4B0027871E /* RubriqueViewController.xib in Resources */,
+				0327A12D29C0D0630027871E /* PaymentModePieController.xib in Resources */,
 				0307159229C0A57A0028240B /* README_fr.md in Resources */,
+				0327A0D729C0CDB00027871E /* ModeModalWindowController.xib in Resources */,
+				0327A0E829C0CDF40027871E /* IdentiteViewController.xib in Resources */,
 				030715A729C0A5B30028240B /* Capture1.png in Resources */,
+				0327A14629C0D0CE0027871E /* GeneralViewController.xib in Resources */,
+				0327A0AD29C0CA300027871E /* SourceListViewController.xib in Resources */,
+				0327A0C329C0CBFE0027871E /* CurtainClose640.gif in Resources */,
+				0327A0C429C0CBFE0027871E /* curtain.jpg in Resources */,
 				03279FE329C0B6CB0027871E /* TransactionViewController.xib in Resources */,
 				030715AB29C0A5B30028240B /* Capture2.png in Resources */,
+				0327A0C829C0CBFE0027871E /* CURTAINS CLOSE_OPEN.wav in Resources */,
 				03279FFA29C0B7540027871E /* SousOperationModalWindowController.xib in Resources */,
 				0307159329C0A57A0028240B /* version StoryBoard.md in Resources */,
 				030715A129C0A5B30028240B /* Capture6.png in Resources */,
 				03279FAD29C0B45E0027871E /* Main.storyboard in Resources */,
 				030715A229C0A5B30028240B /* Capture3.png in Resources */,
+				0327A0F129C0CF110027871E /* ChequiersDetailView.xib in Resources */,
 				030715AA29C0A5B30028240B /* Capture5.png in Resources */,
+				0327A0C729C0CBFE0027871E /* MyDB.sqlite in Resources */,
+				0327A11729C0CF800027871E /* CategorieModalWindowController.xib in Resources */,
 				030715A829C0A5B30028240B /* Capture7.png in Resources */,
+				0327A07F29C0C6DD0027871E /* AccessibilityImageDescriptions.strings in Resources */,
 				03279FC929C0B60E0027871E /* SliderViewVerticalController.xib in Resources */,
 				030715A929C0A5B30028240B /* Pegase.png in Resources */,
 				0307159129C0A57A0028240B /* appcast.xml in Resources */,
+				0327A0C529C0CBFE0027871E /* CurtainOpen640.gif in Resources */,
 				03279FC829C0B60E0027871E /* SliderViewController.xib in Resources */,
+				0327A09029C0C8030027871E /* TTFormatViewController.xib in Resources */,
 				0327A00C29C0B7DA0027871E /* SplashScreenWindowController.xib in Resources */,
 				0327A03429C0BCA30027871E /* rubrique.csv in Resources */,
+				0327A12729C0D0560027871E /* RubricBarController.xib in Resources */,
+				0327A11A29C0CF800027871E /* RubriqueModalWindowController.xib in Resources */,
+				0327A0B329C0CAA70027871E /* Feeds.plist in Resources */,
+				0327A0C629C0CBFE0027871E /* CURTAINS OPEN.wav in Resources */,
+				0327A14729C0D0CE0027871E /* AccountViewController.xib in Resources */,
 				030715A329C0A5B30028240B /* Capture4.png in Resources */,
+				0327A14929C0D0CE0027871E /* PersonViewController.xib in Resources */,
+				0327A13D29C0D0890027871E /* IncomeExpensePieController.xib in Resources */,
+				0327A13C29C0D0890027871E /* IncomeExpenseBarController.xib in Resources */,
+				0327A0F529C0CF1E0027871E /* ChequierModalWindowController.xib in Resources */,
+				0327A0EE29C0CEF80027871E /* ChequiersViewController.xib in Resources */,
+				0327A0E429C0CDDE0027871E /* ParameterController.xib in Resources */,
 				03279FB029C0B4B90027871E /* Localizable.strings in Resources */,
+				0327A13529C0D0730027871E /* CategoryBarController1.xib in Resources */,
 				030715A629C0A5B30028240B /* Capture10.png in Resources */,
+				0327A0DA29C0CDB00027871E /* ModeOfPaymentViewController.xib in Resources */,
+				0327A12929C0D0560027871E /* RubricPieController.xib in Resources */,
 				0327A04629C0C2960027871E /* DeveloperID.xcconfig in Resources */,
 				030715A529C0A5B30028240B /* Capture9.png in Resources */,
+				0327A11029C0CF5E0027871E /* ComboColorWellImages.xcassets in Resources */,
 				030715AD29C0A5E60028240B /* Package.resolved in Resources */,
 				03279FCC29C0B60E0027871E /* SliderViewHorizontalController.xib in Resources */,
+				0327A0E029C0CDC40027871E /* PreferenceOperationViewController.xib in Resources */,
 				0327A00D29C0B7DA0027871E /* SplashScreenRecentDocumentView.xib in Resources */,
 				030715A429C0A5B30028240B /* Capture8.png in Resources */,
 			);
@@ -754,15 +1271,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				0327A06629C0C4D80027871E /* GitHubReleaseModel.swift in Sources */,
+				0327A10229C0CF4B0027871E /* RubriqueViewController.swift in Sources */,
 				03279FC729C0B60E0027871E /* RangeSlider.swift in Sources */,
 				03279FE229C0B6BB0027871E /* TransactionViewControllerOutlineDelegate.swift in Sources */,
 				0327A06729C0C4D80027871E /* GitHubInteractor.swift in Sources */,
+				0327A0AC29C0CA300027871E /* SourceListViewDataSource.swift in Sources */,
+				0327A14B29C0D0CE0027871E /* GeneralViewController.swift in Sources */,
+				0327A0E729C0CDF40027871E /* IdentiteViewController.swift in Sources */,
+				0327A0A129C0C82E0027871E /* CSVWriter.swift in Sources */,
 				0327A05829C0C46B0027871E /* OpenWindow.swift in Sources */,
 				03279FBC29C0B5F10027871E /* CSwiftV.swift in Sources */,
+				0327A0FD29C0CF4B0027871E /* RubriqueViewDataSource.swift in Sources */,
 				03279F9E29C0B40E0027871E /* MyPrintViewTableViewOld.swift in Sources */,
 				0327A06D29C0C51B0027871E /* UpdateView.swift in Sources */,
 				0327A03729C0BCA30027871E /* Scheduler.swift in Sources */,
+				0327A13229C0D0730027871E /* CategoryBarController1.swift in Sources */,
 				03279FF129C0B7380027871E /* AutoCompleteTextField.swift in Sources */,
+				0327A09329C0C8030027871E /* ImportWindowControllerParserDelegate.swift in Sources */,
 				03279FCB29C0B60E0027871E /* SliderViewVerticalController.swift in Sources */,
 				0327A05929C0C46B0027871E /* SwitchError.swift in Sources */,
 				03279FDB29C0B6BB0027871E /* TransactionViewControllerPopUp.swift in Sources */,
@@ -772,36 +1297,64 @@
 				03279FA329C0B40E0027871E /* UpdateController.swift in Sources */,
 				0327A06929C0C4D80027871E /* RequestError.swift in Sources */,
 				0327A07829C0C5900027871E /* SettingsView.swift in Sources */,
+				0327A0F229C0CF110027871E /* ChequiersDetailView.swift in Sources */,
 				0327A03629C0BCA30027871E /* Categories.swift in Sources */,
+				0327A10129C0CF4B0027871E /* RubriqueViewDragDrop.swift in Sources */,
+				0327A13329C0D0730027871E /* CategoryBarController.swift in Sources */,
+				0327A14829C0D0CE0027871E /* PersonViewController.swift in Sources */,
+				0327A15229C0D0DD0027871E /* Preferenceable.swift in Sources */,
+				0327A10F29C0CF5E0027871E /* ColorGridView.swift in Sources */,
 				0327A01F29C0BC850027871E /* EntityRubric+CoreDataProperties.swift in Sources */,
+				0327A0D929C0CDB00027871E /* ModeOfPaymentViewController.swift in Sources */,
 				03279F9829C0B40E0027871E /* MainWindowControllerToolBar.swift in Sources */,
 				0327A07C29C0C5C90027871E /* ShortcutOnMarket.swift in Sources */,
 				0327A03229C0BCA30027871E /* Identite.swift in Sources */,
+				0327A13B29C0D0890027871E /* IncomeExpenseBarController.swift in Sources */,
+				0327A12C29C0D0630027871E /* PaymentModePieController.swift in Sources */,
 				0327A03329C0BCA30027871E /* Account.swift in Sources */,
 				0327A00F29C0B7DA0027871E /* TulsiDocumentController.swift in Sources */,
+				0327A0A329C0C82E0027871E /* CSVConfig.swift in Sources */,
 				03279F9529C0B40E0027871E /* Persistence.swift in Sources */,
 				03279F9729C0B40E0027871E /* MyPrintViewOutlineOld1.swift in Sources */,
 				0327A02129C0BC850027871E /* EntityAccount+CoreDataClass.swift in Sources */,
 				0327A04429C0BD220027871E /* AboutView.swift in Sources */,
 				03279FA029C0B40E0027871E /* AppDelegate.swift in Sources */,
+				0327A11229C0CF5E0027871E /* ColorUtilities.swift in Sources */,
+				0327A09429C0C8030027871E /* ImportSchedulersWindowController.swift in Sources */,
+				0327A0ED29C0CEF80027871E /* ChequiersViewController.swift in Sources */,
 				03279FAA29C0B40E0027871E /* ViewController.swift in Sources */,
+				0327A09229C0C8030027871E /* ImportBankStatementWindowController.swift in Sources */,
+				0327A15529C0D0DD0027871E /* PreferenceKey.swift in Sources */,
 				0327A06A29C0C4D80027871E /* GitHubPresenter.swift in Sources */,
 				03279FCA29C0B60E0027871E /* SliderViewHorizontalController.swift in Sources */,
+				0327A10C29C0CF5E0027871E /* ComboColorWell.swift in Sources */,
 				03279FF729C0B74C0027871E /* SousOperationModalWindowController.swift in Sources */,
 				0327A05E29C0C4900027871E /* LocalizedString++.swift in Sources */,
+				0327A11929C0CF800027871E /* RubriqueModalWindowController.swift in Sources */,
 				0327A05529C0C46B0027871E /* LayoutDefine.swift in Sources */,
+				0327A08E29C0C8030027871E /* TTFormatViewController.swift in Sources */,
+				0327A15429C0D0DD0027871E /* Preferences.swift in Sources */,
 				0327A07429C0C5520027871E /* LanguageManager.swift in Sources */,
+				0327A10D29C0CF5E0027871E /* ColorGridController.swift in Sources */,
 				03279F9C29C0B40E0027871E /* MainWindowTransactions.swift in Sources */,
 				03279F9429C0B40E0027871E /* DefinitionsToolBar.swift in Sources */,
 				0327A07929C0C5900027871E /* SettingsVM.swift in Sources */,
 				0327A07229C0C5440027871E /* HostWindowFinder.swift in Sources */,
+				0327A10029C0CF4B0027871E /* RubriqueViewAction.swift in Sources */,
+				0327A0FE29C0CF4B0027871E /* RubriqueViewDelegate.swift in Sources */,
+				0327A09829C0C8030027871E /* ImportWindowControllerMenuDelegate.swift in Sources */,
+				0327A0DE29C0CDC40027871E /* PreferenceOperationViewController.swift in Sources */,
 				03279FA729C0B40E0027871E /* MainWindowController.swift in Sources */,
+				0327A15629C0D0DD0027871E /* PreferencesTabViewController.swift in Sources */,
 				0327A05D29C0C4900027871E /* String++.swift in Sources */,
+				0327A0F629C0CF1E0027871E /* ChequierModalWindowController.swift in Sources */,
 				03279FBD29C0B5F10027871E /* CurrentScreen.swift in Sources */,
 				0327A03B29C0BCA30027871E /* BanqueStatement.swift in Sources */,
+				0327A0DF29C0CDC40027871E /* PreferenceOperationViewControllerPopUp.swift in Sources */,
 				0327A03A29C0BCA30027871E /* PaymentMode.swift in Sources */,
 				0327A03E29C0BCA30027871E /* Statut.swift in Sources */,
 				03279FA429C0B40E0027871E /* VersionChecker.swift in Sources */,
+				0327A15729C0D0DD0027871E /* util.swift in Sources */,
 				0327A06529C0C4D80027871E /* GitHubEndpoint.swift in Sources */,
 				0327A01D29C0BC850027871E /* EntityAccount+CoreDataProperties.swift in Sources */,
 				03279FCD29C0B60E0027871E /* RangeSliderHorizontal.swift in Sources */,
@@ -809,19 +1362,31 @@
 				03279FA929C0B40E0027871E /* MainWindowSchedulers.swift in Sources */,
 				0310777C29BF403C002B7F0C /* Document.xcdatamodeld in Sources */,
 				0327A01E29C0BC850027871E /* EntityCategory+CoreDataClass.swift in Sources */,
+				0327A14A29C0D0CE0027871E /* AccountViewController.swift in Sources */,
 				03279FA229C0B40E0027871E /* Document.swift in Sources */,
 				0327A07029C0C5280027871E /* SystemInfo.swift in Sources */,
+				0327A11129C0CF5E0027871E /* MouseTracker.swift in Sources */,
+				0327A0B229C0CA9C0027871E /* Feed.swift in Sources */,
 				0327A01C29C0BC850027871E /* EntityCategory+CoreDataProperties.swift in Sources */,
 				03279FF929C0B74C0027871E /* SousOperationComboBoxDelegate.swift in Sources */,
+				0327A09F29C0C82E0027871E /* CSVParser.swift in Sources */,
+				0327A0E329C0CDDE0027871E /* ParameterController.swift in Sources */,
 				0327A00E29C0B7DA0027871E /* SplashScreenWindowController.swift in Sources */,
+				0327A12129C0D0470027871E /* CommonGraph.swift in Sources */,
 				0327A06E29C0C51B0027871E /* UpdateVM.swift in Sources */,
+				0327A15329C0D0DD0027871E /* PreferencesWindowController.swift in Sources */,
+				0327A09529C0C8030027871E /* ImportWindowController.swift in Sources */,
 				0327A06829C0C4D80027871E /* GitHubRepositoryProtocol.swift in Sources */,
+				0327A10E29C0CF5E0027871E /* ColorView.swift in Sources */,
 				03279FE129C0B6BB0027871E /* TransactionViewControllerDelegate.swift in Sources */,
+				0327A12829C0D0560027871E /* RubricBarController.swift in Sources */,
 				0327A02229C0BC850027871E /* EntityTransactions+CoreDataClass.swift in Sources */,
 				03279FA129C0B40E0027871E /* DocumentController.swift in Sources */,
 				0327A05A29C0C46B0027871E /* ColorDefine.swift in Sources */,
 				03279FAB29C0B40E0027871E /* ViewControllerSplitView.swift in Sources */,
+				0327A10B29C0CF5E0027871E /* ComboColorWellCell.swift in Sources */,
 				03279FC629C0B60E0027871E /* RangeSliderVertical.swift in Sources */,
+				0327A09729C0C8030027871E /* ImportTransactionsWindowController.swift in Sources */,
 				0327A02029C0BC850027871E /* EntityRubric+CoreDataClass.swift in Sources */,
 				03279F9D29C0B40E0027871E /* MyPrintViewTableView.swift in Sources */,
 				0327A03929C0BCA30027871E /* ChequeBook.swift in Sources */,
@@ -829,17 +1394,27 @@
 				03279FA629C0B40E0027871E /* UserNotificationCenterDelegate.swift in Sources */,
 				03279FE029C0B6BB0027871E /* AvatarView.swift in Sources */,
 				03279F9F29C0B40E0027871E /* MainWindowBankStatement.swift in Sources */,
+				0327A0D829C0CDB00027871E /* ModeModalWindowController.swift in Sources */,
+				0327A13A29C0D0890027871E /* IncomeExpensePieController.swift in Sources */,
 				03279FF829C0B74C0027871E /* SousOperationAction.swift in Sources */,
 				03279F9A29C0B40E0027871E /* MainWindowToolBarDelegate.swift in Sources */,
 				03279FA529C0B40E0027871E /* MyPrintViewOutlineOld.swift in Sources */,
+				0327A0AB29C0CA300027871E /* SourceListViewController.swift in Sources */,
+				0327A09629C0C8030027871E /* ImportWindowControllerExtension.swift in Sources */,
+				0327A0AA29C0CA300027871E /* SourceListViewDelegate.swift in Sources */,
 				0327A03D29C0BCA30027871E /* Rubrique.swift in Sources */,
+				0327A08029C0C6DD0027871E /* Localizations.swift in Sources */,
 				03279F9629C0B40E0027871E /* Controller.swift in Sources */,
 				03279FDE29C0B6BB0027871E /* AvatarInfo.swift in Sources */,
+				0327A0A029C0C82E0027871E /* CSV.swift in Sources */,
 				03279F9B29C0B40E0027871E /* MyPrintViewOutline.swift in Sources */,
 				03279F9929C0B40E0027871E /* MainWindowToolBar.swift in Sources */,
+				0327A11829C0CF800027871E /* CategorieModalWindowController.swift in Sources */,
 				0327A04229C0BD120027871E /* AboutWindowHostingController.swift in Sources */,
 				03279FCF29C0B61F0027871E /* CommunShared.swift in Sources */,
+				0327A0A229C0C82E0027871E /* CSVParserDelegate.swift in Sources */,
 				0327A05729C0C46B0027871E /* NotificationNames.swift in Sources */,
+				0327A12629C0D0560027871E /* RubricPieController.swift in Sources */,
 				03279FA829C0B40E0027871E /* ViewControllerDelegate.swift in Sources */,
 				03279FDC29C0B6BB0027871E /* TransactionViewControllerAction.swift in Sources */,
 			);
@@ -884,6 +1459,19 @@
 				0327A00629C0B75E0027871E /* es */,
 			);
 			name = SousOperationModalWindowController.xib;
+			sourceTree = "<group>";
+		};
+		0327A0B529C0CAA70027871E /* Feeds.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0327A0B429C0CAA70027871E /* Base */,
+				0327A0B629C0CAAB0027871E /* en */,
+				0327A0B729C0CAAD0027871E /* fr */,
+				0327A0B829C0CAAD0027871E /* de */,
+				0327A0B929C0CAAF0027871E /* it */,
+				0327A0BA29C0CAAF0027871E /* es */,
+			);
+			name = Feeds.plist;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
