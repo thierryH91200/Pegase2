@@ -29,12 +29,44 @@
 		030715B929C0A75C0028240B /* Charts in Frameworks */ = {isa = PBXBuildFile; productRef = 030715B829C0A75C0028240B /* Charts */; };
 		030715BC29C0A8810028240B /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 030715BB29C0A8810028240B /* Alamofire */; };
 		030715BF29C0A8D10028240B /* Defaults in Frameworks */ = {isa = PBXBuildFile; productRef = 030715BE29C0A8D10028240B /* Defaults */; };
-		0310777529BF403C002B7F0C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0310777429BF403C002B7F0C /* AppDelegate.swift */; };
-		0310777729BF403C002B7F0C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0310777629BF403C002B7F0C /* ViewController.swift */; };
-		0310777929BF403C002B7F0C /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0310777829BF403C002B7F0C /* Document.swift */; };
 		0310777C29BF403C002B7F0C /* Document.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0310777A29BF403C002B7F0C /* Document.xcdatamodeld */; };
-		0310777E29BF403D002B7F0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0310777D29BF403D002B7F0C /* Assets.xcassets */; };
-		0310778129BF403D002B7F0C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0310777F29BF403D002B7F0C /* Main.storyboard */; };
+		03279F9429C0B40E0027871E /* DefinitionsToolBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03279F7C29C0B40E0027871E /* DefinitionsToolBar.swift */; };
+		03279F9529C0B40E0027871E /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03279F7D29C0B40E0027871E /* Persistence.swift */; };
+		03279F9629C0B40E0027871E /* Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03279F7E29C0B40E0027871E /* Controller.swift */; };
+		03279F9729C0B40E0027871E /* MyPrintViewOutlineOld1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03279F7F29C0B40E0027871E /* MyPrintViewOutlineOld1.swift */; };
+		03279F9829C0B40E0027871E /* MainWindowControllerToolBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03279F8029C0B40E0027871E /* MainWindowControllerToolBar.swift */; };
+		03279F9929C0B40E0027871E /* MainWindowToolBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03279F8129C0B40E0027871E /* MainWindowToolBar.swift */; };
+		03279F9A29C0B40E0027871E /* MainWindowToolBarDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03279F8229C0B40E0027871E /* MainWindowToolBarDelegate.swift */; };
+		03279F9B29C0B40E0027871E /* MyPrintViewOutline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03279F8329C0B40E0027871E /* MyPrintViewOutline.swift */; };
+		03279F9C29C0B40E0027871E /* MainWindowTransactions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03279F8429C0B40E0027871E /* MainWindowTransactions.swift */; };
+		03279F9D29C0B40E0027871E /* MyPrintViewTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03279F8529C0B40E0027871E /* MyPrintViewTableView.swift */; };
+		03279F9E29C0B40E0027871E /* MyPrintViewTableViewOld.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03279F8629C0B40E0027871E /* MyPrintViewTableViewOld.swift */; };
+		03279F9F29C0B40E0027871E /* MainWindowBankStatement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03279F8729C0B40E0027871E /* MainWindowBankStatement.swift */; };
+		03279FA029C0B40E0027871E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03279F8829C0B40E0027871E /* AppDelegate.swift */; };
+		03279FA129C0B40E0027871E /* DocumentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03279F8929C0B40E0027871E /* DocumentController.swift */; };
+		03279FA229C0B40E0027871E /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03279F8A29C0B40E0027871E /* Document.swift */; };
+		03279FA329C0B40E0027871E /* UpdateController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03279F8B29C0B40E0027871E /* UpdateController.swift */; };
+		03279FA429C0B40E0027871E /* VersionChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03279F8C29C0B40E0027871E /* VersionChecker.swift */; };
+		03279FA529C0B40E0027871E /* MyPrintViewOutlineOld.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03279F8D29C0B40E0027871E /* MyPrintViewOutlineOld.swift */; };
+		03279FA629C0B40E0027871E /* UserNotificationCenterDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03279F8E29C0B40E0027871E /* UserNotificationCenterDelegate.swift */; };
+		03279FA729C0B40E0027871E /* MainWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03279F8F29C0B40E0027871E /* MainWindowController.swift */; };
+		03279FA829C0B40E0027871E /* ViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03279F9029C0B40E0027871E /* ViewControllerDelegate.swift */; };
+		03279FA929C0B40E0027871E /* MainWindowSchedulers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03279F9129C0B40E0027871E /* MainWindowSchedulers.swift */; };
+		03279FAA29C0B40E0027871E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03279F9229C0B40E0027871E /* ViewController.swift */; };
+		03279FAB29C0B40E0027871E /* ViewControllerSplitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03279F9329C0B40E0027871E /* ViewControllerSplitView.swift */; };
+		03279FAD29C0B45E0027871E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03279FAC29C0B45E0027871E /* Main.storyboard */; };
+		03279FB029C0B4B90027871E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 03279FB229C0B4B90027871E /* Localizable.strings */; };
+		03279FBC29C0B5F10027871E /* CSwiftV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03279FBA29C0B5F00027871E /* CSwiftV.swift */; };
+		03279FBD29C0B5F10027871E /* CurrentScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03279FBB29C0B5F10027871E /* CurrentScreen.swift */; };
+		03279FC629C0B60E0027871E /* RangeSliderVertical.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03279FBE29C0B60E0027871E /* RangeSliderVertical.swift */; };
+		03279FC729C0B60E0027871E /* RangeSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03279FBF29C0B60E0027871E /* RangeSlider.swift */; };
+		03279FC829C0B60E0027871E /* SliderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03279FC029C0B60E0027871E /* SliderViewController.xib */; };
+		03279FC929C0B60E0027871E /* SliderViewVerticalController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03279FC129C0B60E0027871E /* SliderViewVerticalController.xib */; };
+		03279FCA29C0B60E0027871E /* SliderViewHorizontalController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03279FC229C0B60E0027871E /* SliderViewHorizontalController.swift */; };
+		03279FCB29C0B60E0027871E /* SliderViewVerticalController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03279FC329C0B60E0027871E /* SliderViewVerticalController.swift */; };
+		03279FCC29C0B60E0027871E /* SliderViewHorizontalController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03279FC429C0B60E0027871E /* SliderViewHorizontalController.xib */; };
+		03279FCD29C0B60E0027871E /* RangeSliderHorizontal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03279FC529C0B60E0027871E /* RangeSliderHorizontal.swift */; };
+		03279FCF29C0B61F0027871E /* CommunShared.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03279FCE29C0B61F0027871E /* CommunShared.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,14 +87,50 @@
 		030715A029C0A5B30028240B /* Capture2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Capture2.png; sourceTree = "<group>"; };
 		030715AC29C0A5E60028240B /* Package.resolved */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Package.resolved; sourceTree = "<group>"; };
 		0310777129BF403C002B7F0C /* Pegase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pegase.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		0310777429BF403C002B7F0C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0310777629BF403C002B7F0C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0310777829BF403C002B7F0C /* Document.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Document.swift; sourceTree = "<group>"; };
 		0310777B29BF403C002B7F0C /* Document.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Document.xcdatamodel; sourceTree = "<group>"; };
-		0310777D29BF403D002B7F0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		0310778029BF403D002B7F0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0310778229BF403D002B7F0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0310778329BF403D002B7F0C /* Pegase.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Pegase.entitlements; sourceTree = "<group>"; };
+		03279F7C29C0B40E0027871E /* DefinitionsToolBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefinitionsToolBar.swift; sourceTree = "<group>"; };
+		03279F7D29C0B40E0027871E /* Persistence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		03279F7E29C0B40E0027871E /* Controller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Controller.swift; sourceTree = "<group>"; };
+		03279F7F29C0B40E0027871E /* MyPrintViewOutlineOld1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyPrintViewOutlineOld1.swift; sourceTree = "<group>"; };
+		03279F8029C0B40E0027871E /* MainWindowControllerToolBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainWindowControllerToolBar.swift; sourceTree = "<group>"; };
+		03279F8129C0B40E0027871E /* MainWindowToolBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainWindowToolBar.swift; sourceTree = "<group>"; };
+		03279F8229C0B40E0027871E /* MainWindowToolBarDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainWindowToolBarDelegate.swift; sourceTree = "<group>"; };
+		03279F8329C0B40E0027871E /* MyPrintViewOutline.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyPrintViewOutline.swift; sourceTree = "<group>"; };
+		03279F8429C0B40E0027871E /* MainWindowTransactions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainWindowTransactions.swift; sourceTree = "<group>"; };
+		03279F8529C0B40E0027871E /* MyPrintViewTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyPrintViewTableView.swift; sourceTree = "<group>"; };
+		03279F8629C0B40E0027871E /* MyPrintViewTableViewOld.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyPrintViewTableViewOld.swift; sourceTree = "<group>"; };
+		03279F8729C0B40E0027871E /* MainWindowBankStatement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainWindowBankStatement.swift; sourceTree = "<group>"; };
+		03279F8829C0B40E0027871E /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		03279F8929C0B40E0027871E /* DocumentController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DocumentController.swift; sourceTree = "<group>"; };
+		03279F8A29C0B40E0027871E /* Document.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Document.swift; sourceTree = "<group>"; };
+		03279F8B29C0B40E0027871E /* UpdateController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpdateController.swift; sourceTree = "<group>"; };
+		03279F8C29C0B40E0027871E /* VersionChecker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VersionChecker.swift; sourceTree = "<group>"; };
+		03279F8D29C0B40E0027871E /* MyPrintViewOutlineOld.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyPrintViewOutlineOld.swift; sourceTree = "<group>"; };
+		03279F8E29C0B40E0027871E /* UserNotificationCenterDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserNotificationCenterDelegate.swift; sourceTree = "<group>"; };
+		03279F8F29C0B40E0027871E /* MainWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainWindowController.swift; sourceTree = "<group>"; };
+		03279F9029C0B40E0027871E /* ViewControllerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerDelegate.swift; sourceTree = "<group>"; };
+		03279F9129C0B40E0027871E /* MainWindowSchedulers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainWindowSchedulers.swift; sourceTree = "<group>"; };
+		03279F9229C0B40E0027871E /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		03279F9329C0B40E0027871E /* ViewControllerSplitView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerSplitView.swift; sourceTree = "<group>"; };
+		03279FAC29C0B45E0027871E /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		03279FB129C0B4B90027871E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		03279FB329C0B4BF0027871E /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		03279FB429C0B4C00027871E /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/Localizable.strings; sourceTree = "<group>"; };
+		03279FB529C0B4C10027871E /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		03279FB629C0B4C10027871E /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		03279FBA29C0B5F00027871E /* CSwiftV.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSwiftV.swift; sourceTree = "<group>"; };
+		03279FBB29C0B5F10027871E /* CurrentScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentScreen.swift; sourceTree = "<group>"; };
+		03279FBE29C0B60E0027871E /* RangeSliderVertical.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RangeSliderVertical.swift; sourceTree = "<group>"; };
+		03279FBF29C0B60E0027871E /* RangeSlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RangeSlider.swift; sourceTree = "<group>"; };
+		03279FC029C0B60E0027871E /* SliderViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SliderViewController.xib; sourceTree = "<group>"; };
+		03279FC129C0B60E0027871E /* SliderViewVerticalController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SliderViewVerticalController.xib; sourceTree = "<group>"; };
+		03279FC229C0B60E0027871E /* SliderViewHorizontalController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SliderViewHorizontalController.swift; sourceTree = "<group>"; };
+		03279FC329C0B60E0027871E /* SliderViewVerticalController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SliderViewVerticalController.swift; sourceTree = "<group>"; };
+		03279FC429C0B60E0027871E /* SliderViewHorizontalController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SliderViewHorizontalController.xib; sourceTree = "<group>"; };
+		03279FC529C0B60E0027871E /* RangeSliderHorizontal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RangeSliderHorizontal.swift; sourceTree = "<group>"; };
+		03279FCE29C0B61F0027871E /* CommunShared.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommunShared.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +153,7 @@
 		0307158C29C0A53D0028240B /* Group */ = {
 			isa = PBXGroup;
 			children = (
+				03279FB729C0B5930027871E /* Util */,
 			);
 			path = Group;
 			sourceTree = "<group>";
@@ -133,16 +202,71 @@
 			children = (
 				030715AC29C0A5E60028240B /* Package.resolved */,
 				0307158C29C0A53D0028240B /* Group */,
-				0310777429BF403C002B7F0C /* AppDelegate.swift */,
-				0310777629BF403C002B7F0C /* ViewController.swift */,
-				0310777829BF403C002B7F0C /* Document.swift */,
-				0310777D29BF403D002B7F0C /* Assets.xcassets */,
-				0310777F29BF403D002B7F0C /* Main.storyboard */,
+				03279F8829C0B40E0027871E /* AppDelegate.swift */,
+				03279F7E29C0B40E0027871E /* Controller.swift */,
+				03279F7C29C0B40E0027871E /* DefinitionsToolBar.swift */,
+				03279F8A29C0B40E0027871E /* Document.swift */,
+				03279F8929C0B40E0027871E /* DocumentController.swift */,
+				03279F8729C0B40E0027871E /* MainWindowBankStatement.swift */,
+				03279F8F29C0B40E0027871E /* MainWindowController.swift */,
+				03279F8029C0B40E0027871E /* MainWindowControllerToolBar.swift */,
+				03279F9129C0B40E0027871E /* MainWindowSchedulers.swift */,
+				03279F8129C0B40E0027871E /* MainWindowToolBar.swift */,
+				03279F8229C0B40E0027871E /* MainWindowToolBarDelegate.swift */,
+				03279F8429C0B40E0027871E /* MainWindowTransactions.swift */,
+				03279F8329C0B40E0027871E /* MyPrintViewOutline.swift */,
+				03279F8D29C0B40E0027871E /* MyPrintViewOutlineOld.swift */,
+				03279F7F29C0B40E0027871E /* MyPrintViewOutlineOld1.swift */,
+				03279F8529C0B40E0027871E /* MyPrintViewTableView.swift */,
+				03279F8629C0B40E0027871E /* MyPrintViewTableViewOld.swift */,
+				03279F7D29C0B40E0027871E /* Persistence.swift */,
+				03279F8B29C0B40E0027871E /* UpdateController.swift */,
+				03279F8E29C0B40E0027871E /* UserNotificationCenterDelegate.swift */,
+				03279F8C29C0B40E0027871E /* VersionChecker.swift */,
+				03279F9229C0B40E0027871E /* ViewController.swift */,
+				03279F9029C0B40E0027871E /* ViewControllerDelegate.swift */,
+				03279F9329C0B40E0027871E /* ViewControllerSplitView.swift */,
+				03279FB229C0B4B90027871E /* Localizable.strings */,
 				0310778229BF403D002B7F0C /* Info.plist */,
+				03279FAC29C0B45E0027871E /* Main.storyboard */,
 				0310778329BF403D002B7F0C /* Pegase.entitlements */,
 				0310777A29BF403C002B7F0C /* Document.xcdatamodeld */,
 			);
 			path = Pegase;
+			sourceTree = "<group>";
+		};
+		03279FB729C0B5930027871E /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				03279FBA29C0B5F00027871E /* CSwiftV.swift */,
+				03279FBB29C0B5F10027871E /* CurrentScreen.swift */,
+				03279FB929C0B5CB0027871E /* RangeSlider */,
+				03279FB829C0B5B90027871E /* Shared */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		03279FB829C0B5B90027871E /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				03279FCE29C0B61F0027871E /* CommunShared.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		03279FB929C0B5CB0027871E /* RangeSlider */ = {
+			isa = PBXGroup;
+			children = (
+				03279FBF29C0B60E0027871E /* RangeSlider.swift */,
+				03279FC529C0B60E0027871E /* RangeSliderHorizontal.swift */,
+				03279FBE29C0B60E0027871E /* RangeSliderVertical.swift */,
+				03279FC029C0B60E0027871E /* SliderViewController.xib */,
+				03279FC229C0B60E0027871E /* SliderViewHorizontalController.swift */,
+				03279FC429C0B60E0027871E /* SliderViewHorizontalController.xib */,
+				03279FC329C0B60E0027871E /* SliderViewVerticalController.swift */,
+				03279FC129C0B60E0027871E /* SliderViewVerticalController.xib */,
+			);
+			path = RangeSlider;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -185,6 +309,7 @@
 				TargetAttributes = {
 					0310777029BF403C002B7F0C = {
 						CreatedOnToolsVersion = 14.3;
+						LastSwiftMigration = 1430;
 					};
 				};
 			};
@@ -195,6 +320,10 @@
 			knownRegions = (
 				en,
 				Base,
+				de,
+				fr,
+				it,
+				es,
 			);
 			mainGroup = 0310776829BF403C002B7F0C;
 			packageReferences = (
@@ -221,21 +350,24 @@
 			files = (
 				0307159429C0A57A0028240B /* README.md in Resources */,
 				0307159229C0A57A0028240B /* README_fr.md in Resources */,
-				0310777E29BF403D002B7F0C /* Assets.xcassets in Resources */,
-				0310778129BF403D002B7F0C /* Main.storyboard in Resources */,
 				030715A729C0A5B30028240B /* Capture1.png in Resources */,
 				030715AB29C0A5B30028240B /* Capture2.png in Resources */,
 				0307159329C0A57A0028240B /* version StoryBoard.md in Resources */,
 				030715A129C0A5B30028240B /* Capture6.png in Resources */,
+				03279FAD29C0B45E0027871E /* Main.storyboard in Resources */,
 				030715A229C0A5B30028240B /* Capture3.png in Resources */,
 				030715AA29C0A5B30028240B /* Capture5.png in Resources */,
 				030715A829C0A5B30028240B /* Capture7.png in Resources */,
+				03279FC929C0B60E0027871E /* SliderViewVerticalController.xib in Resources */,
 				030715A929C0A5B30028240B /* Pegase.png in Resources */,
 				0307159129C0A57A0028240B /* appcast.xml in Resources */,
+				03279FC829C0B60E0027871E /* SliderViewController.xib in Resources */,
 				030715A329C0A5B30028240B /* Capture4.png in Resources */,
+				03279FB029C0B4B90027871E /* Localizable.strings in Resources */,
 				030715A629C0A5B30028240B /* Capture10.png in Resources */,
 				030715A529C0A5B30028240B /* Capture9.png in Resources */,
 				030715AD29C0A5E60028240B /* Package.resolved in Resources */,
+				03279FCC29C0B60E0027871E /* SliderViewHorizontalController.xib in Resources */,
 				030715A429C0A5B30028240B /* Capture8.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -247,22 +379,55 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03279FC729C0B60E0027871E /* RangeSlider.swift in Sources */,
+				03279FBC29C0B5F10027871E /* CSwiftV.swift in Sources */,
+				03279F9E29C0B40E0027871E /* MyPrintViewTableViewOld.swift in Sources */,
+				03279FCB29C0B60E0027871E /* SliderViewVerticalController.swift in Sources */,
+				03279FA329C0B40E0027871E /* UpdateController.swift in Sources */,
+				03279F9829C0B40E0027871E /* MainWindowControllerToolBar.swift in Sources */,
+				03279F9529C0B40E0027871E /* Persistence.swift in Sources */,
+				03279F9729C0B40E0027871E /* MyPrintViewOutlineOld1.swift in Sources */,
+				03279FA029C0B40E0027871E /* AppDelegate.swift in Sources */,
+				03279FAA29C0B40E0027871E /* ViewController.swift in Sources */,
+				03279FCA29C0B60E0027871E /* SliderViewHorizontalController.swift in Sources */,
+				03279F9C29C0B40E0027871E /* MainWindowTransactions.swift in Sources */,
+				03279F9429C0B40E0027871E /* DefinitionsToolBar.swift in Sources */,
+				03279FA729C0B40E0027871E /* MainWindowController.swift in Sources */,
+				03279FBD29C0B5F10027871E /* CurrentScreen.swift in Sources */,
+				03279FA429C0B40E0027871E /* VersionChecker.swift in Sources */,
+				03279FCD29C0B60E0027871E /* RangeSliderHorizontal.swift in Sources */,
+				03279FA929C0B40E0027871E /* MainWindowSchedulers.swift in Sources */,
 				0310777C29BF403C002B7F0C /* Document.xcdatamodeld in Sources */,
-				0310777729BF403C002B7F0C /* ViewController.swift in Sources */,
-				0310777529BF403C002B7F0C /* AppDelegate.swift in Sources */,
-				0310777929BF403C002B7F0C /* Document.swift in Sources */,
+				03279FA229C0B40E0027871E /* Document.swift in Sources */,
+				03279FA129C0B40E0027871E /* DocumentController.swift in Sources */,
+				03279FAB29C0B40E0027871E /* ViewControllerSplitView.swift in Sources */,
+				03279FC629C0B60E0027871E /* RangeSliderVertical.swift in Sources */,
+				03279F9D29C0B40E0027871E /* MyPrintViewTableView.swift in Sources */,
+				03279FA629C0B40E0027871E /* UserNotificationCenterDelegate.swift in Sources */,
+				03279F9F29C0B40E0027871E /* MainWindowBankStatement.swift in Sources */,
+				03279F9A29C0B40E0027871E /* MainWindowToolBarDelegate.swift in Sources */,
+				03279FA529C0B40E0027871E /* MyPrintViewOutlineOld.swift in Sources */,
+				03279F9629C0B40E0027871E /* Controller.swift in Sources */,
+				03279F9B29C0B40E0027871E /* MyPrintViewOutline.swift in Sources */,
+				03279F9929C0B40E0027871E /* MainWindowToolBar.swift in Sources */,
+				03279FCF29C0B61F0027871E /* CommunShared.swift in Sources */,
+				03279FA829C0B40E0027871E /* ViewControllerDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		0310777F29BF403D002B7F0C /* Main.storyboard */ = {
+		03279FB229C0B4B90027871E /* Localizable.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				0310778029BF403D002B7F0C /* Base */,
+				03279FB129C0B4B90027871E /* en */,
+				03279FB329C0B4BF0027871E /* es */,
+				03279FB429C0B4C00027871E /* it */,
+				03279FB529C0B4C10027871E /* de */,
+				03279FB629C0B4C10027871E /* fr */,
 			);
-			name = Main.storyboard;
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -386,6 +551,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = Pegase/Pegase.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -405,6 +571,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = th.Pegase;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -414,6 +581,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = Pegase/Pegase.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
