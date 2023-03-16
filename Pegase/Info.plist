@@ -2,16 +2,6 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>Test</key>
-	<string>6934</string>
-	<key>NSUserNotificationAlertStyle</key>
-	<string>alerts</string>
-	<key>LSMinimumSystemVersion</key>
-	<string>$(MACOSX_DEPLOYMENT_TARGET)</string>
-	<key>CFBundleVersion</key>
-	<string>$(CURRENT_PROJECT_VERSION)</string>
-	<key>CFBundleIconFile</key>
-	<string>AppIcon-1</string>
 	<key>CFBundleDocumentTypes</key>
 	<array>
 		<dict>
@@ -81,5 +71,15 @@
 			<string>XML</string>
 		</dict>
 	</array>
+	<key>CFBundleIconFile</key>
+	<string>AppIcon</string>
+	<key>CFBundleVersion</key>
+	<string>$(CURRENT_PROJECT_VERSION)</string>
+	<key>LSMinimumSystemVersion</key>
+	<string>$(MACOSX_DEPLOYMENT_TARGET)</string>
+	<key>NSUserNotificationAlertStyle</key>
+	<string>alerts</string>
+	<key>Test</key>
+	<string>6944</string>
 </dict>
 </plist>

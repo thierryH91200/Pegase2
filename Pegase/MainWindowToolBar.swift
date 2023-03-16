@@ -155,7 +155,7 @@ extension MainWindowController {
 //
 //        let configure = RateConfigure()
 //        configure.name = Localizations.RateConfigure.name
-//        configure.icon = NSImage(named: NSImage.Name("AppIcon-1"))
+//        configure.icon = NSImage(named: NSImage.Name("AppIcon"))
 //        configure.detailText = Localizations.RateConfigure.detailText
 //        configure.likeButtonTitle = Localizations.RateConfigure.likeButtonTitle
 //        configure.ignoreButtonTitle = Localizations.RateConfigure.ignoreButtonTitle

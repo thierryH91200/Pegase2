@@ -18,7 +18,7 @@ struct UpdateView: View {
     let updateWindow:NSWindow?
     var body: some View {
         VStack {
-            Image("AppIcon-1")
+            Image("AppIcon")
                 .resizable()
                 .scaledToFit()
                 .frame(width: 60, height: 60)

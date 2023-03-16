@@ -44,7 +44,7 @@ extension Bundle {
     }
     
     public static func systemLanguage() -> String {
-        guard let sysLang = Locale.current.languageCode else { return "en"}
+        guard let sysLang = Locale.current.language.languageCode?.identifier else { return "en"}
         if supportLangs.contains(sysLang) {
             if sysLang == "zh" {
                 return "zh-Hans"

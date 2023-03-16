@@ -51,7 +51,7 @@ final class notificationCenter : NSObject {
                 content.title = title
                 content.body = body
                 content.subtitle = subtitle
-//                content.launchImageName = "AppIcon-1"
+//                content.launchImageName = "AppIcon"
 
                 if sound == true {
                     

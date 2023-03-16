@@ -14,7 +14,6 @@ final class AcknowledgementsModel: ObservableObject {
     
     var datas       = [Pin]()
 
-
     public init(_ dependencies: [Dependency] = []) {
         self.acknowledgements = dependencies
 
@@ -51,25 +50,25 @@ final class AcknowledgementsModel: ObservableObject {
         }
     }
     
-    func feedList(_ fileName: String) {
-        
-        if let jsonURL = Bundle.main.url(forResource: "persons", withExtension: "json") {
-            let jsonData = try! Data(contentsOf: jsonURL)
-            let jsonDecoder = JSONDecoder()
-            let persons = try! jsonDecoder.decode([Pin].self, from: jsonData)
-        }
-
-        
-        let url = Bundle.main.url(forResource: fileName, withExtension: "resolved")!
-        let data = try! Data(contentsOf: url)
-        datas = try! data.decoded()
-        
-        // or
-        // datas = try! data.decoded() as [Donnees]
-
-        // or
-        // let plistDecoder = PropertyListDecoder()
-        // datas = try! plistDecoder.decode([Donnees].self, from: data)
-    }
+//    func feedList(_ fileName: String) {
+//        
+//        if let jsonURL = Bundle.main.url(forResource: "persons", withExtension: "json") {
+//            let jsonData = try! Data(contentsOf: jsonURL)
+//            let jsonDecoder = JSONDecoder()
+//            let persons = try! jsonDecoder.decode([Pin].self, from: jsonData)
+//        }
+//
+//        
+//        let url = Bundle.main.url(forResource: fileName, withExtension: "resolved")!
+//        let data = try! Data(contentsOf: url)
+//        datas = try! data.decoded()
+//        
+//        // or
+//        // datas = try! data.decoded() as [Donnees]
+//
+//        // or
+//        // let plistDecoder = PropertyListDecoder()
+//        // datas = try! plistDecoder.decode([Donnees].self, from: data)
+//    }
 
 }

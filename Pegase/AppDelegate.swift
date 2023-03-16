@@ -16,8 +16,6 @@ import NotificationCenter
 import UserNotifications
 import SwiftyTranslate
 
-//import Sparkle
-
 typealias TFDatePicker = NSDatePicker
 
 @main
@@ -30,18 +28,12 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     private var isAutomaticUpdateCheck = false
     
     @IBOutlet var checkForUpdatesMenuItem: NSMenuItem!
-    
-    // Update controller
-//    var updateController: UpdateController!
 
 
     let defaults = UserDefaults.standard
     
     private let userNotificationCenterDelegate = UserNotificationCenterDelegate()
-    
-//    let updaterController: SPUStandardUpdaterController
-
-    
+        
     typealias TFDate = NSDatePicker
     
 //    private var keyWindowController: MainWindowController? {
@@ -74,22 +66,10 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 //        updateController = UpdateController(appDelegate: self)
         
         checkUpdate()
-
-
-        
-//        checkForUpdatesMenuItem.target = updaterController
-//        checkForUpdatesMenuItem.action = #selector(SPUStandardUpdaterController.checkForUpdates(_:))
         
         splashScreenWindowController = SplashScreenWindowController()
         splashScreenWindowController.showWindow(self)
     }
-    
-    //    @IBAction func updateButtonClicked(_ sender: Any) {
-    //        let appDelegate = NSApplication.shared.delegate as! AppDelegate
-    //        updateButton.target = appDelegate.updaterController
-    //        updateButton.action = #selector(SPUStandardUpdaterController.checkForUpdates(_:))
-    //    }
-    
     
     func userNotificationCenter(_ center: UNUserNotificationCenter, shouldPresent notification: UNNotification) -> Bool {
         return true

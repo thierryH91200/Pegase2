@@ -60,7 +60,7 @@ class SplashScreenWindowController: NSWindowController {
         
         let dictionary = Bundle.main.infoDictionary!
         let version = dictionary["CFBundleShortVersionString"] as? String
-        let build1 = dictionary["CFBundleVersion"] as? String
+//        let build1 = dictionary["CFBundleVersion"] as? String
         let build = dictionary["Test"] as? String
 
         if let cfBundleVersion = version {

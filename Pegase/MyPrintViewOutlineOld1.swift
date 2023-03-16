@@ -36,7 +36,7 @@ class MyPrintViewOutline1: NSView
 
     let margin: CGFloat = 20
     
-    var  widthQuotient : CGFloat = 0
+    var widthQuotient : CGFloat = 0
 
     override  var printJobTitle : String {
         return ""

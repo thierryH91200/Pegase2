@@ -5,8 +5,8 @@
 //  Created by Ty Irvine on 2022-03-03.
 //
 
-import Foundation
-import Sparkle
+//import Foundation
+//import Sparkle
 //
 //public enum UpdateFrequency: String {
 //	case AutoUpdate
