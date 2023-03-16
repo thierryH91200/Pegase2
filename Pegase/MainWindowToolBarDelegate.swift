@@ -13,8 +13,6 @@ import AppKit
 
 extension MainWindowController: NSToolbarDelegate
 {
-    
-    
     func toolbar(_ toolbar: NSToolbar,
                  itemForItemIdentifier itemIdentifier: NSToolbarItem.Identifier,
                  willBeInsertedIntoToolbar flag: Bool) -> NSToolbarItem?
@@ -106,7 +104,8 @@ extension MainWindowController: NSToolbarDelegate
             // NOTE: When you set the target as nil and use the string method
             // to define the Selector, it will go down the Responder Chain,
             // which in this app, this method is in AppDelegate. Neat!
-            let toolbarItem = NSToolbarItemGroup(itemIdentifier: itemIdentifier, titles: titles, selectionMode: .selectOne, labels: titles, target: nil, action: Selector(("appearanceSelection:")) )
+            let toolbarItem = NSToolbarItemGroup(itemIdentifier: itemIdentifier, titles: titles, selectionMode: .selectOne,
+                                                 labels: titles, target: nil, action: #selector(appearanceSelection(_:)) )
             
             toolbarItem.label = "Light/Dark"
             toolbarItem.paletteLabel = "View"

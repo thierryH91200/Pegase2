@@ -12,7 +12,9 @@ struct SystemInfo{
         infoDictionary!["CFBundleDisplayName"] as AnyObject //app name
     }
     static var majorVersion :AnyObject? {
+        let pr =  infoDictionary!["CFBundleShortVersionString"] as AnyObject
         infoDictionary!["CFBundleShortVersionString"] as AnyObject//major version
+        return pr
     }
     static var minorVersion :AnyObject? {
         infoDictionary!["CFBundleVersion"] as AnyObject//build version

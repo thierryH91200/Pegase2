@@ -152,7 +152,7 @@ class MyPrintViewTable: NSView
                 let color = (tableCellView.textField?.textColor)!
                 let alignment = textField.alignment
                 attributes[.foregroundColor] = color
-//                attributes[.paragraphStyle] = alignment
+                attributes[.paragraphStyle] = alignment
 
                 let rect = NSMakeRect(
                     leftMargin + horizontalOffset,

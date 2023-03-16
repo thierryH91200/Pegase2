@@ -45,7 +45,6 @@
 		03279FA029C0B40E0027871E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03279F8829C0B40E0027871E /* AppDelegate.swift */; };
 		03279FA129C0B40E0027871E /* DocumentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03279F8929C0B40E0027871E /* DocumentController.swift */; };
 		03279FA229C0B40E0027871E /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03279F8A29C0B40E0027871E /* Document.swift */; };
-		03279FA329C0B40E0027871E /* UpdateController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03279F8B29C0B40E0027871E /* UpdateController.swift */; };
 		03279FA429C0B40E0027871E /* VersionChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03279F8C29C0B40E0027871E /* VersionChecker.swift */; };
 		03279FA529C0B40E0027871E /* MyPrintViewOutlineOld.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03279F8D29C0B40E0027871E /* MyPrintViewOutlineOld.swift */; };
 		03279FA629C0B40E0027871E /* UserNotificationCenterDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03279F8E29C0B40E0027871E /* UserNotificationCenterDelegate.swift */; };
@@ -351,7 +350,6 @@
 		03279F8829C0B40E0027871E /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		03279F8929C0B40E0027871E /* DocumentController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DocumentController.swift; sourceTree = "<group>"; };
 		03279F8A29C0B40E0027871E /* Document.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Document.swift; sourceTree = "<group>"; };
-		03279F8B29C0B40E0027871E /* UpdateController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpdateController.swift; sourceTree = "<group>"; };
 		03279F8C29C0B40E0027871E /* VersionChecker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VersionChecker.swift; sourceTree = "<group>"; };
 		03279F8D29C0B40E0027871E /* MyPrintViewOutlineOld.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyPrintViewOutlineOld.swift; sourceTree = "<group>"; };
 		03279F8E29C0B40E0027871E /* UserNotificationCenterDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserNotificationCenterDelegate.swift; sourceTree = "<group>"; };
@@ -661,13 +659,13 @@
 		0307158C29C0A53D0028240B /* Group */ = {
 			isa = PBXGroup;
 			children = (
-				0327A1CD29C0D4010027871E /* Extension */,
-				0327A1C429C0D3AA0027871E /* Acknowledgements */,
 				0327A01029C0BC080027871E /* About */,
 				0327A17B29C0D21C0027871E /* AccountGroup */,
 				0327A1A229C0D2B10027871E /* AccountTracking */,
+				0327A1C429C0D3AA0027871E /* Acknowledgements */,
 				0327A01229C0BC110027871E /* Config */,
 				0327A01329C0BC650027871E /* CoreData */,
+				0327A1CD29C0D4010027871E /* Extension */,
 				0327A17229C0D1BB0027871E /* Filter */,
 				0327A08129C0C6F00027871E /* Generated */,
 				0327A08229C0C7F40027871E /* Import */,
@@ -748,7 +746,6 @@
 				03279F8529C0B40E0027871E /* MyPrintViewTableView.swift */,
 				03279F8629C0B40E0027871E /* MyPrintViewTableViewOld.swift */,
 				03279F7D29C0B40E0027871E /* Persistence.swift */,
-				03279F8B29C0B40E0027871E /* UpdateController.swift */,
 				03279F8E29C0B40E0027871E /* UserNotificationCenterDelegate.swift */,
 				03279F8C29C0B40E0027871E /* VersionChecker.swift */,
 				03279F9229C0B40E0027871E /* ViewController.swift */,
@@ -1812,7 +1809,6 @@
 				03279FDF29C0B6BB0027871E /* TransactionViewController.swift in Sources */,
 				0327A1EA29C0D4290027871E /* Debug.swift in Sources */,
 				0327A20A29C0D4440027871E /* NotificationsHelper.swift in Sources */,
-				03279FA329C0B40E0027871E /* UpdateController.swift in Sources */,
 				0327A1FB29C0D4290027871E /* Bundle.swift in Sources */,
 				0327A06929C0C4D80027871E /* RequestError.swift in Sources */,
 				0327A07829C0C5900027871E /* SettingsView.swift in Sources */,
@@ -2175,7 +2171,7 @@
 				CODE_SIGN_ENTITLEMENTS = Pegase/Pegase.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1.14;
+				CURRENT_PROJECT_VERSION = 96;
 				DEVELOPMENT_TEAM = 84WLNJ2YG4;
 				ENABLE_HARDENED_RUNTIME = NO;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -2189,7 +2185,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MARKETING_VERSION = 1.14;
+				MARKETING_VERSION = 1.15;
 				PRODUCT_BUNDLE_IDENTIFIER = th.Pegase;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -2207,7 +2203,7 @@
 				CODE_SIGN_ENTITLEMENTS = Pegase/Pegase.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1.14;
+				CURRENT_PROJECT_VERSION = 96;
 				DEVELOPMENT_TEAM = 84WLNJ2YG4;
 				ENABLE_HARDENED_RUNTIME = NO;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -2221,7 +2217,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MARKETING_VERSION = 1.14;
+				MARKETING_VERSION = 1.15;
 				PRODUCT_BUNDLE_IDENTIFIER = th.Pegase;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;

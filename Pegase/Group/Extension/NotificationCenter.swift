@@ -42,7 +42,7 @@ final class notificationCenter : NSObject {
         let notificationCenter = UNUserNotificationCenter.current();
         notificationCenter.getNotificationSettings
         { (settings) in
-            print(settings)
+//            print(settings)
             if settings.authorizationStatus == .authorized
             {
                 //print ("Notifications Still Allowed");

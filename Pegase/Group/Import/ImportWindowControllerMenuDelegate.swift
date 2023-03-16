@@ -55,7 +55,7 @@ extension ImportWindowController: NSMenuDelegate {
                 menuItem.representedObject = headerColumnForMenu
             } else {
                 menuItem.state = .off
-                menuItem.representedObject = []
+                menuItem.representedObject = nil
             }
             menuHeader.addItem(menuItem)
         }
