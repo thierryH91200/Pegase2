@@ -29,11 +29,8 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     
     @IBOutlet var checkForUpdatesMenuItem: NSMenuItem!
 
-
     let defaults = UserDefaults.standard
-    
     private let userNotificationCenterDelegate = UserNotificationCenterDelegate()
-        
     typealias TFDate = NSDatePicker
     
 //    private var keyWindowController: MainWindowController? {
@@ -111,7 +108,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         UserDefaults.standard.set(defaults, forKey: kUserDefaultsKeyVisibleColumns)
         
         // for verify
-        //        let dict1 = UserDefaults.standard.dictionary(forKey: kUserDefaultsKeyVisibleColumns)
+        //   let dict1 = UserDefaults.standard.dictionary(forKey: kUserDefaultsKeyVisibleColumns)
         
         // Create the shared document controller.
         _ = TulsiDocumentController()
@@ -283,7 +280,6 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         AboutView().showWindow(width: 530, height: 220)
     }
     
-    
     /// Tries to focus a window with specified view content type.
     /// - Parameter type: The type of viewContent which hosted in a window to be focused.
     /// - Returns: `true` if window exist and focused, oterwise - `false`
@@ -312,65 +308,10 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         }
     }
 
-    
-}
-
-extension AppDelegate: VersionCheckerDelegate {
-    
-    func versionCheckerDidFindNewVersion(_ latestVersion: String, with latestVersionURL: URL) {
-        guard let window = splashScreenWindowController?.window else {
-            return
-        }
-
-        let alert = NSAlert()
-        alert.addButton(withTitle: "Take me there!")
-        alert.addButton(withTitle: "Cancel")
-        alert.messageText = "New version available: \(latestVersion)"
-        if let currentVersion = Bundle.main.object(forInfoDictionaryKey: "CFBundleShortVersionString") as? String {
-            alert.informativeText = "You're currently at v\(currentVersion)"
-        }
-        alert.alertStyle = .informational
-        alert.showsSuppressionButton = self.isAutomaticUpdateCheck
-        alert.suppressionButton?.title = "Check for new versions automatically"
-        alert.suppressionButton?.state = .on
-
-        alert.beginSheetModal(for: window) { response in
-            if response == .alertFirstButtonReturn {
-                NSWorkspace.shared.open(latestVersionURL)
-            }
-
-            if alert.suppressionButton?.state == .off {
-                self.defaults.set(false, forKey: "automaticUpdateChecks")            }
-        }
-    }
-
-    func versionCheckerDidNotFindNewVersion() {
-//        guard !isAutomaticUpdateCheck, let window = mainWebViewController?.view.window else {
-//            return
-//        }
-//
-//        let alert = NSAlert()
-//        alert.addButton(withTitle: "Nice!")
-//        alert.messageText = "Up to date!"
-//        if let currentVersion = Bundle.main.object(forInfoDictionaryKey: "CFBundleShortVersionString") as? String {
-//            alert.informativeText = "You're on the latest version. (v\(currentVersion))"
-//        }
-//        alert.alertStyle = .informational
-//        alert.beginSheetModal(for: window, completionHandler: nil)
-    }
-    
-    func checkForUpdates() {
-        VersionChecker.shared.delegate = self
-        VersionChecker.shared.checkForUpdates()
-    }
-}
-
-extension AppDelegate {
     @IBAction func checkForUpdates(_ sender: Any?) {
         isAutomaticUpdateCheck = false
-        checkForUpdates()
+        checkUpdate()
     }
-    
 }
 
 extension NSApplication {

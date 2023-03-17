@@ -30,6 +30,9 @@
                                         </menuItem>
                                         <menuItem title="Check for Updates…" id="p3d-HB-U1i">
                                             <modifierMask key="keyEquivalentModifierMask"/>
+                                            <connections>
+                                                <action selector="checkForUpdates:" target="Ady-hI-5gd" id="H2a-Pc-ycX"/>
+                                            </connections>
                                         </menuItem>
                                         <menuItem title="Rate On Mac App Store" id="Yiw-cn-Tmf">
                                             <modifierMask key="keyEquivalentModifierMask"/>
