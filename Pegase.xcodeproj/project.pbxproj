@@ -30,6 +30,9 @@
 		030715BC29C0A8810028240B /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 030715BB29C0A8810028240B /* Alamofire */; };
 		030715BF29C0A8D10028240B /* Defaults in Frameworks */ = {isa = PBXBuildFile; productRef = 030715BE29C0A8D10028240B /* Defaults */; };
 		0310777C29BF403C002B7F0C /* Document.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0310777A29BF403C002B7F0C /* Document.xcdatamodeld */; };
+		0315B71629C62B6D00FFE215 /* WeeklySummaryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0315B71429C62B6D00FFE215 /* WeeklySummaryController.swift */; };
+		0315B71729C62B6D00FFE215 /* WeeklySummaryController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0315B71529C62B6D00FFE215 /* WeeklySummaryController.xib */; };
+		0315B71929C62D9D00FFE215 /* Transformable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0315B71829C62D9D00FFE215 /* Transformable.swift */; };
 		03279F9429C0B40E0027871E /* DefinitionsToolBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03279F7C29C0B40E0027871E /* DefinitionsToolBar.swift */; };
 		03279F9529C0B40E0027871E /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03279F7D29C0B40E0027871E /* Persistence.swift */; };
 		03279F9629C0B40E0027871E /* Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03279F7E29C0B40E0027871E /* Controller.swift */; };
@@ -285,7 +288,6 @@
 		0327A1F229C0D4290027871E /* Calendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0327A1D829C0D4280027871E /* Calendar.swift */; };
 		0327A1F329C0D4290027871E /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0327A1D929C0D4290027871E /* ChartView.swift */; };
 		0327A1F429C0D4290027871E /* UNNotificationAction+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0327A1DA29C0D4290027871E /* UNNotificationAction+Extension.swift */; };
-		0327A1F529C0D4290027871E /* Transformable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0327A1DB29C0D4290027871E /* Transformable.swift */; };
 		0327A1F629C0D4290027871E /* ManagedObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0327A1DC29C0D4290027871E /* ManagedObject.swift */; };
 		0327A1F729C0D4290027871E /* NSWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0327A1DD29C0D4290027871E /* NSWindow.swift */; };
 		0327A1F829C0D4290027871E /* NSTableRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0327A1DE29C0D4290027871E /* NSTableRowView.swift */; };
@@ -335,6 +337,9 @@
 		0310777B29BF403C002B7F0C /* Document.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Document.xcdatamodel; sourceTree = "<group>"; };
 		0310778229BF403D002B7F0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0310778329BF403D002B7F0C /* Pegase.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Pegase.entitlements; sourceTree = "<group>"; };
+		0315B71429C62B6D00FFE215 /* WeeklySummaryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeeklySummaryController.swift; sourceTree = "<group>"; };
+		0315B71529C62B6D00FFE215 /* WeeklySummaryController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WeeklySummaryController.xib; sourceTree = "<group>"; };
+		0315B71829C62D9D00FFE215 /* Transformable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Transformable.swift; sourceTree = "<group>"; };
 		03279F7C29C0B40E0027871E /* DefinitionsToolBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefinitionsToolBar.swift; sourceTree = "<group>"; };
 		03279F7D29C0B40E0027871E /* Persistence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		03279F7E29C0B40E0027871E /* Controller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Controller.swift; sourceTree = "<group>"; };
@@ -610,7 +615,6 @@
 		0327A1D829C0D4280027871E /* Calendar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Calendar.swift; sourceTree = "<group>"; };
 		0327A1D929C0D4290027871E /* ChartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
 		0327A1DA29C0D4290027871E /* UNNotificationAction+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UNNotificationAction+Extension.swift"; sourceTree = "<group>"; };
-		0327A1DB29C0D4290027871E /* Transformable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Transformable.swift; sourceTree = "<group>"; };
 		0327A1DC29C0D4290027871E /* ManagedObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManagedObject.swift; sourceTree = "<group>"; };
 		0327A1DD29C0D4290027871E /* NSWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSWindow.swift; sourceTree = "<group>"; };
 		0327A1DE29C0D4290027871E /* NSTableRowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSTableRowView.swift; sourceTree = "<group>"; };
@@ -680,6 +684,7 @@
 				0327A00729C0B7CA0027871E /* SplashScreen */,
 				03279FD029C0B6710027871E /* Transactions */,
 				03279FB729C0B5930027871E /* Util */,
+				0315B71329C62AE600FFE215 /* Weekly Summary */,
 			);
 			path = Group;
 			sourceTree = "<group>";
@@ -759,6 +764,15 @@
 				0310777A29BF403C002B7F0C /* Document.xcdatamodeld */,
 			);
 			path = Pegase;
+			sourceTree = "<group>";
+		};
+		0315B71329C62AE600FFE215 /* Weekly Summary */ = {
+			isa = PBXGroup;
+			children = (
+				0315B71429C62B6D00FFE215 /* WeeklySummaryController.swift */,
+				0315B71529C62B6D00FFE215 /* WeeklySummaryController.xib */,
+			);
+			path = "Weekly Summary";
 			sourceTree = "<group>";
 		};
 		03279FB729C0B5930027871E /* Util */ = {
@@ -1312,8 +1326,8 @@
 		0327A15829C0D1390027871E /* ListTransactions */ = {
 			isa = PBXGroup;
 			children = (
-				0327A15A29C0D15F0027871E /* ListTransactionsController.storyboard */,
 				0327A16029C0D15F0027871E /* ListTransactionsController.swift */,
+				0327A15A29C0D15F0027871E /* ListTransactionsController.storyboard */,
 				0327A16129C0D15F0027871E /* ListTransactionsController+Expansion.swift */,
 				0327A15F29C0D15F0027871E /* ListTransactionsController1.storyboard */,
 				0327A16329C0D15F0027871E /* ListTransactionsDataSource.swift */,
@@ -1350,8 +1364,6 @@
 		0327A17B29C0D21C0027871E /* AccountGroup */ = {
 			isa = PBXGroup;
 			children = (
-				0327A19929C0D2800027871E /* ModalAccountGroup */,
-				0327A18E29C0D2490027871E /* PopUp */,
 				0327A17C29C0D2360027871E /* AccountGroupTableCellView.swift */,
 				0327A17E29C0D2360027871E /* AccountGroupViewController.swift */,
 				0327A18129C0D2360027871E /* AccountGroupViewController.xib */,
@@ -1361,6 +1373,8 @@
 				0327A17F29C0D2360027871E /* AccountGroupViewDragDrop.swift */,
 				0327A17D29C0D2360027871E /* CurtainViewController.swift */,
 				0327A18329C0D2360027871E /* CurtainViewController.xib */,
+				0327A19929C0D2800027871E /* ModalAccountGroup */,
+				0327A18E29C0D2490027871E /* PopUp */,
 			);
 			path = AccountGroup;
 			sourceTree = "<group>";
@@ -1501,7 +1515,7 @@
 				0327A1DD29C0D4290027871E /* NSWindow.swift */,
 				0327A1E229C0D4290027871E /* NVDate.swift */,
 				0327A1E629C0D4290027871E /* String.swift */,
-				0327A1DB29C0D4290027871E /* Transformable.swift */,
+				0315B71829C62D9D00FFE215 /* Transformable.swift */,
 				0327A1DA29C0D4290027871E /* UNNotificationAction+Extension.swift */,
 				0327A1E429C0D4290027871E /* UNNotificationCategory+Extension.swift */,
 				0327A1D529C0D4280027871E /* ViewModel.swift */,
@@ -1691,6 +1705,7 @@
 				0327A1AD29C0D3150027871E /* BankStatementModalWindowController.xib in Resources */,
 				0327A22029C0D8EF0027871E /* Assets.xcassets in Resources */,
 				030715A629C0A5B30028240B /* Capture10.png in Resources */,
+				0315B71729C62B6D00FFE215 /* WeeklySummaryController.xib in Resources */,
 				0327A0DA29C0CDB00027871E /* ModeOfPaymentViewController.xib in Resources */,
 				0327A12929C0D0560027871E /* RubricPieController.xib in Resources */,
 				0327A04629C0C2960027871E /* DeveloperID.xcconfig in Resources */,
@@ -1892,6 +1907,7 @@
 				0327A03A29C0BCA30027871E /* PaymentMode.swift in Sources */,
 				0327A03E29C0BCA30027871E /* Statut.swift in Sources */,
 				03279FA429C0B40E0027871E /* VersionChecker.swift in Sources */,
+				0315B71929C62D9D00FFE215 /* Transformable.swift in Sources */,
 				0327A15729C0D0DD0027871E /* util.swift in Sources */,
 				0327A06529C0C4D80027871E /* GitHubEndpoint.swift in Sources */,
 				0327A1FE29C0D4290027871E /* UNNotificationCategory+Extension.swift in Sources */,
@@ -1909,6 +1925,7 @@
 				0327A01E29C0BC850027871E /* EntityCategory+CoreDataClass.swift in Sources */,
 				0327A14A29C0D0CE0027871E /* AccountViewController.swift in Sources */,
 				03279FA229C0B40E0027871E /* Document.swift in Sources */,
+				0315B71629C62B6D00FFE215 /* WeeklySummaryController.swift in Sources */,
 				0327A07029C0C5280027871E /* SystemInfo.swift in Sources */,
 				0327A11129C0CF5E0027871E /* MouseTracker.swift in Sources */,
 				0327A0B229C0CA9C0027871E /* Feed.swift in Sources */,
@@ -1934,7 +1951,6 @@
 				0327A12829C0D0560027871E /* RubricBarController.swift in Sources */,
 				0327A18B29C0D2360027871E /* AccountGroupViewDataSource.swift in Sources */,
 				0327A1FF29C0D4290027871E /* NSOpenPanel.swift in Sources */,
-				0327A1F529C0D4290027871E /* Transformable.swift in Sources */,
 				0327A02229C0BC850027871E /* EntityTransactions+CoreDataClass.swift in Sources */,
 				03279FA129C0B40E0027871E /* DocumentController.swift in Sources */,
 				0327A05A29C0C46B0027871E /* ColorDefine.swift in Sources */,
@@ -2278,7 +2294,7 @@
 			repositoryURL = "https://github.com/danielgindi/Charts";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 4.1.0;
+				minimumVersion = 4.0.0;
 			};
 		};
 		030715BA29C0A8810028240B /* XCRemoteSwiftPackageReference "Alamofire" */ = {

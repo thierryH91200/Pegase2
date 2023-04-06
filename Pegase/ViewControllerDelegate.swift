@@ -59,6 +59,13 @@ extension ViewController: SourceListDelegate
 //            segmentedControl?.setEnabled(false, forSegment: 1)
 //            segmentedControl?.setSelected(true, forSegment: 2)
             
+        case "SynthHebdo":
+            self.weeklySummaryController = WeeklySummaryController()
+            vc = (weeklySummaryController?.view)!
+            
+            isSplitRightHidden = true
+            isSplitCenterHidden =  false
+
         case "Courbe de trésorerie":
             self.tresorerieController = TresorerieViewController()
             vc = (tresorerieController?.view)!

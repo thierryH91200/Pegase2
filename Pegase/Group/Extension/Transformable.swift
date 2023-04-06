@@ -30,7 +30,7 @@ final class ColorValueTransformer: NSSecureUnarchiveFromDataTransformer {
 
 //@objc(CustomClassValueTransformer)
 //final class CustomClassValueTransformer: NSSecureUnarchiveFromDataTransformer {
-//
+
 //    static let name = NSValueTransformerName(rawValue: String(describing: CustomClass.self))
 //
 //    // Make sure `CustomClass` is in the allowed class list,
@@ -46,15 +46,15 @@ final class ColorValueTransformer: NSSecureUnarchiveFromDataTransformer {
 //        ValueTransformer.setValueTransformer(transformer, forName: name)
 //    }
 //}
-//
+
 
 final class MyCustomObject: NSSecureCoding {
     func encode(with coder: NSCoder) {
     }
-    
+
     init?(coder: NSCoder) {
     }
-    
+
     static var supportsSecureCoding = true
 }
 

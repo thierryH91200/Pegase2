@@ -53,6 +53,7 @@ class ViewController: NSViewController , UNUserNotificationCenterDelegate{
     var identiteViewController       : IdentiteViewController?
     var webViewController            : WebViewController?
     var advancedFilterViewController : AdvancedFilterViewController?
+    var weeklySummaryController : WeeklySummaryController?
     
     private var center: UNUserNotificationCenter?
     private let handler = NotificationHandler()

@@ -15,7 +15,15 @@
 				<key>icon</key>
 				<string>list.bullet</string>
 				<key>name</key>
-				<string>List of transactions</string>
+				<string>Liste des transactions</string>
+			</dict>
+			<dict>
+				<key>nameView</key>
+				<string>SynthHebdo</string>
+				<key>icon</key>
+				<string>list.bullet</string>
+				<key>name</key>
+				<string>Synthése Hebdo</string>
 			</dict>
 			<dict>
 				<key>nameView</key>

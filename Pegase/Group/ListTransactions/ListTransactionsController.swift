@@ -121,7 +121,7 @@ final class ListTransactionsController: NSViewController {
         super.viewDidLoad()
         
         self.outlineListView.layout()
-        outlineListView.usesAutomaticRowHeights = false
+        self.outlineListView.usesAutomaticRowHeights = false
 
         self.outlineListView.selectionHighlightStyle = .regular
 

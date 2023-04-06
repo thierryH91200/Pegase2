@@ -19,6 +19,14 @@
 			</dict>
 			<dict>
 				<key>nameView</key>
+				<string>SynthHebdo</string>
+				<key>icon</key>
+				<string>list.bullet</string>
+				<key>name</key>
+				<string>Weekly Summary</string>
+			</dict>
+			<dict>
+				<key>nameView</key>
 				<string>Courbe de trésorerie</string>
 				<key>icon</key>
 				<string>chart.xyaxis.line</string>
