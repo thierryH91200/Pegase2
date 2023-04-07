@@ -45,11 +45,11 @@ extension ImportWindowController: NSTableViewDelegate {
         let items = menuHeader.items
         
         for i in 0 ..< items.count {
-            let rep = items[i].representedObject as!  [HeaderColumnForMenu]
-            let index = rep.firstIndex { $0.numCol == indexCol }
+            let rep = items[i].representedObject as?  [HeaderColumnForMenu]
+            let index = rep?.firstIndex { $0.numCol == indexCol }
             if index != nil {
-                let newItem = rep[index!]
-                if newItem.numMenu != 0 {
+                let newItem = rep?[index!]
+                if newItem?.numMenu != 0 {
                     textField.textColor = .blue
                     break
                 }

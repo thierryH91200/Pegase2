@@ -52,7 +52,7 @@
 "GroupeAccount.RemoveAlert.MessageText" = "Supprimer cet élement";
 
 /* MARK: -  ImportSimplifiee */
-"SimplifiedImport.Menu.ignoreCol" = "Ignore_Column";
+"SimplifiedImport.Menu.ignoreCol" = "Ignore Colonne";
 "SimplifiedImport.Menu.dateTransaction" = "Date Transaction";
 "SimplifiedImport.Menu.datePointage" = "Date Pointage";
 "SimplifiedImport.Menu.statut" = "Statut";

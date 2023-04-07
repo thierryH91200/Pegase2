@@ -88,16 +88,17 @@
 "Rubric.MessageText" = "Delete this element";
 
 // MARK: -  SimplifiedImport
-"SimplifiedImport.Menu.amount" = "Amount";
-"SimplifiedImport.Menu.bankStatement" = "Bank Statement";
-"SimplifiedImport.Menu.category" = "Category";
-"SimplifiedImport.Menu.comment" = "Comment";
-"SimplifiedImport.Menu.datePointage" = "Date Pointage";
-"SimplifiedImport.Menu.dateTransaction" = "Date Transaction";
 "SimplifiedImport.Menu.ignoreCol" = "Ignore_Column";
-"SimplifiedImport.Menu.paymentMethod" = "Payment method";
-"SimplifiedImport.Menu.rubric" = "Rubric";
+"SimplifiedImport.Menu.dateTransaction" = "Date Transaction";
+"SimplifiedImport.Menu.datePointage" = "Date Pointage";
 "SimplifiedImport.Menu.statut" = "Statut";
+"SimplifiedImport.Menu.paymentMethod" = "Payment method";
+"SimplifiedImport.Menu.bankStatement" = "Bank Statement";
+
+"SimplifiedImport.Menu.comment" = "Comment";
+"SimplifiedImport.Menu.rubric" = "Rubric";
+"SimplifiedImport.Menu.category" = "Category";
+"SimplifiedImport.Menu.amount" = "Amount";
 
 // MARK: -  Statut
 "Statut.Engaged" = "Engaged";

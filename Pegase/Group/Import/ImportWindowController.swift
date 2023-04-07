@@ -33,6 +33,7 @@ class ImportWindowController: NSWindowController, NSSearchFieldDelegate {
     
     var menuHeader = NSMenu()
     
+    var headerEmptyColumnForMenu = [HeaderColumnForMenu]()
     var headerColumnForMenu = [HeaderColumnForMenu]()
     
     var statusBarFormatViewController: TTFormatViewController?
@@ -65,9 +66,7 @@ class ImportWindowController: NSWindowController, NSSearchFieldDelegate {
             statusBarFormatViewController?.delegate = self
             statusBarFormatViewController?.config = csvConfig
         }
-        
-//        infoView.isHidden = false
-        
+                
         splitView.addSubview((statusBarFormatViewController?.view)!, positioned: .above, relativeTo: splitView)
         statusBarFormatViewController?.selectFormatByConfig()
         
@@ -135,8 +134,6 @@ class ImportWindowController: NSWindowController, NSSearchFieldDelegate {
         self.delegate?.reloadData(false, true)
         NotificationCenter.send(.updateBalance)
     }
-
-    
 }
 
 //extension String {

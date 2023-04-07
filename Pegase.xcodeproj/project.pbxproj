@@ -224,7 +224,6 @@
 		0327A15529C0D0DD0027871E /* PreferenceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0327A14F29C0D0DD0027871E /* PreferenceKey.swift */; };
 		0327A15629C0D0DD0027871E /* PreferencesTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0327A15029C0D0DD0027871E /* PreferencesTabViewController.swift */; };
 		0327A15729C0D0DD0027871E /* util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0327A15129C0D0DD0027871E /* util.swift */; };
-		0327A16429C0D15F0027871E /* ListTransactionsController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0327A15A29C0D15F0027871E /* ListTransactionsController.storyboard */; };
 		0327A16529C0D15F0027871E /* ListTransactionsMenuDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0327A15B29C0D15F0027871E /* ListTransactionsMenuDelegate.swift */; };
 		0327A16629C0D15F0027871E /* ListTransactionsPasteboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0327A15C29C0D15F0027871E /* ListTransactionsPasteboard.swift */; };
 		0327A16729C0D15F0027871E /* ListTransactionsTextColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0327A15D29C0D15F0027871E /* ListTransactionsTextColor.swift */; };
@@ -314,6 +313,7 @@
 		0327A21D29C0D68F0027871E /* SchedulersDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0327A21B29C0D68F0027871E /* SchedulersDetailView.swift */; };
 		0327A21E29C0D68F0027871E /* SchedulersDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0327A21C29C0D68F0027871E /* SchedulersDetailView.xib */; };
 		0327A22029C0D8EF0027871E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0327A21F29C0D8EF0027871E /* Assets.xcassets */; };
+		03A7D8A829E042B3008D9A90 /* ListTransactionsController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03A7D8AA29E042B3008D9A90 /* ListTransactionsController.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -551,7 +551,6 @@
 		0327A14F29C0D0DD0027871E /* PreferenceKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreferenceKey.swift; sourceTree = "<group>"; };
 		0327A15029C0D0DD0027871E /* PreferencesTabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreferencesTabViewController.swift; sourceTree = "<group>"; };
 		0327A15129C0D0DD0027871E /* util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = util.swift; sourceTree = "<group>"; };
-		0327A15A29C0D15F0027871E /* ListTransactionsController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ListTransactionsController.storyboard; sourceTree = "<group>"; };
 		0327A15B29C0D15F0027871E /* ListTransactionsMenuDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListTransactionsMenuDelegate.swift; sourceTree = "<group>"; };
 		0327A15C29C0D15F0027871E /* ListTransactionsPasteboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListTransactionsPasteboard.swift; sourceTree = "<group>"; };
 		0327A15D29C0D15F0027871E /* ListTransactionsTextColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListTransactionsTextColor.swift; sourceTree = "<group>"; };
@@ -641,6 +640,12 @@
 		0327A21B29C0D68F0027871E /* SchedulersDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchedulersDetailView.swift; sourceTree = "<group>"; };
 		0327A21C29C0D68F0027871E /* SchedulersDetailView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SchedulersDetailView.xib; sourceTree = "<group>"; };
 		0327A21F29C0D8EF0027871E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		03A7D8A929E042B3008D9A90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/ListTransactionsController.storyboard; sourceTree = "<group>"; };
+		03A7D8AC29E042BB008D9A90 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/ListTransactionsController.strings; sourceTree = "<group>"; };
+		03A7D8AE29E042BC008D9A90 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/ListTransactionsController.strings; sourceTree = "<group>"; };
+		03A7D8B029E042BD008D9A90 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/ListTransactionsController.strings; sourceTree = "<group>"; };
+		03A7D8B229E042BE008D9A90 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/ListTransactionsController.strings; sourceTree = "<group>"; };
+		03A7D8B429E042BF008D9A90 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/ListTransactionsController.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1327,7 +1332,7 @@
 			isa = PBXGroup;
 			children = (
 				0327A16029C0D15F0027871E /* ListTransactionsController.swift */,
-				0327A15A29C0D15F0027871E /* ListTransactionsController.storyboard */,
+				03A7D8AA29E042B3008D9A90 /* ListTransactionsController.storyboard */,
 				0327A16129C0D15F0027871E /* ListTransactionsController+Expansion.swift */,
 				0327A15F29C0D15F0027871E /* ListTransactionsController1.storyboard */,
 				0327A16329C0D15F0027871E /* ListTransactionsDataSource.swift */,
@@ -1642,7 +1647,7 @@
 				0307159429C0A57A0028240B /* README.md in Resources */,
 				0327A09129C0C8030027871E /* ImportWindowController.xib in Resources */,
 				0327A08F29C0C8030027871E /* TTFormatViewControllerAccessory.xib in Resources */,
-				0327A16429C0D15F0027871E /* ListTransactionsController.storyboard in Resources */,
+				03A7D8A829E042B3008D9A90 /* ListTransactionsController.storyboard in Resources */,
 				0327A0FF29C0CF4B0027871E /* RubriqueViewController.xib in Resources */,
 				0327A19E29C0D28D0027871E /* GroupModalWindowController.xib in Resources */,
 				0327A16929C0D15F0027871E /* ListTransactionsController1.storyboard in Resources */,
@@ -2060,6 +2065,19 @@
 				0327A0BA29C0CAAF0027871E /* es */,
 			);
 			name = Feeds.plist;
+			sourceTree = "<group>";
+		};
+		03A7D8AA29E042B3008D9A90 /* ListTransactionsController.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03A7D8A929E042B3008D9A90 /* Base */,
+				03A7D8AC29E042BB008D9A90 /* en */,
+				03A7D8AE29E042BC008D9A90 /* fr */,
+				03A7D8B029E042BD008D9A90 /* de */,
+				03A7D8B229E042BE008D9A90 /* it */,
+				03A7D8B429E042BF008D9A90 /* es */,
+			);
+			name = ListTransactionsController.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

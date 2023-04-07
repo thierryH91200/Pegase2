@@ -15,9 +15,8 @@ class WeeklySummaryController: NSViewController {
     
     enum ViewSummaryDisplayProperty: String {
         case idNum
-        
         case dateDebCol
-        case soldeDebCol
+        case soldeCol
         
     }
     
@@ -116,13 +115,13 @@ class WeeklySummaryController: NSViewController {
            return device.num
        }
         
-       let groupByNum1 = self.groupByNum.sorted(by: { $0.key < $1.key })
+//       let groupByNum1 = self.groupByNum.sorted(by: { $0.key < $1.key })
        
         let allKeys = Set<Int>(groupByNum.map { $0.key })
         let strAllKeys = allKeys.sorted()
         for key in strAllKeys {
             let value = groupByNum[key]
-            print(value?.count ?? 1)
+//            print(value?.count ?? 1)
         }
 //        print(strAllKeys)
 
@@ -151,14 +150,20 @@ extension WeeklySummaryController: NSTableViewDelegate {
         case .idNum:
             let cellIdentifier = NSUserInterfaceItemIdentifier(rawValue: "idNumCell")
             cellView = tableView.makeView(withIdentifier: cellIdentifier, owner: self) as? NSTableCellView
-            cellView?.textField?.stringValue = "Hello"
+            cellView?.textField?.stringValue = "idNum"
             return cellView
 
         case .dateDebCol:
-            return nil
+            let cellIdentifier = NSUserInterfaceItemIdentifier(rawValue: "dateCell")
+            cellView = tableView.makeView(withIdentifier: cellIdentifier, owner: self) as? NSTableCellView
+            cellView?.textField?.stringValue = "dateCell"
+            return cellView
 
-        case .soldeDebCol:
-            return nil
+        case .soldeCol:
+            let cellIdentifier = NSUserInterfaceItemIdentifier(rawValue: "soldeCell")
+            cellView = tableView.makeView(withIdentifier: cellIdentifier, owner: self) as? NSTableCellView
+            cellView?.textField?.stringValue = "soldeCell"
+            return cellView
 
         }
     }

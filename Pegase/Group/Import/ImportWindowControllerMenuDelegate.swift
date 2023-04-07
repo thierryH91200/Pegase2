@@ -15,10 +15,13 @@ extension ImportWindowController: NSMenuDelegate {
         {
             menu.items[i].state =  .off
             
-            headerColumnForMenu = menu.items[i].representedObject as!  [HeaderColumnForMenu]
-            let index = headerColumnForMenu.firstIndex { $0.numCol == indexCol }
-            if index != nil {
-                menu.items[i].state =  .on
+            let representedObject = menu.items[i].representedObject
+            if representedObject != nil {
+                headerColumnForMenu = representedObject as!  [HeaderColumnForMenu]
+                let index = headerColumnForMenu.firstIndex { $0.numCol == indexCol }
+                if index != nil {
+                    menu.items[i].state =  .on
+                }
             }
         }
     }
@@ -29,11 +32,11 @@ extension ImportWindowController: NSMenuDelegate {
         
         dataArray.removeAll()
         dataArray.append(Localizations.SimplifiedImport.Menu.ignoreCol)
-
         for title in titles {
             dataArray.append(title)
         }
         
+        headerEmptyColumnForMenu.removeAll()
         headerColumnForMenu.removeAll()
         headerColumnForMenu = (0 ..< tableColumns.count).map { (i) -> HeaderColumnForMenu in
             
@@ -55,7 +58,7 @@ extension ImportWindowController: NSMenuDelegate {
                 menuItem.representedObject = headerColumnForMenu
             } else {
                 menuItem.state = .off
-                menuItem.representedObject = nil
+                menuItem.representedObject = headerEmptyColumnForMenu
             }
             menuHeader.addItem(menuItem)
         }
@@ -70,7 +73,7 @@ extension ImportWindowController: NSMenuDelegate {
         let items = menuHeader.items
         
         // Item existant précedent
-        for item in items {
+        for item in items where item.representedObject != nil {
             var headerColumnForMenu = item.representedObject as!  [HeaderColumnForMenu]
             let index = headerColumnForMenu.firstIndex { $0.numMenu == indexMenu }
             if index != nil {
@@ -92,6 +95,7 @@ extension ImportWindowController: NSMenuDelegate {
         
         // Item existant en cours
         for i in 0 ..< items.count {
+            
             var headerColumnForMenu = items[i].representedObject as!  [HeaderColumnForMenu]
             let findCol = headerColumnForMenu.firstIndex { $0.numCol == indexCol }
             if findCol != nil {

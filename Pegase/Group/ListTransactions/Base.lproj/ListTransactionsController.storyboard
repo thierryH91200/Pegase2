@@ -198,7 +198,7 @@
                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                             <subviews>
                                                 <outlineView verticalHuggingPriority="750" allowsExpansionToolTips="YES" columnAutoresizingStyle="sequential" tableStyle="plain" autosaveColumns="NO" rowHeight="30" rowSizeStyle="automatic" headerView="A9E-Dg-UJW" viewBased="YES" indentationPerLevel="13" autoresizesOutlineColumn="YES" outlineTableColumn="8YN-Ur-793" id="VND-Xg-fnc">
-                                                    <rect key="frame" x="0.0" y="0.0" width="1618" height="20"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="1618" height="30"/>
                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                     <size key="intercellSpacing" width="17" height="0.0"/>
                                                     <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
@@ -942,6 +942,89 @@
                         <menuItem isSeparatorItem="YES" id="2bN-ft-ZmE"/>
                         <menuItem title="Delete" id="0hj-kT-D0O">
                             <modifierMask key="keyEquivalentModifierMask"/>
+                        </menuItem>
+                        <menuItem isSeparatorItem="YES" id="Uhg-uR-jjP"/>
+                        <menuItem title="Export" id="iBp-cx-RVK">
+                            <modifierMask key="keyEquivalentModifierMask"/>
+                            <menu key="submenu" title="Export" id="Njn-06-3Z6">
+                                <items>
+                                    <menuItem title="Transactions" id="FsO-wz-9Po">
+                                        <modifierMask key="keyEquivalentModifierMask"/>
+                                        <connections>
+                                            <action selector="ExportTransactions:" target="9uD-mB-xHs" id="ZGp-At-7QD"/>
+                                        </connections>
+                                    </menuItem>
+                                    <menuItem title="Relevés bancaire" id="w7F-YS-SGs">
+                                        <modifierMask key="keyEquivalentModifierMask"/>
+                                        <connections>
+                                            <action selector="ExportBankStatement:" target="9uD-mB-xHs" id="GyM-hC-bpz"/>
+                                        </connections>
+                                    </menuItem>
+                                    <menuItem title="Echéanciers" id="jpY-Ii-npY">
+                                        <modifierMask key="keyEquivalentModifierMask"/>
+                                        <connections>
+                                            <action selector="ExportSchedulers:" target="9uD-mB-xHs" id="abk-eO-48a"/>
+                                        </connections>
+                                    </menuItem>
+                                </items>
+                            </menu>
+                        </menuItem>
+                        <menuItem title="Import" id="bAL-yN-ihC">
+                            <modifierMask key="keyEquivalentModifierMask"/>
+                            <menu key="submenu" title="Import" id="WLd-m0-fcx">
+                                <items>
+                                    <menuItem title="Detaillée" id="4Pw-h2-F1F">
+                                        <modifierMask key="keyEquivalentModifierMask"/>
+                                        <menu key="submenu" title="Detaillée" id="2yh-1U-BlI">
+                                            <items>
+                                                <menuItem title="Transactions" id="1dd-so-Idu">
+                                                    <modifierMask key="keyEquivalentModifierMask"/>
+                                                    <connections>
+                                                        <action selector="ImportTransactionsDetaillee:" target="9uD-mB-xHs" id="27a-O5-J2T"/>
+                                                    </connections>
+                                                </menuItem>
+                                                <menuItem title="Relevés bancaire" id="bWp-RA-WfX">
+                                                    <modifierMask key="keyEquivalentModifierMask"/>
+                                                    <connections>
+                                                        <action selector="ImportBankStatementDetaillee:" target="9uD-mB-xHs" id="AjV-4B-ckd"/>
+                                                    </connections>
+                                                </menuItem>
+                                                <menuItem title="Echéanciers" id="sax-uR-Z6E">
+                                                    <modifierMask key="keyEquivalentModifierMask"/>
+                                                    <connections>
+                                                        <action selector="ImportSchedulersDetaillee:" target="9uD-mB-xHs" id="6hc-Zf-a4R"/>
+                                                    </connections>
+                                                </menuItem>
+                                            </items>
+                                        </menu>
+                                    </menuItem>
+                                    <menuItem title="Simplifiée" id="I5e-1S-bxH">
+                                        <modifierMask key="keyEquivalentModifierMask"/>
+                                        <menu key="submenu" title="Simplifiée" id="q7i-PV-7DU">
+                                            <items>
+                                                <menuItem title="Transactions" id="0IL-90-zR3">
+                                                    <modifierMask key="keyEquivalentModifierMask"/>
+                                                    <connections>
+                                                        <action selector="ImportTransactionsSimplifiee:" target="9uD-mB-xHs" id="Cp7-xZ-WX9"/>
+                                                    </connections>
+                                                </menuItem>
+                                                <menuItem title="Relevés bancaire" id="J6Z-zI-c2s">
+                                                    <modifierMask key="keyEquivalentModifierMask"/>
+                                                    <connections>
+                                                        <action selector="ImportBankStatementSimplified:" target="9uD-mB-xHs" id="V8M-Vl-68s"/>
+                                                    </connections>
+                                                </menuItem>
+                                                <menuItem title="Echéanciers" id="Tr4-87-2oE">
+                                                    <modifierMask key="keyEquivalentModifierMask"/>
+                                                    <connections>
+                                                        <action selector="ImportSchedulersSimplified:" target="9uD-mB-xHs" id="swP-hs-YKk"/>
+                                                    </connections>
+                                                </menuItem>
+                                            </items>
+                                        </menu>
+                                    </menuItem>
+                                </items>
+                            </menu>
                         </menuItem>
                     </items>
                 </menu>
